@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+##
+## Identity for site ipc (skb ipc)
+##
+## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
+##
+
+#tag::site-id[]
+ID=ipc
+DESCRIPTION="the SKB IPC site"
+#end::site-id[]

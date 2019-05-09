@@ -1,0 +1,132 @@
+\documentclass[a4paper,final,notitlepage]{article}
+
+\listfiles
+
+\usepackage{fontspec}
+\setmainfont{Bell MT}
+%\setmainfont{Garamond}
+\newfontfamily\citefont{Garamond}
+\newfontfamily\contribfont{Garamond}
+
+
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{multicol,float}
+\usepackage{multirow}
+\usepackage{booktabs}
+\RequirePackage[x11names,table]{xcolor}
+
+\RequirePackage[colorlinks,%
+                linkcolor=Brown4,%
+                citecolor=SeaGreen4,%
+                urlcolor=RoyalBlue3%
+               ]{hyperref}
+\usepackage{desclist}
+
+\usepackage[portrait]{geometry}
+\usepackage{enumitem}
+
+
+\RequirePackage[printonlyused]{acronym}
+
+\newcommand{\lcnVersion}{\input{../lcn/version.txt}}
+
+% Turn off header and footer
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\lfoot{\lcnVersion}
+\cfoot{Looking at Communication Networks, Appendix}
+\rfoot{\thepage}
+\lhead{}
+\chead{}
+\rhead{}
+
+
+% set geometry
+\geometry{top=2cm,left=2.5cm,right=2.5cm,bottom=2cm}
+%% reduce vertical space between list items
+\newcommand{\reduceItemSpace}{\setlength{\itemsep}{.5pt}\setlength{\parskip}{0pt}\setlength{\parsep}{0pt}}
+%% separator between description items
+\newcommand{\itemSeparator}{=}
+%% max item length
+\newcommand{\maxItemLength}{abcdefghijklmnopqrstuvwxyz}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt plus 0.5ex}
+
+% half the row spacing
+\setlength{\tabcolsep}{3pt}
+
+\usepackage[backend=biber,style=alphabetic]{biblatex}
+\input{references/references}
+
+
+\begin{document}
+    \renewcommand*{\bibfont}{\citefont}
+    \newcommand{\lcncite}[1]{{\citefont\cite{#1}}}
+
+    \author{Sven van der Meer}
+    \title{LCN Appendix \\ $\cdots \cdots \cdots$ \\ \small{Version \lcnVersion}}
+    \maketitle
+
+    \begin{multicols}{2}
+        \setcounter{tocdepth}{3}
+        \tableofcontents
+    \end{multicols}
+    \newpage
+
+
+    \section{Terminology}
+        \subsection{Network}
+            \input{terminology/network}
+        \subsection{Graphics}
+            \input{terminology/graphics}
+        \subsection{Text}
+            \input{terminology/text}
+
+    \section{Glossary}
+        \subsection{\acs{org:PSOC} and \acs{org:psoc:RINA}}
+            \input{glossary/rina}
+
+        \subsection{Misc}
+            \input{glossary/misc}
+
+        \subsection{File Types and Formats}
+            \input{glossary/ftt}
+
+    \section{Links}
+        \subsection{Colors}
+            \input{links/colors}
+        \subsection{Color Schemes}
+            \input{links/color-schemes}
+        \subsection{Color Tools}
+            \input{links/color-tools}
+
+        \subsection{Visualization Frameworks}
+            \input{links/viz-frameworks}
+        \subsection{eCharts}
+            \input{links/echarts}
+
+        \subsection{Slides}
+            \input{links/slides}
+
+
+    \setlength{\columnseprule}{0.25pt}
+
+    \section{Contributors}
+%        \begin{multicols}{3}
+%            \setlength{\columnseprule}{0pt}
+%            \footnotesize
+            \input{contributors/contributors}
+%        \end{multicols}
+
+    \section{Acronyms}
+        \begin{multicols}{3}
+            \setlength{\columnseprule}{0pt}
+            \footnotesize
+            \input{acronyms/acronym-db}
+        \end{multicols}
+
+    \printbibliography[heading=bibintoc]
+
+\end{document}

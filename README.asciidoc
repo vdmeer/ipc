@@ -1,0 +1,5 @@
+= IPC - InterProcess Communication
+
+This repo contains artifacts for IPC, also known as networking.
+The main contributions are the LCN guide (slide deck and appendix as a visual guide to IPC) and network examples.
+The work here is based on PSOC and RINA, and a few European projects such as PRISTINE and ARCFIRE.

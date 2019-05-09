@@ -1,0 +1,127 @@
+                DAF BLUE                                DIF GREEN
+d8:             #f7fbff         f7fbffff                #f7fcf5         f7fcf5ff
+d7:             #deebf7         deebf7ff                #e5f5e0         e5f5e0ff
+d6:             #c6dbef         c6dbefff                #c7e9c0         c7e9c0ff
+d5:             #9ecae1         9ecae1ff                #a1d99b         a1d99bff
+d4:             #6baed6         6baed6ff                #74c476         74c476ff
+d3:             #4292c6         4292c6ff                #41ab5d         41ab5dff
+d2:             #2171b5         2171b5ff                #238b45         238b45ff
+d1:             #08519c         08519cff                #006d2c         006d2cff
+
+border:         #08306b         08306bff                #00441b         00441bff
+
+
+
+                DAF PURPLES                             DIF ORANGES
+d8:             #fcfbfd         fcfbfdff                #fff5eb         fff5ebff
+d7:             #efedf5         efedf5ff                #fee6ce         fee6ceff
+d6:             #dadaeb         dadaebff                #fdd0a2         fdd0a2ff
+d5:             #bcbddc         bcbddcff                #fdae6b         fdae6bff
+d4:             #9e9ac8         9e9ac8ff                #fd8d3c         fd8d3cff
+d3:             #807dba         807dbaff                #f16913         f16913ff
+d2:             #6a51a3         6a51a3ff                #d94801         d94801ff
+d1:             #54278f         54278fff                #a63603         a63603ff
+
+border:         #3f007d         3f007dff                #7f2704         7f2704ff
+
+
+
+                DAF RED                                 DIF GREY
+d8:             #fff5f0         fff5f0ff                #ffffff         ffffffff
+d7:             #fee0d2         fee0d2ff                #f0f0f0         f0f0f0ff
+d6:             #fcbba1         fcbba1ff                #d9d9d9         d9d9d9ff
+d5:             #fc9272         fc9272ff                #bdbdbd         bdbdbdff
+d4:             #fb6a4a         fb6a4aff                #969696         969696ff
+d3:             #ef3b2c         ef3b2cff                #737373         737373ff
+d2:             #cb181d         cb181dff                #525252         525252ff
+d1:             #a50f15         a50f15ff                #252525         252525ff
+
+border:         #67000d         67000dff                #000000         000000ff
+
+
+
+                DAF BLUE-to-PURPLES                     DIF YELLOW-to-GREEN     
+d8:             #f7fcfd         f7fcfdff                #ffffe5         ffffe5ff
+d7:             #e0ecf4         e0ecf4ff                #f7fcb9         f7fcb9ff
+d6:             #bfd3e6         bfd3e6ff                #d9f0a3         d9f0a3ff
+d5:             #9ebcda         9ebcdaff                #addd8e         addd8eff
+d4:             #8c96c6         8c96c6ff                #78c679         78c679ff
+d3:             #8c6bb1         8c6bb1ff                #41ab5d         41ab5dff
+d2:             #88419d         88419dff                #238443         238443ff
+d1:             #810f7c         810f7cff                #006837         006837ff
+
+border:         #4d004b         4d004bff                #004529         004529ff
+
+
+
+                DAF PURPLES-to-RED                      DIF PURPLES-to-BLUE-to-GREEN
+d8:             #f7f4f9         f7f4f9ff                #fff7fb         fff7fbff
+d7:             #e7e1ef         e7e1efff                #ece2f0         ece2f0ff
+d6:             #d4b9da         d4b9daff                #d0d1e6         d0d1e6ff
+d5:             #c994c7         c994c7ff                #a6bddb         a6bddbff
+d4:             #df65b0         df65b0ff                #67a9cf         67a9cfff
+d3:             #e7298a         e7298aff                #3690c0         3690c0ff
+d2:             #ce1256         ce1256ff                #02818a         02818aff
+d1:             #980043         980043ff                #016c59         016c59ff
+
+border:         #67001f         67001fff                #014636         014636ff
+
+
+
+                DAF PURPLES-to-BLUE                     DIF BLUE-to-GREEN
+d8:             #fff7fb         fff7fbff                #fff7fb         fff7fbff
+d7:             #ece7f2         ece7f2ff                #ece2f0         ece2f0ff
+d6:             #d0d1e6         d0d1e6ff                #d0d1e6         d0d1e6ff
+d5:             #a6bddb         a6bddbff                #a6bddb         a6bddbff
+d4:             #74a9cf         74a9cfff                #67a9cf         67a9cfff
+d3:             #3690c0         3690c0ff                #3690c0         3690c0ff
+d2:             #0570b0         0570b0ff                #02818a         02818aff
+d1:             #045a8d         045a8dff                #016c59         016c59ff
+
+border:         #023858         023858ff                #014636         014636ff
+
+
+
+                DAF PURPLES, DIF: YELLOW/GREEN          DAF PURPLES/RED, DIF: GREEN
+daf4:           #fde0ef         fde0efff                #e7d4e8         e7d4e8ff
+daf3:           #f1b6da         f1b6daff                #c2a5cf         c2a5cfff
+daf2:           #de77ae         de77aeff                #9970ab         9970abff
+daf1:           #c51b7d         c51b7dff                #762a83         762a83ff
+dif4:           #e6f5d0         e6f5d0ff                #d9f0d3         d9f0d3ff
+dif3:           #b8e186         b8e186ff                #a6dba0         a6dba0ff
+dif2:           #7fbc41         7fbc41ff                #5aae61         5aae61ff
+dif1:           #4d9221         4d9221ff                #1b7837         1b7837ff
+
+border DAF:     #8e0152         8e0152ff                #40004b         40004bff
+border DIF:     #276419         276419ff                #00441b         00441bff
+
+
+
+                DAF PURPLES, DIF: BROWN                 DAF RED, DIF: GREY
+daf4:           #d8daeb         d8daebff                #fddbc7         fddbc7ff
+daf3:           #b2abd2         b2abd2ff                #f4a582         f4a582ff
+daf2:           #8073ac         8073acff                #d6604d         d6604dff
+daf1:           #542788         542788ff                #b2182b         b2182bff
+dif4:           #fee0b6         fee0b6ff                #e0e0e0         e0e0e0ff
+dif3:           #fdb863         fdb863ff                #bababa         bababaff
+dif2:           #e08214         e08214ff                #878787         878787ff
+dif1:           #b35806         b35806ff                #4d4d4d         4d4d4dff
+
+border DAF:     #2d004b         2d004bff                #67001f         67001fff
+border DIF:     #7f3b08         7f3b08ff                #1a1a1a         1a1a1aff
+
+
+
+                DAF RED, DIF: YELLOW/GREEN              DAF BLUE, DIF: BROWN
+daf4:           #fee08b         fee08bff                #d1e5f0         d1e5f0ff
+daf3:           #fdae61         fdae61ff                #92c5de         92c5deff
+daf2:           #f46d43         f46d43ff                #4393c3         4393c3ff
+daf1:           #d73027         d73027ff                #2166ac         2166acff
+dif4:           #d9ef8b         d9ef8bff                #f6e8c3         f6e8c3ff
+dif3:           #a6d96a         a6d96aff                #dfc27d         dfc27dff
+dif2:           #66bd63         66bd63ff                #bf812d         bf812dff
+dif1:           #1a9850         1a9850ff                #8c510a         8c510aff
+
+border DAF:     #a50026         a50026ff                #053061         053061ff
+border DIF:     #006837         006837ff                #543005         543005ff
+

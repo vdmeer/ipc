@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ ============LICENSE_START=======================================================
+  Copyright (C) 2018 Sven van der Meer. All rights reserved.
+ ================================================================================
+ This file is licensed under the CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL LICENSE
+ Full license text at https://creativecommons.org/licenses/by/4.0/legalcode
+ 
+ SPDX-License-Identifier: CC-BY-4.0
+ ============LICENSE_END=========================================================
+
+ @author Sven van der Meer (vdmeer.sven@mykolab.com)
+
+-->
+
+<document>
+    <properties>
+        <title>Schema Matrix</title>
+        <author email="vdmeer dot sven at mykolab dot com">Sven van der Meer</author>
+    </properties>
+
+    <body>
+        <section name="Schema Matrix">
+
+            <subsection name="RINA Examples - Schema Fingerprints 1-6">
+                <table>
+                    <tr>
+                        <td>rina-2h</td>
+                        <td><img src="rina/rina-2h/sfp01.png" /></td>
+                        <td><img src="rina/rina-2h/sfp02.png" /></td>
+                        <td><img src="rina/rina-2h/sfp03.png" /></td>
+                        <td><img src="rina/rina-2h/sfp04.png" /></td>
+                        <td><img src="rina/rina-2h/sfp05.png" /></td>
+                        <td><img src="rina/rina-2h/sfp06.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>rina-2h-ir</td>
+                        <td><img src="rina/rina-2h-ir/sfp01.png" /></td>
+                        <td><img src="rina/rina-2h-ir/sfp02.png" /></td>
+                        <td><img src="rina/rina-2h-ir/sfp03.png" /></td>
+                        <td><img src="rina/rina-2h-ir/sfp04.png" /></td>
+                        <td><img src="rina/rina-2h-ir/sfp05.png" /></td>
+                        <td><img src="rina/rina-2h-ir/sfp06.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>rina-2br</td>
+                        <td><img src="rina/rina-2br/sfp01.png" /></td>
+                        <td><img src="rina/rina-2br/sfp02.png" /></td>
+                        <td><img src="rina/rina-2br/sfp03.png" /></td>
+                        <td><img src="rina/rina-2br/sfp04.png" /></td>
+                        <td><img src="rina/rina-2br/sfp05.png" /></td>
+                        <td><img src="rina/rina-2br/sfp06.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>rina-2br-ir</td>
+                        <td><img src="rina/rina-2br-ir/sfp01.png" /></td>
+                        <td><img src="rina/rina-2br-ir/sfp02.png" /></td>
+                        <td><img src="rina/rina-2br-ir/sfp03.png" /></td>
+                        <td><img src="rina/rina-2br-ir/sfp04.png" /></td>
+                        <td><img src="rina/rina-2br-ir/sfp05.png" /></td>
+                        <td><img src="rina/rina-2br-ir/sfp06.png" /></td>
+                    </tr>
+
+                    <tr>
+                        <td>rina-std-short</td>
+                        <td><img src="rina/rina-std-short/sfp01.png" /></td>
+                        <td><img src="rina/rina-std-short/sfp02.png" /></td>
+                        <td><img src="rina/rina-std-short/sfp03.png" /></td>
+                        <td><img src="rina/rina-std-short/sfp04.png" /></td>
+                        <td><img src="rina/rina-std-short/sfp05.png" /></td>
+                        <td><img src="rina/rina-std-short/sfp06.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>rina-std-long</td>
+                        <td><img src="rina/rina-std-long/sfp01.png" /></td>
+                        <td><img src="rina/rina-std-long/sfp02.png" /></td>
+                        <td><img src="rina/rina-std-long/sfp03.png" /></td>
+                        <td><img src="rina/rina-std-long/sfp04.png" /></td>
+                        <td><img src="rina/rina-std-long/sfp05.png" /></td>
+                        <td><img src="rina/rina-std-long/sfp06.png" /></td>
+                    </tr>
+
+                    <tr>
+                        <td>rina-long-ir</td>
+                        <td><img src="rina/rina-long-ir/sfp01.png" /></td>
+                        <td><img src="rina/rina-long-ir/sfp02.png" /></td>
+                        <td><img src="rina/rina-long-ir/sfp03.png" /></td>
+                        <td><img src="rina/rina-long-ir/sfp04.png" /></td>
+                        <td><img src="rina/rina-long-ir/sfp05.png" /></td>
+                        <td><img src="rina/rina-long-ir/sfp06.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>rina-sn-wifi</td>
+                        <td><img src="rina/rina-sn-wifi/sfp01.png" /></td>
+                        <td><img src="rina/rina-sn-wifi/sfp02.png" /></td>
+                        <td><img src="rina/rina-sn-wifi/sfp03.png" /></td>
+                        <td><img src="rina/rina-sn-wifi/sfp04.png" /></td>
+                        <td><img src="rina/rina-sn-wifi/sfp05.png" /></td>
+                        <td><img src="rina/rina-sn-wifi/sfp06.png" /></td>
+                    </tr>
+
+                    <tr>
+                        <td>rina-wilan</td>
+                        <td><img src="rina/rina-wilan/sfp01.png" /></td>
+                        <td><img src="rina/rina-wilan/sfp02.png" /></td>
+                        <td><img src="rina/rina-wilan/sfp03.png" /></td>
+                        <td><img src="rina/rina-wilan/sfp04.png" /></td>
+                        <td><img src="rina/rina-wilan/sfp05.png" /></td>
+                        <td><img src="rina/rina-wilan/sfp06.png" /></td>
+                    </tr>
+                </table>
+            </subsection>
+
+            <subsection name="RINA Examples - Schema Fingerprints 7-12">
+                <table>
+                    <tr>
+                        <td>rina-2h</td>
+                        <td><img src="rina/rina-2h/sfp07.png" /></td>
+                        <td><img src="rina/rina-2h/sfp08.png" /></td>
+                        <td><img src="rina/rina-2h/sfp09.png" /></td>
+                        <td><img src="rina/rina-2h/sfp10.png" /></td>
+                        <td><img src="rina/rina-2h/sfp11.png" /></td>
+                        <td><img src="rina/rina-2h/sfp12.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>rina-2h-ir</td>
+                        <td><img src="rina/rina-2h-ir/sfp07.png" /></td>
+                        <td><img src="rina/rina-2h-ir/sfp08.png" /></td>
+                        <td><img src="rina/rina-2h-ir/sfp09.png" /></td>
+                        <td><img src="rina/rina-2h-ir/sfp10.png" /></td>
+                        <td><img src="rina/rina-2h-ir/sfp11.png" /></td>
+                        <td><img src="rina/rina-2h-ir/sfp12.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>rina-2br</td>
+                        <td><img src="rina/rina-2br/sfp07.png" /></td>
+                        <td><img src="rina/rina-2br/sfp08.png" /></td>
+                        <td><img src="rina/rina-2br/sfp09.png" /></td>
+                        <td><img src="rina/rina-2br/sfp10.png" /></td>
+                        <td><img src="rina/rina-2br/sfp11.png" /></td>
+                        <td><img src="rina/rina-2br/sfp12.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>rina-2br-ir</td>
+                        <td><img src="rina/rina-2br-ir/sfp07.png" /></td>
+                        <td><img src="rina/rina-2br-ir/sfp08.png" /></td>
+                        <td><img src="rina/rina-2br-ir/sfp09.png" /></td>
+                        <td><img src="rina/rina-2br-ir/sfp10.png" /></td>
+                        <td><img src="rina/rina-2br-ir/sfp11.png" /></td>
+                        <td><img src="rina/rina-2br-ir/sfp12.png" /></td>
+                    </tr>
+
+                    <tr>
+                        <td>rina-std-short</td>
+                        <td><img src="rina/rina-std-short/sfp07.png" /></td>
+                        <td><img src="rina/rina-std-short/sfp08.png" /></td>
+                        <td><img src="rina/rina-std-short/sfp09.png" /></td>
+                        <td><img src="rina/rina-std-short/sfp10.png" /></td>
+                        <td><img src="rina/rina-std-short/sfp11.png" /></td>
+                        <td><img src="rina/rina-std-short/sfp12.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>rina-std-long</td>
+                        <td><img src="rina/rina-std-long/sfp07.png" /></td>
+                        <td><img src="rina/rina-std-long/sfp08.png" /></td>
+                        <td><img src="rina/rina-std-long/sfp09.png" /></td>
+                        <td><img src="rina/rina-std-long/sfp10.png" /></td>
+                        <td><img src="rina/rina-std-long/sfp11.png" /></td>
+                        <td><img src="rina/rina-std-long/sfp12.png" /></td>
+                    </tr>
+
+                    <tr>
+                        <td>rina-long-ir</td>
+                        <td><img src="rina/rina-long-ir/sfp07.png" /></td>
+                        <td><img src="rina/rina-long-ir/sfp08.png" /></td>
+                        <td><img src="rina/rina-long-ir/sfp09.png" /></td>
+                        <td><img src="rina/rina-long-ir/sfp10.png" /></td>
+                        <td><img src="rina/rina-long-ir/sfp11.png" /></td>
+                        <td><img src="rina/rina-long-ir/sfp12.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>rina-sn-wifi</td>
+                        <td><img src="rina/rina-sn-wifi/sfp07.png" /></td>
+                        <td><img src="rina/rina-sn-wifi/sfp08.png" /></td>
+                        <td><img src="rina/rina-sn-wifi/sfp09.png" /></td>
+                        <td><img src="rina/rina-sn-wifi/sfp10.png" /></td>
+                        <td><img src="rina/rina-sn-wifi/sfp11.png" /></td>
+                        <td><img src="rina/rina-sn-wifi/sfp12.png" /></td>
+                    </tr>
+
+                    <tr>
+                        <td>rina-wilan</td>
+                        <td><img src="rina/rina-wilan/sfp07.png" /></td>
+                        <td><img src="rina/rina-wilan/sfp08.png" /></td>
+                        <td><img src="rina/rina-wilan/sfp09.png" /></td>
+                        <td><img src="rina/rina-wilan/sfp10.png" /></td>
+                        <td><img src="rina/rina-wilan/sfp11.png" /></td>
+                        <td><img src="rina/rina-wilan/sfp12.png" /></td>
+                    </tr>
+                </table>
+            </subsection>
+
+            <subsection name="RINA Examples - System Fingerprints">
+                <table>
+                    <tr>
+                        <td>rina-2h</td>
+                        <td><img src="rina/rina-2h/sysfp1.png" /></td>
+                        <td><img src="rina/rina-2h/sysfp2.png" /></td>
+                        <td><img src="rina/rina-2h/sysfp3.png" /></td>
+                        <td><img src="rina/rina-2h/sysfp4.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>rina-2h-ir</td>
+                        <td><img src="rina/rina-2h-ir/sysfp1.png" /></td>
+                        <td><img src="rina/rina-2h-ir/sysfp2.png" /></td>
+                        <td><img src="rina/rina-2h-ir/sysfp3.png" /></td>
+                        <td><img src="rina/rina-2h-ir/sysfp4.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>rina-2br</td>
+                        <td><img src="rina/rina-2br/sysfp1.png" /></td>
+                        <td><img src="rina/rina-2br/sysfp2.png" /></td>
+                        <td><img src="rina/rina-2br/sysfp3.png" /></td>
+                        <td><img src="rina/rina-2br/sysfp4.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>rina-2br-ir</td>
+                        <td><img src="rina/rina-2br-ir/sysfp1.png" /></td>
+                        <td><img src="rina/rina-2br-ir/sysfp2.png" /></td>
+                        <td><img src="rina/rina-2br-ir/sysfp3.png" /></td>
+                        <td><img src="rina/rina-2br-ir/sysfp4.png" /></td>
+                    </tr>
+
+                    <tr>
+                        <td>rina-std-short</td>
+                        <td><img src="rina/rina-std-short/sysfp1.png" /></td>
+                        <td><img src="rina/rina-std-short/sysfp2.png" /></td>
+                        <td><img src="rina/rina-std-short/sysfp3.png" /></td>
+                        <td><img src="rina/rina-std-short/sysfp4.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>rina-std-long</td>
+                        <td><img src="rina/rina-std-long/sysfp1.png" /></td>
+                        <td><img src="rina/rina-std-long/sysfp2.png" /></td>
+                        <td><img src="rina/rina-std-long/sysfp3.png" /></td>
+                        <td><img src="rina/rina-std-long/sysfp4.png" /></td>
+                    </tr>
+
+                    <tr>
+                        <td>rina-long-ir</td>
+                        <td><img src="rina/rina-long-ir/sysfp1.png" /></td>
+                        <td><img src="rina/rina-long-ir/sysfp2.png" /></td>
+                        <td><img src="rina/rina-long-ir/sysfp3.png" /></td>
+                        <td><img src="rina/rina-long-ir/sysfp4.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>rina-sn-wifi</td>
+                        <td><img src="rina/rina-sn-wifi/sysfp1.png" /></td>
+                        <td><img src="rina/rina-sn-wifi/sysfp2.png" /></td>
+                        <td><img src="rina/rina-sn-wifi/sysfp3.png" /></td>
+                        <td><img src="rina/rina-sn-wifi/sysfp4.png" /></td>
+                    </tr>
+
+                    <tr>
+                        <td>rina-wilan</td>
+                        <td><img src="rina/rina-wilan/sysfp1.png" /></td>
+                        <td><img src="rina/rina-wilan/sysfp2.png" /></td>
+                        <td><img src="rina/rina-wilan/sysfp3.png" /></td>
+                        <td><img src="rina/rina-wilan/sysfp4.png" /></td>
+                    </tr>
+                </table>
+            </subsection>
+
+            <subsection name="RINA Examples - Layer Fingerprints">
+                <table>
+                    <tr>
+                        <td>rina-2h</td>
+                        <td><img src="rina/rina-2h/layfp1.png" /></td>
+                        <td><img src="rina/rina-2h/layfp2.png" /></td>
+                        <td><img src="rina/rina-2h/layfp3.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>rina-2h-ir</td>
+                        <td><img src="rina/rina-2h-ir/layfp1.png" /></td>
+                        <td><img src="rina/rina-2h-ir/layfp2.png" /></td>
+                        <td><img src="rina/rina-2h-ir/layfp3.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>rina-2br</td>
+                        <td><img src="rina/rina-2br/layfp1.png" /></td>
+                        <td><img src="rina/rina-2br/layfp2.png" /></td>
+                        <td><img src="rina/rina-2br/layfp3.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>rina-2br-ir</td>
+                        <td><img src="rina/rina-2br-ir/layfp1.png" /></td>
+                        <td><img src="rina/rina-2br-ir/layfp2.png" /></td>
+                        <td><img src="rina/rina-2br-ir/layfp3.png" /></td>
+                    </tr>
+
+                    <tr>
+                        <td>rina-std-short</td>
+                        <td><img src="rina/rina-std-short/layfp1.png" /></td>
+                        <td><img src="rina/rina-std-short/layfp2.png" /></td>
+                        <td><img src="rina/rina-std-short/layfp3.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>rina-std-long</td>
+                        <td><img src="rina/rina-std-long/layfp1.png" /></td>
+                        <td><img src="rina/rina-std-long/layfp2.png" /></td>
+                        <td><img src="rina/rina-std-long/layfp3.png" /></td>
+                    </tr>
+
+                    <tr>
+                        <td>rina-long-ir</td>
+                        <td><img src="rina/rina-long-ir/layfp1.png" /></td>
+                        <td><img src="rina/rina-long-ir/layfp2.png" /></td>
+                        <td><img src="rina/rina-long-ir/layfp3.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>rina-sn-wifi</td>
+                        <td><img src="rina/rina-sn-wifi/layfp1.png" /></td>
+                        <td><img src="rina/rina-sn-wifi/layfp2.png" /></td>
+                        <td><img src="rina/rina-sn-wifi/layfp3.png" /></td>
+                    </tr>
+
+                    <tr>
+                        <td>rina-wilan</td>
+                        <td><img src="rina/rina-wilan/layfp1.png" /></td>
+                        <td><img src="rina/rina-wilan/layfp2.png" /></td>
+                        <td><img src="rina/rina-wilan/layfp3.png" /></td>
+                    </tr>
+                </table>
+            </subsection>
+
+            <subsection name="RINA Examples - 3D">
+                <table>
+                    <tr>
+                        <td>rina-2h</td>
+                        <td><img src="rina/rina-2h/3dcb.png" /></td>
+                        <td><img src="rina/rina-2h/3dcc.png" /></td>
+                        <td><img src="rina/rina-2h/3dpc.png" /></td>
+                        <td><img src="rina/rina-2h/3dyc.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>rina-2h-ir</td>
+                        <td><img src="rina/rina-2h-ir/3dcb.png" /></td>
+                        <td><img src="rina/rina-2h-ir/3dcc.png" /></td>
+                        <td><img src="rina/rina-2h-ir/3dpc.png" /></td>
+                        <td><img src="rina/rina-2h-ir/3dyc.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>rina-2br</td>
+                        <td><img src="rina/rina-2br/3dcb.png" /></td>
+                        <td><img src="rina/rina-2br/3dcc.png" /></td>
+                        <td><img src="rina/rina-2br/3dpc.png" /></td>
+                        <td><img src="rina/rina-2br/3dyc.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>rina-2br-ir</td>
+                        <td><img src="rina/rina-2br-ir/3dcb.png" /></td>
+                        <td><img src="rina/rina-2br-ir/3dcc.png" /></td>
+                        <td><img src="rina/rina-2br-ir/3dpc.png" /></td>
+                        <td><img src="rina/rina-2br-ir/3dyc.png" /></td>
+                    </tr>
+
+                    <tr>
+                        <td>rina-std-short</td>
+                        <td><img src="rina/rina-std-short/3dcb.png" /></td>
+                        <td><img src="rina/rina-std-short/3dcc.png" /></td>
+                        <td><img src="rina/rina-std-short/3dpc.png" /></td>
+                        <td><img src="rina/rina-std-short/3dyc.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>rina-std-long</td>
+                        <td><img src="rina/rina-std-long/3dcb.png" /></td>
+                        <td><img src="rina/rina-std-long/3dcc.png" /></td>
+                        <td><img src="rina/rina-std-long/3dpc.png" /></td>
+                        <td><img src="rina/rina-std-long/3dyc.png" /></td>
+                    </tr>
+
+                    <tr>
+                        <td>rina-long-ir</td>
+                        <td><img src="rina/rina-long-ir/3dcb.png" /></td>
+                        <td><img src="rina/rina-long-ir/3dcc.png" /></td>
+                        <td><img src="rina/rina-long-ir/3dpc.png" /></td>
+                        <td><img src="rina/rina-long-ir/3dyc.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>rina-sn-wifi</td>
+                        <td><img src="rina/rina-sn-wifi/3dcb.png" /></td>
+                        <td><img src="rina/rina-sn-wifi/3dcc.png" /></td>
+                        <td><img src="rina/rina-sn-wifi/3dpc.png" /></td>
+                        <td><img src="rina/rina-sn-wifi/3dyc.png" /></td>
+                    </tr>
+
+                    <tr>
+                        <td>rina-wilan</td>
+                        <td><img src="rina/rina-wilan/3dcb.png" /></td>
+                        <td><img src="rina/rina-wilan/3dcc.png" /></td>
+                        <td><img src="rina/rina-wilan/3dpc.png" /></td>
+                        <td><img src="rina/rina-wilan/3dyc.png" /></td>
+                    </tr>
+                </table>
+            </subsection>
+
+
+
+            <subsection name="ARCFIRE Examples - Schema Fingerprints 1-6">
+                <table>
+                    <tr>
+                        <td>af-d22-copper</td>
+                        <td><img src="arcfire/af-d22-copper/sfp01.png" /></td>
+                        <td><img src="arcfire/af-d22-copper/sfp02.png" /></td>
+                        <td><img src="arcfire/af-d22-copper/sfp03.png" /></td>
+                        <td><img src="arcfire/af-d22-copper/sfp04.png" /></td>
+                        <td><img src="arcfire/af-d22-copper/sfp05.png" /></td>
+                        <td><img src="arcfire/af-d22-copper/sfp06.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-wifi1</td>
+                        <td><img src="arcfire/af-d22-wifi1/sfp01.png" /></td>
+                        <td><img src="arcfire/af-d22-wifi1/sfp02.png" /></td>
+                        <td><img src="arcfire/af-d22-wifi1/sfp03.png" /></td>
+                        <td><img src="arcfire/af-d22-wifi1/sfp04.png" /></td>
+                        <td><img src="arcfire/af-d22-wifi1/sfp05.png" /></td>
+                        <td><img src="arcfire/af-d22-wifi1/sfp06.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-wifi2</td>
+                        <td><img src="arcfire/af-d22-wifi2/sfp01.png" /></td>
+                        <td><img src="arcfire/af-d22-wifi2/sfp02.png" /></td>
+                        <td><img src="arcfire/af-d22-wifi2/sfp03.png" /></td>
+                        <td><img src="arcfire/af-d22-wifi2/sfp04.png" /></td>
+                        <td><img src="arcfire/af-d22-wifi2/sfp05.png" /></td>
+                        <td><img src="arcfire/af-d22-wifi2/sfp06.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-lte</td>
+                        <td><img src="arcfire/af-d22-lte/sfp01.png" /></td>
+                        <td><img src="arcfire/af-d22-lte/sfp02.png" /></td>
+                        <td><img src="arcfire/af-d22-lte/sfp03.png" /></td>
+                        <td><img src="arcfire/af-d22-lte/sfp04.png" /></td>
+                        <td><img src="arcfire/af-d22-lte/sfp05.png" /></td>
+                        <td><img src="arcfire/af-d22-lte/sfp06.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-residential</td>
+                        <td><img src="arcfire/af-d22-residential/sfp01.png" /></td>
+                        <td><img src="arcfire/af-d22-residential/sfp02.png" /></td>
+                        <td><img src="arcfire/af-d22-residential/sfp03.png" /></td>
+                        <td><img src="arcfire/af-d22-residential/sfp04.png" /></td>
+                        <td><img src="arcfire/af-d22-residential/sfp05.png" /></td>
+                        <td><img src="arcfire/af-d22-residential/sfp06.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-ixp</td>
+                        <td><img src="arcfire/af-d22-ixp/sfp01.png" /></td>
+                        <td><img src="arcfire/af-d22-ixp/sfp02.png" /></td>
+                        <td><img src="arcfire/af-d22-ixp/sfp03.png" /></td>
+                        <td><img src="arcfire/af-d22-ixp/sfp04.png" /></td>
+                        <td><img src="arcfire/af-d22-ixp/sfp05.png" /></td>
+                        <td><img src="arcfire/af-d22-ixp/sfp06.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-core</td>
+                        <td><img src="arcfire/af-d22-core/sfp01.png" /></td>
+                        <td><img src="arcfire/af-d22-core/sfp02.png" /></td>
+                        <td><img src="arcfire/af-d22-core/sfp03.png" /></td>
+                        <td><img src="arcfire/af-d22-core/sfp04.png" /></td>
+                        <td><img src="arcfire/af-d22-core/sfp05.png" /></td>
+                        <td><img src="arcfire/af-d22-core/sfp06.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-dc</td>
+                        <td><img src="arcfire/af-d22-dc/sfp01.png" /></td>
+                        <td><img src="arcfire/af-d22-dc/sfp02.png" /></td>
+                        <td><img src="arcfire/af-d22-dc/sfp03.png" /></td>
+                        <td><img src="arcfire/af-d22-dc/sfp04.png" /></td>
+                        <td><img src="arcfire/af-d22-dc/sfp05.png" /></td>
+                        <td><img src="arcfire/af-d22-dc/sfp06.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-metro</td>
+                        <td><img src="arcfire/af-d22-metro/sfp01.png" /></td>
+                        <td><img src="arcfire/af-d22-metro/sfp02.png" /></td>
+                        <td><img src="arcfire/af-d22-metro/sfp03.png" /></td>
+                        <td><img src="arcfire/af-d22-metro/sfp04.png" /></td>
+                        <td><img src="arcfire/af-d22-metro/sfp05.png" /></td>
+                        <td><img src="arcfire/af-d22-metro/sfp06.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-pbb</td>
+                        <td><img src="arcfire/af-d22-pbb/sfp01.png" /></td>
+                        <td><img src="arcfire/af-d22-pbb/sfp02.png" /></td>
+                        <td><img src="arcfire/af-d22-pbb/sfp03.png" /></td>
+                        <td><img src="arcfire/af-d22-pbb/sfp04.png" /></td>
+                        <td><img src="arcfire/af-d22-pbb/sfp05.png" /></td>
+                        <td><img src="arcfire/af-d22-pbb/sfp06.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-together1</td>
+                        <td><img src="arcfire/af-d22-together1/sfp01.png" /></td>
+                        <td><img src="arcfire/af-d22-together1/sfp02.png" /></td>
+                        <td><img src="arcfire/af-d22-together1/sfp03.png" /></td>
+                        <td><img src="arcfire/af-d22-together1/sfp04.png" /></td>
+                        <td><img src="arcfire/af-d22-together1/sfp05.png" /></td>
+                        <td><img src="arcfire/af-d22-together1/sfp06.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-together2</td>
+                        <td><img src="arcfire/af-d22-together2/sfp01.png" /></td>
+                        <td><img src="arcfire/af-d22-together2/sfp02.png" /></td>
+                        <td><img src="arcfire/af-d22-together2/sfp03.png" /></td>
+                        <td><img src="arcfire/af-d22-together2/sfp04.png" /></td>
+                        <td><img src="arcfire/af-d22-together2/sfp05.png" /></td>
+                        <td><img src="arcfire/af-d22-together2/sfp06.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-together3</td>
+                        <td><img src="arcfire/af-d22-together3/sfp01.png" /></td>
+                        <td><img src="arcfire/af-d22-together3/sfp02.png" /></td>
+                        <td><img src="arcfire/af-d22-together3/sfp03.png" /></td>
+                        <td><img src="arcfire/af-d22-together3/sfp04.png" /></td>
+                        <td><img src="arcfire/af-d22-together3/sfp05.png" /></td>
+                        <td><img src="arcfire/af-d22-together3/sfp06.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-together4</td>
+                        <td><img src="arcfire/af-d22-together4/sfp01.png" /></td>
+                        <td><img src="arcfire/af-d22-together4/sfp02.png" /></td>
+                        <td><img src="arcfire/af-d22-together4/sfp03.png" /></td>
+                        <td><img src="arcfire/af-d22-together4/sfp04.png" /></td>
+                        <td><img src="arcfire/af-d22-together4/sfp05.png" /></td>
+                        <td><img src="arcfire/af-d22-together4/sfp06.png" /></td>
+                    </tr>
+                </table>
+            </subsection>
+
+            <subsection name="ARCFIRE Examples - Schema Fingerprints 7-12">
+                <table>
+                    <tr>
+                        <td>af-d22-copper</td>
+                        <td><img src="arcfire/af-d22-copper/sfp07.png" /></td>
+                        <td><img src="arcfire/af-d22-copper/sfp08.png" /></td>
+                        <td><img src="arcfire/af-d22-copper/sfp09.png" /></td>
+                        <td><img src="arcfire/af-d22-copper/sfp10.png" /></td>
+                        <td><img src="arcfire/af-d22-copper/sfp11.png" /></td>
+                        <td><img src="arcfire/af-d22-copper/sfp12.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-wifi1</td>
+                        <td><img src="arcfire/af-d22-wifi1/sfp07.png" /></td>
+                        <td><img src="arcfire/af-d22-wifi1/sfp08.png" /></td>
+                        <td><img src="arcfire/af-d22-wifi1/sfp09.png" /></td>
+                        <td><img src="arcfire/af-d22-wifi1/sfp10.png" /></td>
+                        <td><img src="arcfire/af-d22-wifi1/sfp11.png" /></td>
+                        <td><img src="arcfire/af-d22-wifi1/sfp12.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-wifi2</td>
+                        <td><img src="arcfire/af-d22-wifi2/sfp07.png" /></td>
+                        <td><img src="arcfire/af-d22-wifi2/sfp08.png" /></td>
+                        <td><img src="arcfire/af-d22-wifi2/sfp09.png" /></td>
+                        <td><img src="arcfire/af-d22-wifi2/sfp10.png" /></td>
+                        <td><img src="arcfire/af-d22-wifi2/sfp11.png" /></td>
+                        <td><img src="arcfire/af-d22-wifi2/sfp12.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-lte</td>
+                        <td><img src="arcfire/af-d22-lte/sfp07.png" /></td>
+                        <td><img src="arcfire/af-d22-lte/sfp08.png" /></td>
+                        <td><img src="arcfire/af-d22-lte/sfp09.png" /></td>
+                        <td><img src="arcfire/af-d22-lte/sfp10.png" /></td>
+                        <td><img src="arcfire/af-d22-lte/sfp11.png" /></td>
+                        <td><img src="arcfire/af-d22-lte/sfp12.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-residential</td>
+                        <td><img src="arcfire/af-d22-residential/sfp07.png" /></td>
+                        <td><img src="arcfire/af-d22-residential/sfp08.png" /></td>
+                        <td><img src="arcfire/af-d22-residential/sfp09.png" /></td>
+                        <td><img src="arcfire/af-d22-residential/sfp10.png" /></td>
+                        <td><img src="arcfire/af-d22-residential/sfp11.png" /></td>
+                        <td><img src="arcfire/af-d22-residential/sfp12.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-ixp</td>
+                        <td><img src="arcfire/af-d22-ixp/sfp07.png" /></td>
+                        <td><img src="arcfire/af-d22-ixp/sfp08.png" /></td>
+                        <td><img src="arcfire/af-d22-ixp/sfp09.png" /></td>
+                        <td><img src="arcfire/af-d22-ixp/sfp10.png" /></td>
+                        <td><img src="arcfire/af-d22-ixp/sfp11.png" /></td>
+                        <td><img src="arcfire/af-d22-ixp/sfp12.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-core</td>
+                        <td><img src="arcfire/af-d22-core/sfp07.png" /></td>
+                        <td><img src="arcfire/af-d22-core/sfp08.png" /></td>
+                        <td><img src="arcfire/af-d22-core/sfp09.png" /></td>
+                        <td><img src="arcfire/af-d22-core/sfp10.png" /></td>
+                        <td><img src="arcfire/af-d22-core/sfp11.png" /></td>
+                        <td><img src="arcfire/af-d22-core/sfp12.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-dc</td>
+                        <td><img src="arcfire/af-d22-dc/sfp07.png" /></td>
+                        <td><img src="arcfire/af-d22-dc/sfp08.png" /></td>
+                        <td><img src="arcfire/af-d22-dc/sfp09.png" /></td>
+                        <td><img src="arcfire/af-d22-dc/sfp10.png" /></td>
+                        <td><img src="arcfire/af-d22-dc/sfp11.png" /></td>
+                        <td><img src="arcfire/af-d22-dc/sfp12.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-metro</td>
+                        <td><img src="arcfire/af-d22-metro/sfp07.png" /></td>
+                        <td><img src="arcfire/af-d22-metro/sfp08.png" /></td>
+                        <td><img src="arcfire/af-d22-metro/sfp09.png" /></td>
+                        <td><img src="arcfire/af-d22-metro/sfp10.png" /></td>
+                        <td><img src="arcfire/af-d22-metro/sfp11.png" /></td>
+                        <td><img src="arcfire/af-d22-metro/sfp12.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-pbb</td>
+                        <td><img src="arcfire/af-d22-pbb/sfp07.png" /></td>
+                        <td><img src="arcfire/af-d22-pbb/sfp08.png" /></td>
+                        <td><img src="arcfire/af-d22-pbb/sfp09.png" /></td>
+                        <td><img src="arcfire/af-d22-pbb/sfp10.png" /></td>
+                        <td><img src="arcfire/af-d22-pbb/sfp11.png" /></td>
+                        <td><img src="arcfire/af-d22-pbb/sfp12.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-together1</td>
+                        <td><img src="arcfire/af-d22-together1/sfp07.png" /></td>
+                        <td><img src="arcfire/af-d22-together1/sfp08.png" /></td>
+                        <td><img src="arcfire/af-d22-together1/sfp09.png" /></td>
+                        <td><img src="arcfire/af-d22-together1/sfp10.png" /></td>
+                        <td><img src="arcfire/af-d22-together1/sfp11.png" /></td>
+                        <td><img src="arcfire/af-d22-together1/sfp12.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-together2</td>
+                        <td><img src="arcfire/af-d22-together2/sfp07.png" /></td>
+                        <td><img src="arcfire/af-d22-together2/sfp08.png" /></td>
+                        <td><img src="arcfire/af-d22-together2/sfp09.png" /></td>
+                        <td><img src="arcfire/af-d22-together2/sfp10.png" /></td>
+                        <td><img src="arcfire/af-d22-together2/sfp11.png" /></td>
+                        <td><img src="arcfire/af-d22-together2/sfp12.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-together3</td>
+                        <td><img src="arcfire/af-d22-together3/sfp07.png" /></td>
+                        <td><img src="arcfire/af-d22-together3/sfp08.png" /></td>
+                        <td><img src="arcfire/af-d22-together3/sfp09.png" /></td>
+                        <td><img src="arcfire/af-d22-together3/sfp10.png" /></td>
+                        <td><img src="arcfire/af-d22-together3/sfp11.png" /></td>
+                        <td><img src="arcfire/af-d22-together3/sfp12.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-together4</td>
+                        <td><img src="arcfire/af-d22-together4/sfp07.png" /></td>
+                        <td><img src="arcfire/af-d22-together4/sfp08.png" /></td>
+                        <td><img src="arcfire/af-d22-together4/sfp09.png" /></td>
+                        <td><img src="arcfire/af-d22-together4/sfp10.png" /></td>
+                        <td><img src="arcfire/af-d22-together4/sfp11.png" /></td>
+                        <td><img src="arcfire/af-d22-together4/sfp12.png" /></td>
+                    </tr>
+                </table>
+            </subsection>
+
+            <subsection name="ARCFIRE Examples - System Fingerprints">
+                <table>
+                    <tr>
+                        <td>af-d22-copper</td>
+                        <td><img src="arcfire/af-d22-copper/sysfp1.png" /></td>
+                        <td><img src="arcfire/af-d22-copper/sysfp2.png" /></td>
+                        <td><img src="arcfire/af-d22-copper/sysfp3.png" /></td>
+                        <td><img src="arcfire/af-d22-copper/sysfp4.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-wifi1</td>
+                        <td><img src="arcfire/af-d22-wifi1/sysfp1.png" /></td>
+                        <td><img src="arcfire/af-d22-wifi1/sysfp2.png" /></td>
+                        <td><img src="arcfire/af-d22-wifi1/sysfp3.png" /></td>
+                        <td><img src="arcfire/af-d22-wifi1/sysfp4.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-wifi2</td>
+                        <td><img src="arcfire/af-d22-wifi2/sysfp1.png" /></td>
+                        <td><img src="arcfire/af-d22-wifi2/sysfp2.png" /></td>
+                        <td><img src="arcfire/af-d22-wifi2/sysfp3.png" /></td>
+                        <td><img src="arcfire/af-d22-wifi2/sysfp4.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-lte</td>
+                        <td><img src="arcfire/af-d22-lte/sysfp1.png" /></td>
+                        <td><img src="arcfire/af-d22-lte/sysfp2.png" /></td>
+                        <td><img src="arcfire/af-d22-lte/sysfp3.png" /></td>
+                        <td><img src="arcfire/af-d22-lte/sysfp4.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-residential</td>
+                        <td><img src="arcfire/af-d22-residential/sysfp1.png" /></td>
+                        <td><img src="arcfire/af-d22-residential/sysfp2.png" /></td>
+                        <td><img src="arcfire/af-d22-residential/sysfp3.png" /></td>
+                        <td><img src="arcfire/af-d22-residential/sysfp4.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-ixp</td>
+                        <td><img src="arcfire/af-d22-ixp/sysfp1.png" /></td>
+                        <td><img src="arcfire/af-d22-ixp/sysfp2.png" /></td>
+                        <td><img src="arcfire/af-d22-ixp/sysfp3.png" /></td>
+                        <td><img src="arcfire/af-d22-ixp/sysfp4.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-core</td>
+                        <td><img src="arcfire/af-d22-core/sysfp1.png" /></td>
+                        <td><img src="arcfire/af-d22-core/sysfp2.png" /></td>
+                        <td><img src="arcfire/af-d22-core/sysfp3.png" /></td>
+                        <td><img src="arcfire/af-d22-core/sysfp4.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-dc</td>
+                        <td><img src="arcfire/af-d22-dc/sysfp1.png" /></td>
+                        <td><img src="arcfire/af-d22-dc/sysfp2.png" /></td>
+                        <td><img src="arcfire/af-d22-dc/sysfp3.png" /></td>
+                        <td><img src="arcfire/af-d22-dc/sysfp4.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-metro</td>
+                        <td><img src="arcfire/af-d22-metro/sysfp1.png" /></td>
+                        <td><img src="arcfire/af-d22-metro/sysfp2.png" /></td>
+                        <td><img src="arcfire/af-d22-metro/sysfp3.png" /></td>
+                        <td><img src="arcfire/af-d22-metro/sysfp4.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-pbb</td>
+                        <td><img src="arcfire/af-d22-pbb/sysfp1.png" /></td>
+                        <td><img src="arcfire/af-d22-pbb/sysfp2.png" /></td>
+                        <td><img src="arcfire/af-d22-pbb/sysfp3.png" /></td>
+                        <td><img src="arcfire/af-d22-pbb/sysfp4.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-together1</td>
+                        <td><img src="arcfire/af-d22-together1/sysfp1.png" /></td>
+                        <td><img src="arcfire/af-d22-together1/sysfp2.png" /></td>
+                        <td><img src="arcfire/af-d22-together1/sysfp3.png" /></td>
+                        <td><img src="arcfire/af-d22-together1/sysfp4.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-together2</td>
+                        <td><img src="arcfire/af-d22-together2/sysfp1.png" /></td>
+                        <td><img src="arcfire/af-d22-together2/sysfp2.png" /></td>
+                        <td><img src="arcfire/af-d22-together2/sysfp3.png" /></td>
+                        <td><img src="arcfire/af-d22-together2/sysfp4.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-together3</td>
+                        <td><img src="arcfire/af-d22-together3/sysfp1.png" /></td>
+                        <td><img src="arcfire/af-d22-together3/sysfp2.png" /></td>
+                        <td><img src="arcfire/af-d22-together3/sysfp3.png" /></td>
+                        <td><img src="arcfire/af-d22-together3/sysfp4.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-together4</td>
+                        <td><img src="arcfire/af-d22-together4/sysfp1.png" /></td>
+                        <td><img src="arcfire/af-d22-together4/sysfp2.png" /></td>
+                        <td><img src="arcfire/af-d22-together4/sysfp3.png" /></td>
+                        <td><img src="arcfire/af-d22-together4/sysfp4.png" /></td>
+                    </tr>
+                </table>
+            </subsection>
+
+            <subsection name="ARCFIRE Examples - Layer Fingerprints">
+                <table>
+                    <tr>
+                        <td>af-d22-copper</td>
+                        <td><img src="arcfire/af-d22-copper/layfp1.png" /></td>
+                        <td><img src="arcfire/af-d22-copper/layfp2.png" /></td>
+                        <td><img src="arcfire/af-d22-copper/layfp3.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-wifi1</td>
+                        <td><img src="arcfire/af-d22-wifi1/layfp1.png" /></td>
+                        <td><img src="arcfire/af-d22-wifi1/layfp2.png" /></td>
+                        <td><img src="arcfire/af-d22-wifi1/layfp3.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-wifi2</td>
+                        <td><img src="arcfire/af-d22-wifi2/layfp1.png" /></td>
+                        <td><img src="arcfire/af-d22-wifi2/layfp2.png" /></td>
+                        <td><img src="arcfire/af-d22-wifi2/layfp3.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-lte</td>
+                        <td><img src="arcfire/af-d22-lte/layfp1.png" /></td>
+                        <td><img src="arcfire/af-d22-lte/layfp2.png" /></td>
+                        <td><img src="arcfire/af-d22-lte/layfp3.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-residential</td>
+                        <td><img src="arcfire/af-d22-residential/layfp1.png" /></td>
+                        <td><img src="arcfire/af-d22-residential/layfp2.png" /></td>
+                        <td><img src="arcfire/af-d22-residential/layfp3.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-ixp</td>
+                        <td><img src="arcfire/af-d22-ixp/layfp1.png" /></td>
+                        <td><img src="arcfire/af-d22-ixp/layfp2.png" /></td>
+                        <td><img src="arcfire/af-d22-ixp/layfp3.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-core</td>
+                        <td><img src="arcfire/af-d22-core/layfp1.png" /></td>
+                        <td><img src="arcfire/af-d22-core/layfp2.png" /></td>
+                        <td><img src="arcfire/af-d22-core/layfp3.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-dc</td>
+                        <td><img src="arcfire/af-d22-dc/layfp1.png" /></td>
+                        <td><img src="arcfire/af-d22-dc/layfp2.png" /></td>
+                        <td><img src="arcfire/af-d22-dc/layfp3.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-metro</td>
+                        <td><img src="arcfire/af-d22-metro/layfp1.png" /></td>
+                        <td><img src="arcfire/af-d22-metro/layfp2.png" /></td>
+                        <td><img src="arcfire/af-d22-metro/layfp3.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-pbb</td>
+                        <td><img src="arcfire/af-d22-pbb/layfp1.png" /></td>
+                        <td><img src="arcfire/af-d22-pbb/layfp2.png" /></td>
+                        <td><img src="arcfire/af-d22-pbb/layfp3.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-together1</td>
+                        <td><img src="arcfire/af-d22-together1/layfp1.png" /></td>
+                        <td><img src="arcfire/af-d22-together1/layfp2.png" /></td>
+                        <td><img src="arcfire/af-d22-together1/layfp3.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-together2</td>
+                        <td><img src="arcfire/af-d22-together2/layfp1.png" /></td>
+                        <td><img src="arcfire/af-d22-together2/layfp2.png" /></td>
+                        <td><img src="arcfire/af-d22-together2/layfp3.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-together3</td>
+                        <td><img src="arcfire/af-d22-together3/layfp1.png" /></td>
+                        <td><img src="arcfire/af-d22-together3/layfp2.png" /></td>
+                        <td><img src="arcfire/af-d22-together3/layfp3.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-together4</td>
+                        <td><img src="arcfire/af-d22-together4/layfp1.png" /></td>
+                        <td><img src="arcfire/af-d22-together4/layfp2.png" /></td>
+                        <td><img src="arcfire/af-d22-together4/layfp3.png" /></td>
+                    </tr>
+                </table>
+            </subsection>
+
+            <subsection name="ARCFIRE Examples - 3D">
+                <table>
+                    <tr>
+                        <td>af-d22-copper</td>
+                        <td><img src="arcfire/af-d22-copper/3dcb.png" /></td>
+                        <td><img src="arcfire/af-d22-copper/3dcc.png" /></td>
+                        <td><img src="arcfire/af-d22-copper/3dpc.png" /></td>
+                        <td><img src="arcfire/af-d22-copper/3dyc.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-wifi1</td>
+                        <td><img src="arcfire/af-d22-wifi1/3dcb.png" /></td>
+                        <td><img src="arcfire/af-d22-wifi1/3dcc.png" /></td>
+                        <td><img src="arcfire/af-d22-wifi1/3dpc.png" /></td>
+                        <td><img src="arcfire/af-d22-wifi1/3dyc.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-wifi2</td>
+                        <td><img src="arcfire/af-d22-wifi2/3dcb.png" /></td>
+                        <td><img src="arcfire/af-d22-wifi2/3dcc.png" /></td>
+                        <td><img src="arcfire/af-d22-wifi2/3dpc.png" /></td>
+                        <td><img src="arcfire/af-d22-wifi2/3dyc.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-lte</td>
+                        <td><img src="arcfire/af-d22-lte/3dcb.png" /></td>
+                        <td><img src="arcfire/af-d22-lte/3dcc.png" /></td>
+                        <td><img src="arcfire/af-d22-lte/3dpc.png" /></td>
+                        <td><img src="arcfire/af-d22-lte/3dyc.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-residential</td>
+                        <td><img src="arcfire/af-d22-residential/3dcb.png" /></td>
+                        <td><img src="arcfire/af-d22-residential/3dcc.png" /></td>
+                        <td><img src="arcfire/af-d22-residential/3dpc.png" /></td>
+                        <td><img src="arcfire/af-d22-residential/3dyc.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-ixp</td>
+                        <td><img src="arcfire/af-d22-ixp/3dcb.png" /></td>
+                        <td><img src="arcfire/af-d22-ixp/3dcc.png" /></td>
+                        <td><img src="arcfire/af-d22-ixp/3dpc.png" /></td>
+                        <td><img src="arcfire/af-d22-ixp/3dyc.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-core</td>
+                        <td><img src="arcfire/af-d22-core/3dcb.png" /></td>
+                        <td><img src="arcfire/af-d22-core/3dcc.png" /></td>
+                        <td><img src="arcfire/af-d22-core/3dpc.png" /></td>
+                        <td><img src="arcfire/af-d22-core/3dyc.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-dc</td>
+                        <td><img src="arcfire/af-d22-dc/3dcb.png" /></td>
+                        <td><img src="arcfire/af-d22-dc/3dcc.png" /></td>
+                        <td><img src="arcfire/af-d22-dc/3dpc.png" /></td>
+                        <td><img src="arcfire/af-d22-dc/3dyc.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-metro</td>
+                        <td><img src="arcfire/af-d22-metro/3dcb.png" /></td>
+                        <td><img src="arcfire/af-d22-metro/3dcc.png" /></td>
+                        <td><img src="arcfire/af-d22-metro/3dpc.png" /></td>
+                        <td><img src="arcfire/af-d22-metro/3dyc.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-pbb</td>
+                        <td><img src="arcfire/af-d22-pbb/3dcb.png" /></td>
+                        <td><img src="arcfire/af-d22-pbb/3dcc.png" /></td>
+                        <td><img src="arcfire/af-d22-pbb/3dpc.png" /></td>
+                        <td><img src="arcfire/af-d22-pbb/3dyc.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-together1</td>
+                        <td><img src="arcfire/af-d22-together1/3dcb.png" /></td>
+                        <td><img src="arcfire/af-d22-together1/3dcc.png" /></td>
+                        <td><img src="arcfire/af-d22-together1/3dpc.png" /></td>
+                        <td><img src="arcfire/af-d22-together1/3dyc.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-together2</td>
+                        <td><img src="arcfire/af-d22-together2/3dcb.png" /></td>
+                        <td><img src="arcfire/af-d22-together2/3dcc.png" /></td>
+                        <td><img src="arcfire/af-d22-together2/3dpc.png" /></td>
+                        <td><img src="arcfire/af-d22-together2/3dyc.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-together3</td>
+                        <td><img src="arcfire/af-d22-together3/3dcb.png" /></td>
+                        <td><img src="arcfire/af-d22-together3/3dcc.png" /></td>
+                        <td><img src="arcfire/af-d22-together3/3dpc.png" /></td>
+                        <td><img src="arcfire/af-d22-together3/3dyc.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>af-d22-together4</td>
+                        <td><img src="arcfire/af-d22-together4/3dcb.png" /></td>
+                        <td><img src="arcfire/af-d22-together4/3dcc.png" /></td>
+                        <td><img src="arcfire/af-d22-together4/3dpc.png" /></td>
+                        <td><img src="arcfire/af-d22-together4/3dyc.png" /></td>
+                    </tr>
+                </table>
+            </subsection>
+
+
+        </section>
+    </body>
+</document>
