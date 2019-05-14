@@ -108,6 +108,17 @@
                         <td><img src="rina/rina-wilan/sfp05.png" /></td>
                         <td><img src="rina/rina-wilan/sfp06.png" /></td>
                     </tr>
+
+                    <tr>
+                        <td>rina-os</td>
+                        <td><img src="rina/rina-os/sfp01.png" /></td>
+                        <td><img src="rina/rina-os/sfp02.png" /></td>
+                        <td><img src="rina/rina-os/sfp03.png" /></td>
+                        <td><img src="rina/rina-os/sfp04.png" /></td>
+                        <td><img src="rina/rina-os/sfp05.png" /></td>
+                        <td><img src="rina/rina-os/sfp06.png" /></td>
+                    </tr>
+
                 </table>
             </subsection>
 
@@ -197,6 +208,17 @@
                         <td><img src="rina/rina-wilan/sfp11.png" /></td>
                         <td><img src="rina/rina-wilan/sfp12.png" /></td>
                     </tr>
+
+                    <tr>
+                        <td>rina-os</td>
+                        <td><img src="rina/rina-os/sfp07.png" /></td>
+                        <td><img src="rina/rina-os/sfp08.png" /></td>
+                        <td><img src="rina/rina-os/sfp09.png" /></td>
+                        <td><img src="rina/rina-os/sfp10.png" /></td>
+                        <td><img src="rina/rina-os/sfp11.png" /></td>
+                        <td><img src="rina/rina-os/sfp12.png" /></td>
+                    </tr>
+
                 </table>
             </subsection>
 
@@ -268,6 +290,15 @@
                         <td><img src="rina/rina-wilan/sysfp3.png" /></td>
                         <td><img src="rina/rina-wilan/sysfp4.png" /></td>
                     </tr>
+
+                    <tr>
+                        <td>rina-os</td>
+                        <td><img src="rina/rina-os/sysfp1.png" /></td>
+                        <td><img src="rina/rina-os/sysfp2.png" /></td>
+                        <td><img src="rina/rina-os/sysfp3.png" /></td>
+                        <td><img src="rina/rina-os/sysfp4.png" /></td>
+                    </tr>
+
                 </table>
             </subsection>
 
@@ -330,6 +361,14 @@
                         <td><img src="rina/rina-wilan/layfp2.png" /></td>
                         <td><img src="rina/rina-wilan/layfp3.png" /></td>
                     </tr>
+
+                    <tr>
+                        <td>rina-os</td>
+                        <td><img src="rina/rina-os/layfp1.png" /></td>
+                        <td><img src="rina/rina-os/layfp2.png" /></td>
+                        <td><img src="rina/rina-os/layfp3.png" /></td>
+                    </tr>
+
                 </table>
             </subsection>
 
@@ -401,6 +440,15 @@
                         <td><img src="rina/rina-wilan/3dpc.png" /></td>
                         <td><img src="rina/rina-wilan/3dyc.png" /></td>
                     </tr>
+
+                    <tr>
+                        <td>rina-os</td>
+                        <td><img src="rina/rina-os/3dcb.png" /></td>
+                        <td><img src="rina/rina-os/3dcc.png" /></td>
+                        <td><img src="rina/rina-os/3dpc.png" /></td>
+                        <td><img src="rina/rina-os/3dyc.png" /></td>
+                    </tr>
+
                 </table>
             </subsection>
 

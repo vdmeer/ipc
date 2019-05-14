@@ -44,6 +44,7 @@
                     <item href="lcn-examples/rina/rina-long-ir/index.html" name="Long IR" />
                     <item href="lcn-examples/rina/rina-sn-wifi/index.html" name="SN WiFi" />
                     <item href="lcn-examples/rina/rina-wilan/index.html" name="WiLAN" />
+                    <item href="lcn-examples/rina/rina-os/index.html" name="OS" />
                 </item>
                 <item href="lcn-examples/arcfire/arcfire.html" name="ARCFIRE" collapse="true">
                         <item href="lcn-examples/arcfire/af-d22-copper/index.html" name="Copper" />

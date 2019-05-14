@@ -24,7 +24,7 @@
 
             <subsection name="As Reference">
 <source>
-  Sven van der Meer: "LCN Appendix", version 0.7.2, May 09, 2019, available: https://vdmeer.github.io/ipc/lcn-appendix.html
+  Sven van der Meer: "LCN Appendix", version 0.7.2, May 14, 2019, available: https://vdmeer.github.io/ipc/lcn-appendix.html
 </source>
             </subsection>
 
@@ -35,8 +35,8 @@
       author = {van der Meer, Sven},
       title  = {LCN Appendix},
       url = "https://vdmeer.github.io/ipc/lcn-appendix.html",
-      date = {2019-05-09}, version = "0.7.2",
-      urldate = {2019-05-09}
+      date = {2019-05-14}, version = "0.7.2",
+      urldate = {2019-05-14}
   }
 </source>
             </subsection>
@@ -49,7 +49,7 @@
       title  = {LCN Appendix},
       howpublished = "online",
       url = "https://vdmeer.github.io/ipc/lcn-appendix.html",
-      year = 2019, month = may, day = 09,
+      year = 2019, month = may, day = 14,
       note = "version 0.7.2", key = "vdm"
   }
 </source>
