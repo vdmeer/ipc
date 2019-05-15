@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ ============LICENSE_START=======================================================
+  Copyright (C) 2018 Sven van der Meer. All rights reserved.
+ ================================================================================
+ This file is licensed under the CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL LICENSE
+ Full license text at https://creativecommons.org/licenses/by/4.0/legalcode
+ 
+ SPDX-License-Identifier: CC-BY-4.0
+ ============LICENSE_END=========================================================
+
+ @author Sven van der Meer (vdmeer.sven@mykolab.com)
+
+-->
+
+<document>
+    <properties>
+        <title>LCN Postscript - Attribution</title>
+        <author email="vdmeer dot sven at mykolab dot com">Sven van der Meer</author>
+    </properties>
+
+    <body>
+        <section name="LCN Postscript - Attribution">
+
+            <subsection name="As Reference">
+<source>
+  Sven van der Meer: "LCN Postscript", version 0.7.2, May 15, 2019, available: https://vdmeer.github.io/ipc/lcn-postscript.html
+</source>
+            </subsection>
+
+
+            <subsection name="Biblatex">
+<source>
+  @online{vdmeer:ipc:lcn,
+      author = {van der Meer, Sven},
+      title  = {LCN Postscript},
+      url = "https://vdmeer.github.io/ipc/lcn-postscript.html",
+      date = {2019-05-15}, version = "0.7.2",
+      urldate = {2019-05-15}
+  }
+</source>
+            </subsection>
+
+
+            <subsection name="BibTeX">
+<source>
+  @misc{vdmeer:ipc:lcn,
+      author = {van der Meer, Sven},
+      title  = {LCN Postscript},
+      howpublished = "online",
+      url = "https://vdmeer.github.io/ipc/lcn-postscript.html",
+      year = 2019, month = may, day = 15,
+      note = "version 0.7.2", key = "vdm"
+  }
+</source>
+            </subsection>
+
+
+            <subsection name="Older Versions">
+                <p>
+                    For older versions substitute the date and version with the following:
+                    <ul>
+                        <li>version 0.7.2: 2019, May, 8</li>
+                    </ul>
+                </p>
+            </subsection>
+
+        </section>
+    </body>
+</document>

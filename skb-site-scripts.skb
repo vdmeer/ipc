@@ -36,10 +36,10 @@ MvnSitePreScript() {
         -e "s;%LCN_PAGE_TITLE%;$LCN_PAGE_TITLE;g" \
     > src/site/xdoc/lcn/attribution.xml
 
-    LCN_URL="https://vdmeer.github.io/ipc/lcn-appendix.html"
-    LCN_TITLE="LCN Appendix"
-    LCN_PAGE_TITLE="LCN Appendix - Attribution"
-    rm src/site/xdoc/lcn-appendix/attribution.xml
+    LCN_URL="https://vdmeer.github.io/ipc/lcn-postscript.html"
+    LCN_TITLE="LCN Postscript"
+    LCN_PAGE_TITLE="LCN Postscript - Attribution"
+    rm src/site/xdoc/lcn-postscript/attribution.xml
     cat ${LCN_TEMPLATE_FILE} | sed \
         -e "s;%LCN_DAY%;$LCN_DAY;g" \
         -e "s;%LCN_Month%;$LCN_Month;g" \
@@ -50,7 +50,7 @@ MvnSitePreScript() {
         -e "s;%LCN_URL%;$LCN_URL;g" \
         -e "s;%LCN_TITLE%;$LCN_TITLE;g" \
         -e "s;%LCN_PAGE_TITLE%;$LCN_PAGE_TITLE;g" \
-    > src/site/xdoc/lcn-appendix/attribution.xml
+    > src/site/xdoc/lcn-postscript/attribution.xml
 
     LCN_URL="https://vdmeer.github.io/ipc/lcn-examples.html"
     LCN_TITLE="LCN Examples"

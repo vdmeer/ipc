@@ -41,8 +41,10 @@ export SD_LIBRARY_DOCS=${SKB_HOME}/documents/library
 export SD_LIBRARY_URL=https://github.com/vdmeer/skb/tree/master/data/library
 export SD_MVN_SITES="$PWD"
 
-export SD_ACRONYM_LATEX_AUX=`pwd`/src/main/lcn-appendix/lcn-appendix.aux
-export SD_ACRONYM_LATEX_FILE=`pwd`/src/main/lcn-appendix/acronyms/acronym-db.tex
+export SD_LATEX_AUX=`pwd`/src/main/lcn-postscript/lcn-postscript.aux
+export SD_ACRONYM_LATEX_FILE=`pwd`/src/main/lcn-postscript/content/acronym-db.tex
+export SD_LIBRARY_BIB_FILE=`pwd`/src/main/lcn-postscript/content/references.bib
+
 
 ##
 ## also required:

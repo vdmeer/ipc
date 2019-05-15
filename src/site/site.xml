@@ -65,8 +65,8 @@
                 <item href="lcn-examples/schema-matrix.html" name="Schema Matrix" collapse="false" />
             </item>
 
-            <item href="lcn-appendix.html" name="LCN Appendix" collapse="false">
-                <item href="lcn-appendix/attribution.html" name="Attribution" />
+            <item href="lcn-postscript.html" name="LCN Postscript" collapse="false">
+                <item href="lcn-postscript/attribution.html" name="Attribution" />
             </item>
 
         </menu>

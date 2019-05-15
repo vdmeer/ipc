@@ -24,7 +24,7 @@
 
             <subsection name="As Reference">
 <source>
-  Sven van der Meer: "Looking at Communication Networks", version 0.7.2, May 14, 2019, available: https://vdmeer.github.io/ipc/lcn.html
+  Sven van der Meer: "Looking at Communication Networks", version 0.7.2, May 15, 2019, available: https://vdmeer.github.io/ipc/lcn.html
 </source>
             </subsection>
 
@@ -35,8 +35,8 @@
       author = {van der Meer, Sven},
       title  = {Looking at Communication Networks},
       url = "https://vdmeer.github.io/ipc/lcn.html",
-      date = {2019-05-14}, version = "0.7.2",
-      urldate = {2019-05-14}
+      date = {2019-05-15}, version = "0.7.2",
+      urldate = {2019-05-15}
   }
 </source>
             </subsection>
@@ -49,7 +49,7 @@
       title  = {Looking at Communication Networks},
       howpublished = "online",
       url = "https://vdmeer.github.io/ipc/lcn.html",
-      year = 2019, month = may, day = 14,
+      year = 2019, month = may, day = 15,
       note = "version 0.7.2", key = "vdm"
   }
 </source>

@@ -1,0 +1,132 @@
+\documentclass[a4paper,final,notitlepage,makeindex]{article}
+
+\listfiles
+
+\usepackage{fontspec}
+\setmainfont{Bell MT}
+\newfontfamily\citefont{Garamond}
+\newfontfamily\contribfont{Garamond}
+
+\usepackage{float}
+\restylefloat{table}
+
+\usepackage[
+    indent=1.75ex
+]{parskip}
+
+
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{booktabs}
+\RequirePackage[x11names,table]{xcolor}
+
+\RequirePackage[colorlinks,%
+    linkcolor=Brown4,%
+    citecolor=SeaGreen4,%
+    urlcolor=RoyalBlue3%
+]{hyperref}
+\usepackage{desclist}
+
+\usepackage[portrait,top=2cm,left=2.5cm,right=2.5cm,bottom=2cm]{geometry}
+\usepackage{enumitem}
+
+
+\RequirePackage[printonlyused]{acronym}
+
+
+
+% half the row spacing
+\setlength{\tabcolsep}{3pt}
+
+\RequirePackage[
+    strict=true,
+    style=english
+]{csquotes}
+
+\usepackage[
+    backend=biber,
+    bibencoding=utf8,
+    style=alphabetic
+]{biblatex}
+\addbibresource{content/references.bib}
+
+\usepackage{makeidx}
+\makeindex
+
+\begin{document}
+    \renewcommand*{\bibfont}{\citefont}
+    \newcommand{\lcncite}[1]{{\citefont\cite{#1}}}
+
+    \author{Sven van der Meer}
+    \title{LCN Postscript \\ $\cdots \cdots \cdots$ \\ \small{Version \input{../lcn/version.txt}}}
+    \maketitle
+
+    \input{content/abstract}
+
+    \begin{multicols}{2}
+        \setcounter{tocdepth}{3}
+        \tableofcontents
+    \end{multicols}
+    \newpage
+
+    \section{LCN Terminology}
+        \input{content/terminology}
+
+    \section{Terminology}
+        \subsection{Network}
+            \input{content/terminology-network}
+        \subsection{Graphics}
+            \input{content/terminology-graphics}
+        \subsection{Text}
+            \input{content/terminology-text}
+
+    \section{Glossary}
+        \subsection{PSOC and RINA}
+            \input{content/glossary-rina}
+
+        \subsection{File Types and Formats}
+            \input{content/glossary-ftt}
+
+        \subsection{Misc}
+            \input{content/glossary-misc}
+
+        \subsection{Organizations}
+            \input{content/glossary-org}
+
+    \section{Links}
+        \subsection{Colors}
+            \input{content/links-colors}
+        \subsection{Color Schemes}
+            \input{content/links-color-schemes}
+        \subsection{Color Tools}
+            \input{content/links-color-tools}
+
+        \subsection{Visualization Frameworks}
+            \input{content/links-viz-frameworks}
+        \subsection{eCharts}
+            \input{content/links-echarts}
+
+        \subsection{Slides}
+            \input{content/links-slides}
+
+
+    \setlength{\columnseprule}{0.25pt}
+
+    \section{Contributors}
+        \input{content/contributors}
+
+    \section{Acronyms}
+        \begin{multicols}{2}
+            \setlength{\columnseprule}{0pt}
+            \footnotesize
+            \input{content/acronym-db}
+        \end{multicols}
+
+    \printbibliography[heading=bibintoc]
+
+    \cleardoublepage
+    \phantomsection
+    \addcontentsline{toc}{section}{\indexname}
+    \printindex
+\end{document}

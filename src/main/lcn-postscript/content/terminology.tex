@@ -1,0 +1,32 @@
+\subsection{System, Layer, Process}
+
+    These three terms are the main elements of \ac{ict:IPC}.
+    They are written in italic to distinguish them from other uses, e.g. \textit{layer} means the term layer while graphic layer just uses the word layer in a different context.
+    The terms are probably of equal importance, depending on what you want to see, describe, define, specifiy, or process.
+
+    A \textit{system} provides resources to execute and manage processes.
+    A \textit{Computing System} has (and manages) one or more \textit{Processing System}, which have resources and execute and manage \textit{processes}.
+    The \ac{people:vdmeer-sven:LCN} shows mostly \textit{Processing Systems}.
+    \index{System}\index{Computing System}\index{Processing System}
+
+    A \textit{layer} is a distributed application.
+    \acs{org:psoc:RINA} separates application layers from networking layers.
+    A \ac{org:psoc:rina:DAF} is an application layer.
+    A \ac{org:psoc:rina:DIF} is an network layer, essentially a specialized version of a \ac{org:psoc:rina:DAF}.
+    The lowest \textit{layer} connects our applications to some technology.
+    This \textit{layer} is called \textit{Shim} or \textit{Shim \acs{org:psoc:rina:DIF}}.
+    It uses an \ac{ict:IF} \footnote{an \ac{ict:API} to a blackbox} to either
+        a \ac{ict:net:PHY} (e.g. Ethernet or \acs{org:ieee:802:WIFI}) or
+        a (transport) protocol providing communication (e.g. \acs{org:ietf:ip:TCP} or \acs{org:ietf:ip:UDP}).
+    \index{Layer}\index{DAF}\index{DIF}\index{Shim}
+
+    A \textit{process} is the instantiation of program executed in a \textit{Processing System}, intended to achieve some purpose.
+    Cooperating processes form distributed applications.
+    \acs{org:psoc:RINA} separates application-related processes from network-related processes.
+    We have a \ac{org:psoc:rina:DAP} for general applications (an application process in a \ac{org:psoc:rina:DAF}) and
+        a \ac{org:psoc:rina:IPCP} for networks (an application process in a \ac{org:psoc:rina:DIF}).
+    \acp{org:psoc:rina:IPCP} are specialized \acp{org:psoc:rina:DAP}.
+    A link or connection between \textit{processes} means that they are connected (note: this is a connection between \textit{processes} and not \textit{systems}).
+    A link in the \ac{ict:net:PHY} layer is a physical connection between \textit{systems}.
+    \index{Process}\index{DAP}\index{IPCP}
+
