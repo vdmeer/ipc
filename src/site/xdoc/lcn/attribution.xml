@@ -22,38 +22,119 @@
     <body>
         <section name="LCN - Attribution">
 
-            <subsection name="As Reference">
-<source>
-  Sven van der Meer: "Looking at Communication Networks", version 0.7.2, May 16, 2019, available: https://vdmeer.github.io/ipc/lcn.html
+            <table>
+                <tr>
+                    <th style="white-space:nowrap; font-weight: bold; font-size: 1.25em" width="4%"></th>
+                    <th style="white-space:nowrap; font-weight: bold; font-size: 1.25em" width="32%">LCN Guide</th>
+                    <th style="white-space:nowrap; font-weight: bold; font-size: 1.25em" width="32%">LCN Examples</th>
+                    <th style="white-space:nowrap; font-weight: bold; font-size: 1.25em" width="32%">LCN Postscript</th>
+                </tr>
+
+                <tr>
+                    <th style="white-space:nowrap; font-weight: bold">Reference</th>
+                    <td>
+                        <p>
+                            Sven van der Meer: <i>Looking at Communication Networks</i>, A visual Guide to Inter-Process Communication. version %LCN_VERSION%, %LCN_Month% %LCN_DAY%, %LCN_YEAR%<br />
+                            available: https://vdmeer.github.io/skb/ipc/lcn.html
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            Sven van der Meer: <i>LCN Examples</i>, Network Schemas and Networks, version %LCN_VERSION%, %LCN_Month% %LCN_DAY%, %LCN_YEAR%<br />
+                            available: https://vdmeer.github.io/skb/ipc/lcn/examples.html
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            Sven van der Meer: <i>LCN Postscript</i>, version %LCN_VERSION%, %LCN_Month% %LCN_DAY%, %LCN_YEAR%<br />
+                            available: https://vdmeer.github.io/skb/ipc/lcn/postscript.html
+                        </p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th style="white-space:nowrap; font-weight: bold">Biblatex</th>
+                    <td>
+<source style="margin-left:1px">
+@online{vdmeer:ipc:lcn,
+    author = {van der Meer, Sven},
+    title  = {Looking at Communication Networks},
+    titleaddon = {A visual Guide to Inter-Process Communication},
+    url = "https://vdmeer.github.io/skb/ipc/lcn.html",
+    date = {%LCN_DATE%}, version = "%LCN_VERSION%",
+    urldate = {%LCN_DATE%}
+}
 </source>
-            </subsection>
-
-
-            <subsection name="Biblatex">
-<source>
-  @online{vdmeer:ipc:lcn,
-      author = {van der Meer, Sven},
-      title  = {Looking at Communication Networks},
-      url = "https://vdmeer.github.io/ipc/lcn.html",
-      date = {2019-05-16}, version = "0.7.2",
-      urldate = {2019-05-16}
-  }
+                    </td>
+                    <td>
+<source style="margin-left:1px">
+@online{vdmeer:ipc:lcn,
+    author = {van der Meer, Sven},
+    title  = {LCN Examples},
+    titleaddon = {Network Schemas and Networks},
+    url = "https://vdmeer.github.io/skb/ipc/lcn/examples.html",
+    date = {%LCN_DATE%}, version = "%LCN_VERSION%",
+    urldate = {%LCN_DATE%}
+}
 </source>
-            </subsection>
-
-
-            <subsection name="BibTeX">
-<source>
-  @misc{vdmeer:ipc:lcn,
-      author = {van der Meer, Sven},
-      title  = {Looking at Communication Networks},
-      howpublished = "online",
-      url = "https://vdmeer.github.io/ipc/lcn.html",
-      year = 2019, month = may, day = 16,
-      note = "version 0.7.2", key = "vdm"
-  }
+                    </td>
+                    <td>
+<source style="margin-left:1px">
+@online{vdmeer:ipc:lcn,
+    author = {van der Meer, Sven},
+    title  = {LCN Postscript},
+    url = "https://vdmeer.github.io/skb/ipc/lcn/postscript.html",
+    date = {%LCN_DATE%}, version = "%LCN_VERSION%",
+    urldate = {%LCN_DATE%}
+}
 </source>
-            </subsection>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th style="white-space:nowrap; font-weight: bold">BibTeX</th>
+                    <td>
+<source style="margin-left:1px">
+@misc{vdmeer:ipc:lcn,
+    author = {van der Meer, Sven},
+    title  = {Looking at Communication Networks},
+    titleaddon = {A visual Guide to Inter-Process Communication},
+    howpublished = "online",
+    url = "https://vdmeer.github.io/skb/ipc/lcn.html",
+    year = %LCN_YEAR%, month = %LCN_month%, day = %LCN_DAY%,
+    note = "version %LCN_VERSION%", key = "vdm"
+}
+</source>
+                    </td>
+                    <td>
+<source style="margin-left:1px">
+@misc{vdmeer:ipc:lcn,
+    author = {van der Meer, Sven},
+    title  = {LCN Examples},
+    titleaddon = {Network Schemas and Networks},
+    howpublished = "online",
+    url = "https://vdmeer.github.io/skb/ipc/lcn/examples.html",
+    year = %LCN_YEAR%, month = %LCN_month%, day = %LCN_DAY%,
+    note = "version %LCN_VERSION%", key = "vdm"
+}
+</source>
+                    </td>
+                    <td>
+<source style="margin-left:1px">
+@misc{vdmeer:ipc:lcn,
+    author = {van der Meer, Sven},
+    title  = {LCN Postscript},
+    howpublished = "online",
+    url = "https://vdmeer.github.io/skb/ipc/lcn/postscript.html",
+    year = %LCN_YEAR%, month = %LCN_month%, day = %LCN_DAY%,
+    note = "version %LCN_VERSION%", key = "vdm"
+}
+</source>
+                    </td>
+                </tr>
+
+            </table>
+
 
 
             <subsection name="Older Versions">

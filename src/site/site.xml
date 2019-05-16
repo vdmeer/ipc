@@ -29,45 +29,51 @@
 
             <item href="lcn.html" name="LCN" collapse="false">
                 <item href="lcn/attribution.html" name="Attribution" />
-                <item href="lcn/downloads.html" name="Downloads" />
+                <item href="lcn/guide.html" name="LCN Guide" collapse="false">
+
+                </item>
+                <item href="lcn/examples.html" name="LCN Examples" collapse="false">
+                    <item href="lcn/examples/rina.html" name="RINA" />
+                    <item href="lcn/examples/arcfire.html" name="ARCFIRE" />
+                    <item href="lcn/examples/schema-matrix.html" name="Schema Matrix" collapse="false" />
+                </item>
+                <item href="lcn/postscript.html" name="LCN Postscript" collapse="false">
+
+                </item>
             </item>
 
-            <item href="lcn-examples.html" name="LCN Examples" collapse="false">
-                <item href="lcn-examples/attribution.html" name="Attribution" />
-                <item href="lcn-examples/rina/rina.html" name="RINA" collapse="true">
-                    <item href="lcn-examples/rina/rina-2h/index.html" name="2H" />
-                    <item href="lcn-examples/rina/rina-2h-ir/index.html" name="2H-IR" />
-                    <item href="lcn-examples/rina/rina-2br/index.html" name="2BR" />
-                    <item href="lcn-examples/rina/rina-2br-ir/index.html" name="2BR-IR" />
-                    <item href="lcn-examples/rina/rina-std-short/index.html" name="Standard Short" />
-                    <item href="lcn-examples/rina/rina-std-long/index.html" name="Standard Long" />
-                    <item href="lcn-examples/rina/rina-long-ir/index.html" name="Long IR" />
-                    <item href="lcn-examples/rina/rina-sn-wifi/index.html" name="SN WiFi" />
-                    <item href="lcn-examples/rina/rina-wilan/index.html" name="WiLAN" />
-                    <item href="lcn-examples/rina/rina-os/index.html" name="OS" />
+            <item href="networks.html" name="Networks" collapse="false">
+                <item href="networks/rina.html" name="RINA" collapse="true">
+                    <item href="networks/rina/2br/2br.html" name="2 BR" />
+                    <item href="networks/rina/2br-ir/2br-ir.html" name="2 BR, IR" />
+                    <item href="networks/rina/2h/2h.html" name="2 Hosts" />
+                    <item href="networks/rina/2h-ir/2h-ir.html" name="2 Host, IR" />
+                    <item href="networks/rina/long-ir/long-ir.html" name="Long IR" />
+                    <item href="networks/rina/os/os.html" name="OS" />
+                    <item href="networks/rina/sn-wifi/sn-wifi.html" name="SN WiFi" />
+                    <item href="networks/rina/std-long/std-long.html" name="Standard Long" />
+                    <item href="networks/rina/std-short/std-short.html" name="Standard Short" />
+                    <item href="networks/rina/wilan/wilan.html" name="WiLAN" />
                 </item>
-                <item href="lcn-examples/arcfire/arcfire.html" name="ARCFIRE" collapse="true">
-                        <item href="lcn-examples/arcfire/af-d22-copper/index.html" name="Copper" />
-                        <item href="lcn-examples/arcfire/af-d22-core/index.html" name="Core" />
-                        <item href="lcn-examples/arcfire/af-d22-dc/index.html" name="DC" />
-                        <item href="lcn-examples/arcfire/af-d22-ixp/index.html" name="IXP" />
-                        <item href="lcn-examples/arcfire/af-d22-lte/index.html" name="LTE" />
-                        <item href="lcn-examples/arcfire/af-d22-metro/index.html" name="Metro" />
-                        <item href="lcn-examples/arcfire/af-d22-pbb/index.html" name="PBB" />
-                        <item href="lcn-examples/arcfire/af-d22-residential/index.html" name="Residential" />
-                        <item href="lcn-examples/arcfire/af-d22-wifi1/index.html" name="WiFi 1" />
-                        <item href="lcn-examples/arcfire/af-d22-wifi2/index.html" name="WiFi 2" />
-                        <item href="lcn-examples/arcfire/af-d22-together1/index.html" name="Together 1" />
-                        <item href="lcn-examples/arcfire/af-d22-together2/index.html" name="Together 2" />
-                        <item href="lcn-examples/arcfire/af-d22-together3/index.html" name="Together 3" />
-                        <item href="lcn-examples/arcfire/af-d22-together4/index.html" name="Together 4" />
+                <item href="networks/arcfire.html" name="ARCFIRE" collapse="true">
+                        <item href="networks/arcfire/copper/copper.html" name="Copper" />
+                        <item href="networks/arcfire/core/core.html" name="Core" />
+                        <item href="networks/arcfire/dc/dc.html" name="DC" />
+                        <item href="networks/arcfire/ixp/ixp.html" name="IXP" />
+                        <item href="networks/arcfire/lte/lte.html" name="LTE" />
+                        <item href="networks/arcfire/metro/metro.html" name="Metro" />
+                        <item href="networks/arcfire/pbb/pbb.html" name="PBB" />
+                        <item href="networks/arcfire/residential/residential.html" name="Residential" />
+                        <item href="networks/arcfire/wifi1/wifi1.html" name="WiFi 1" />
+                        <item href="networks/arcfire/wifi2/wifi2.html" name="WiFi 2" />
+                        <item href="networks/arcfire/together1/together1.html" name="Together 1" />
+                        <item href="networks/arcfire/together2/together2.html" name="Together 2" />
+                        <item href="networks/arcfire/together3/together3.html" name="Together 3" />
+                        <item href="networks/arcfire/together4/together4.html" name="Together 4" />
                 </item>
-                <item href="lcn-examples/schema-matrix.html" name="Schema Matrix" collapse="false" />
+                <item href="networks/schema-matrix.html" name="Schema Matrix" collapse="false" />
             </item>
 
-            <item href="lcn-postscript.html" name="LCN Postscript" collapse="false">
-                <item href="lcn-postscript/attribution.html" name="Attribution" />
-            </item>
 
         </menu>
 
