@@ -15,12 +15,12 @@
 
 <document>
     <properties>
-        <title>Networks - ARCFIRE - wifi2</title>
+        <title>Schema Examples - ARCFIRE - wifi2</title>
         <author email="vdmeer dot sven at mykolab dot com">Sven van der Meer</author>
     </properties>
 
     <body>
-        <section name="Networks - ARCFIRE - wifi2">
+        <section name="Schema Examples - ARCFIRE - wifi2">
 
             <subsection name="Design">
                 <p style="font-size: 1.25em">
@@ -33,6 +33,18 @@
                     Pro: increases scalability, more dense station/access point configurations<br />
                     Con: increases height (number of layers) in stations
                 </p>
+                <hr />
+
+                <p style="font-size: 1.25em">
+                    This example is an extension of the <a href="../af-d22-wifi1/index.html">simple WiFi schema</a>.
+                    We have inserted a <i>Wireless Network</i> DIF to allow for more density of stations and APs.
+                    The isolation of the upper layers (services) from the local mobility event (WiFi segment) increases the scalability of the network,
+                        since the service layers only see the access router
+                    This reduces the number of processes in the service layers and hides all mobility events, which are now handled exclusively by the wireless network.
+                    In turn, the wireless network can now be designed for a point-to-point or multi-access.
+                    It can contain all required wireless security, multiplexing, delimiting, and required layer management (e.g. for the channel selection on the physical medium).
+                </p>
+                <hr />
 
                 <hr />
                 <p style="font-size: 1.25em" align="center">

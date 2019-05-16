@@ -1,3 +1,8 @@
+% !TeX document-id = {59ed8cb7-7bab-43d6-88d8-428ea39f98ef}
+% !TeX program = lualatex
+% !TeX encoding = UTF-8
+% !BIB program = biber
+
 \documentclass[a4paper,final,notitlepage,makeindex]{article}
 
 \listfiles
@@ -21,20 +26,24 @@
 \usepackage{booktabs}
 \RequirePackage[x11names,table]{xcolor}
 
-\RequirePackage[colorlinks,%
-    linkcolor=Brown4,%
-    citecolor=SeaGreen4,%
-    urlcolor=RoyalBlue3%
+\RequirePackage[
+    colorlinks,
+    linkcolor=Brown4,
+    citecolor=SeaGreen4,
+    urlcolor=RoyalBlue3,
+    pdfauthor={Sven van der Meer},
+    pdftitle={LCN Postscript},
+%    pdfsubject={The Subject},
+%    pdfkeywords={Some Keywords},
+%    pdfproducer={Latex with hyperref},
+%    pdfcreator={lualatex}
 ]{hyperref}
 \usepackage{desclist}
 
 \usepackage[portrait,top=2cm,left=2.5cm,right=2.5cm,bottom=2cm]{geometry}
 \usepackage{enumitem}
 
-
 \RequirePackage[printonlyused]{acronym}
-
-
 
 % half the row spacing
 \setlength{\tabcolsep}{3pt}
@@ -54,12 +63,26 @@
 \usepackage{makeidx}
 \makeindex
 
+\usepackage[
+    type={CC},
+    modifier={by-sa},
+    version={4.0},
+]{doclicense}
+
+
 \begin{document}
     \renewcommand*{\bibfont}{\citefont}
     \newcommand{\lcncite}[1]{{\citefont\cite{#1}}}
 
+    \makeatletter
+        \renewcommand{\figureautorefname}{Fig.\@gobble}
+        \renewcommand{\sectionautorefname}{\S\@gobble}
+        \renewcommand{\subsectionautorefname}{\S\@gobble}
+        \renewcommand{\subsubsectionautorefname}{\S\@gobble}
+    \makeatother
+
     \author{Sven van der Meer}
-    \title{LCN Postscript \\ $\cdots \cdots \cdots$ \\ \small{Version \input{../lcn/version.txt}}}
+    \title{LCN Postscript \\ $\cdots \cdots \cdots$ \\ \small{Version \input{../lcn-guide/version.txt}}}
     \maketitle
 
     \input{content/abstract}
@@ -70,51 +93,31 @@
     \end{multicols}
     \newpage
 
-    \section{LCN Terminology}
-        \input{content/terminology}
+    \input{content/cc}
+    \newpage
 
-    \section{Terminology}
-        \subsection{Network}
-            \input{content/terminology-network}
-        \subsection{Graphics}
-            \input{content/terminology-graphics}
-        \subsection{Text}
-            \input{content/terminology-text}
+    \input{content/introduction}
+
+    \input{content/terminology}
+
+    \input{content/examples}
+
+
 
     \section{Glossary}
-        \subsection{PSOC and RINA}
-            \input{content/glossary-rina}
-
-        \subsection{File Types and Formats}
-            \input{content/glossary-ftt}
-
         \subsection{Misc}
             \input{content/glossary-misc}
 
-        \subsection{Organizations}
-            \input{content/glossary-org}
+    \input{content/production}
 
-    \section{Links}
-        \subsection{Colors}
-            \input{content/links-colors}
-        \subsection{Color Schemes}
-            \input{content/links-color-schemes}
-        \subsection{Color Tools}
-            \input{content/links-color-tools}
-
-        \subsection{Visualization Frameworks}
-            \input{content/links-viz-frameworks}
-        \subsection{eCharts}
-            \input{content/links-echarts}
-
-        \subsection{Slides}
-            \input{content/links-slides}
+    \input{content/material}
 
 
-    \setlength{\columnseprule}{0.25pt}
+    \input{content/links}
 
-    \section{Contributors}
-        \input{content/contributors}
+%    \setlength{\columnseprule}{0.25pt}
+
+    \input{content/contributors}
 
     \section{Acronyms}
         \begin{multicols}{2}

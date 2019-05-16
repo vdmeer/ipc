@@ -15,12 +15,12 @@
 
 <document>
     <properties>
-        <title>Networks - ARCFIRE</title>
+        <title>Schema Examples - ARCFIRE</title>
         <author email="vdmeer dot sven at mykolab dot com">Sven van der Meer</author>
     </properties>
 
     <body>
-        <section name="Networks - ARCFIRE">
+        <section name="Schema Examples - ARCFIRE">
 
             <p style="font-size: 1.25em">
                 The network schemas here are based on the H2020 project ARCFIRE, mostly the examples from deliverable D2.2.
@@ -44,44 +44,6 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><a href="af-d22-wifi1/index.html">WiFi 1</a></td>
-                        <td>Access network</td>
-                        <td>
-                            Simple wireless access
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><a href="af-d22-wifi2/index.html">WiFi 2</a></td>
-                        <td>Access network</td>
-                        <td>
-                            Scalable wireless access
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><a href="af-d22-lte/index.html">LTE</a></td>
-                        <td>Access network</td>
-                        <td>
-                            a simple LTE schema
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td><a href="af-d22-residential/index.html">Residential</a></td>
-                        <td>Operator to User</td>
-                        <td>
-                            access and services
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td><a href="af-d22-ixp/index.html">IXP</a></td>
-                        <td>Between Operators</td>
-                        <td>
-                            Multi-provider data exchange
-                        </td>
-                    </tr>
-
-                    <tr>
                         <td><a href="af-d22-core/index.html">Core</a></td>
                         <td>Inside the Operator Network</td>
                         <td>
@@ -96,6 +58,20 @@
                         </td>
                     </tr>
                     <tr>
+                        <td><a href="af-d22-ixp/index.html">IXP</a></td>
+                        <td>Between Operators</td>
+                        <td>
+                            Multi-provider data exchange
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="af-d22-lte/index.html">LTE</a></td>
+                        <td>Access network</td>
+                        <td>
+                            a simple LTE schema
+                        </td>
+                    </tr>
+                    <tr>
                         <td><a href="af-d22-metro/index.html">Metro</a></td>
                         <td>Inside the Operator Network</td>
                         <td>
@@ -107,6 +83,27 @@
                         <td>Inside the Operator Network</td>
                         <td>
                             Provider backbone bridge
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="af-d22-residential/index.html">Residential</a></td>
+                        <td>Operator to User</td>
+                        <td>
+                            access and services
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="af-d22-wifi1/index.html">WiFi 1</a></td>
+                        <td>Access network</td>
+                        <td>
+                            Simple wireless access
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="af-d22-wifi2/index.html">WiFi 2</a></td>
+                        <td>Access network</td>
+                        <td>
+                            Scalable wireless access
                         </td>
                     </tr>
                 </table>

@@ -15,12 +15,12 @@
 
 <document>
     <properties>
-        <title>Networks - ARCFIRE - core</title>
+        <title>Schema Examples - ARCFIRE - core</title>
         <author email="vdmeer dot sven at mykolab dot com">Sven van der Meer</author>
     </properties>
 
     <body>
-        <section name="Networks - ARCFIRE - core">
+        <section name="Schema Examples - ARCFIRE - core">
 
             <subsection name="Design">
                 <p style="font-size: 1.25em">
@@ -31,6 +31,25 @@
                 </p>
                 <p style="font-size: 1.25em">
                     Backbones aggregate traffic, very different QoS models supported
+                </p>
+                <hr />
+
+                <p style="font-size: 1.25em">
+                    The core is in charge of transporting traffic between core Point Of Presences (POPs).
+                    This traffic can come
+                        from the operator’s customers (aggregated via access and Metropolitan Area Network (MAN) networks),
+                        local or regional Data Centers (DCs),
+                        or other operators.
+                    This network segment provides a transport facility to service DIFs across the provider’s main POPs.
+                    It deals with highly aggregated traffic carried governed by (very) different QoS promises.
+                </p>
+                <p style="font-size: 1.25em">
+                    This network provides a sophisticated design suitable for very large core networks, ready to scale-up if needed.
+                    In this design, we find 2 levels of backbone DIFs, L1 and L2.
+                    <i>Backbone Level 1</i> aggregates the traffic over several MAN core POPs into regional core POPs.
+                    These regional core POPs are all interconnected by <i>Backbone Level 2</i>.
+                    <i>Backbone Level 1</i> is further divided into different areas, which map to the regions in the provider’s network.
+                    Its structure can be leveraged to design an effective addressing and forwarding scheme.
                 </p>
 
                 <hr />

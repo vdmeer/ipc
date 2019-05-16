@@ -1,0 +1,42 @@
+@startuml
+
+hide members
+hide circle
+
+skinparam ClassArrowColor Black
+skinparam ClassBorderColor Black
+skinparam ClassFontColor Black
+skinparam ClassFontName "Calibri Normal"
+skinparam ClassFontSize 18
+skinparam ClassBackgroundColor #ebe2d4
+skinparam ClassBorderThickness 2
+skinparam Shadowing false
+skinparam Padding 4
+skinparam SameClassWidth true
+
+
+together {
+    class Facility
+    class "Distributed\nApplication\nFacility"
+    class "Distributed\nIPC\nFacility"
+}
+
+Facility <|-- "Distributed\nApplication\nFacility"
+Facility <|-- "Distributed\nIPC\nFacility"
+
+"Distributed\nApplication\nFacility" <. "Distributed\nApplication\nFacility" : uses
+"Distributed\nApplication\nFacility" .> "Distributed\nIPC\nFacility" : uses
+"Distributed\nIPC\nFacility" <. "Distributed\nIPC\nFacility" : uses
+
+
+"Distributed\nApplication\nFacility" *--> "Distributed\nApplication\nProcess"
+"Distributed\nApplication\nFacility" ..> "Distributed\nApplication\nProcess" : scope
+
+
+"Distributed\nIPC\nFacility" *--> "IPC\nProcess"
+"Distributed\nIPC\nFacility" ..> "IPC\nProcess" : scope
+
+Domain .> "Distributed\nApplication\nProcess" : "common range,\ne.g.management"
+
+
+@enduml

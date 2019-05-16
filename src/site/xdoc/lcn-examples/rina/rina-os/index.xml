@@ -15,12 +15,12 @@
 
 <document>
     <properties>
-        <title>Networks - RINA - rina-os</title>
+        <title>Schema Examples - RINA - rina-os</title>
         <author email="vdmeer dot sven at mykolab dot com">Sven van der Meer</author>
     </properties>
 
     <body>
-        <section name="Networks - RINA - rina-os">
+        <section name="Schema Examples - RINA - rina-os">
 
             <subsection name="Design">
                 <p style="font-size: 1.25em">

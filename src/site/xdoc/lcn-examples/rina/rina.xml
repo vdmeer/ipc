@@ -15,12 +15,12 @@
 
 <document>
     <properties>
-        <title>Networks - RINA</title>
+        <title>Schema Examples - RINA</title>
         <author email="vdmeer dot sven at mykolab dot com">Sven van der Meer</author>
     </properties>
 
     <body>
-        <section name="Networks - RINA">
+        <section name="Schema Examples - RINA">
                 <p style="font-size: 1.25em">
                     Schemas used to teach IPC
                 </p>
@@ -46,21 +46,6 @@
                     </tr>
 
                     <tr>
-                        <td><a href="rina-2h/index.html">2 Hosts</a></td>
-                        <td>2 Hosts</td>
-                        <td>
-                            The shortest possible network
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><a href="rina-2h-ir/index.html">2 Hosts + IR</a></td>
-                        <td>2 Hosts</td>
-                        <td>
-                            The shortest possible network, plus an interior router
-                        </td>
-                    </tr>
-
-                    <tr>
                         <td><a href="rina-2br/index.html">2 Border Routers</a></td>
                         <td>2 Border Routers</td>
                         <td>
@@ -74,27 +59,32 @@
                             Looking at border routers, with an additional interior router
                         </td>
                     </tr>
-
                     <tr>
-                        <td><a href="rina-std-short/index.html">Standard Short</a></td>
-                        <td>Standard</td>
+                        <td><a href="rina-2h/index.html">2 Hosts</a></td>
+                        <td>2 Hosts</td>
                         <td>
-                            As used in many documents
+                            The shortest possible network
                         </td>
                     </tr>
                     <tr>
-                        <td><a href="rina-std-long/index.html">Standard Long</a></td>
-                        <td>Standard</td>
+                        <td><a href="rina-2h-ir/index.html">2 Hosts + IR</a></td>
+                        <td>2 Hosts</td>
                         <td>
-                            A longer standard schema, used in John Day’s RINA lectures
+                            The shortest possible network, plus an interior router
                         </td>
                     </tr>
-
                     <tr>
                         <td><a href="rina-long-ir/index.html">Long IR</a></td>
                         <td>Long</td>
                         <td>
                             A long schema, here only with interior routers
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="rina-os/index.html">OS</a></td>
+                        <td>Misc</td>
+                        <td>
+                            An operating system
                         </td>
                     </tr>
                     <tr>
@@ -104,7 +94,20 @@
                             The classic example of a skewed necklace, with WiFi systems
                         </td>
                     </tr>
-
+                    <tr>
+                        <td><a href="rina-std-long/index.html">Standard Long</a></td>
+                        <td>Standard</td>
+                        <td>
+                            A longer standard schema, used in John Day’s RINA lectures
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="rina-std-short/index.html">Standard Short</a></td>
+                        <td>Standard</td>
+                        <td>
+                            As used in many documents
+                        </td>
+                    </tr>
                     <tr>
                         <td><a href="rina-wilan/index.html">WiLAN</a></td>
                         <td>Misc</td>
@@ -112,18 +115,8 @@
                             Combination of wireless and wired systems forming a WiLAN
                         </td>
                     </tr>
-
-                    <tr>
-                        <td><a href="rina-os/index.html">OS</a></td>
-                        <td>Misc</td>
-                        <td>
-                            An operating system
-                        </td>
-                    </tr>
-
                 </table>
             </subsection>
-
 
         </section>
     </body>

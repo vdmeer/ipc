@@ -48,15 +48,15 @@
                 </item>
                 <item href="lcn-examples/arcfire/arcfire.html" name="ARCFIRE" collapse="true">
                         <item href="lcn-examples/arcfire/af-d22-copper/index.html" name="Copper" />
-                        <item href="lcn-examples/arcfire/af-d22-wifi1/index.html" name="WiFi 1" />
-                        <item href="lcn-examples/arcfire/af-d22-wifi2/index.html" name="WiFi 2" />
-                        <item href="lcn-examples/arcfire/af-d22-lte/index.html" name="LTE" />
-                        <item href="lcn-examples/arcfire/af-d22-residential/index.html" name="Residential" />
-                        <item href="lcn-examples/arcfire/af-d22-ixp/index.html" name="IXP" />
                         <item href="lcn-examples/arcfire/af-d22-core/index.html" name="Core" />
                         <item href="lcn-examples/arcfire/af-d22-dc/index.html" name="DC" />
+                        <item href="lcn-examples/arcfire/af-d22-ixp/index.html" name="IXP" />
+                        <item href="lcn-examples/arcfire/af-d22-lte/index.html" name="LTE" />
                         <item href="lcn-examples/arcfire/af-d22-metro/index.html" name="Metro" />
                         <item href="lcn-examples/arcfire/af-d22-pbb/index.html" name="PBB" />
+                        <item href="lcn-examples/arcfire/af-d22-residential/index.html" name="Residential" />
+                        <item href="lcn-examples/arcfire/af-d22-wifi1/index.html" name="WiFi 1" />
+                        <item href="lcn-examples/arcfire/af-d22-wifi2/index.html" name="WiFi 2" />
                         <item href="lcn-examples/arcfire/af-d22-together1/index.html" name="Together 1" />
                         <item href="lcn-examples/arcfire/af-d22-together2/index.html" name="Together 2" />
                         <item href="lcn-examples/arcfire/af-d22-together3/index.html" name="Together 3" />

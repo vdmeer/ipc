@@ -1,0 +1,72 @@
+\section{Production}
+\label{sec:production}
+
+    The \ac{people:vdmeer-sven:LCN} main guide and the examples are created using Microsoft Powerpoint and then exported to \acs{org:iso:PDF}.
+    This \ac{people:vdmeer-sven:LCN} Postscript document is created using \LaTeX.
+    The website is created using Apache Maven and the Maven-Site plugin.
+    All tools and external artifacts are listed in \autoref{sec:material}.
+
+
+\subsection{Text Files}
+    All text files are encoded in the \acs{ict:unicode:UTF}-8 with UNIX line terminators.
+
+
+\subsection{Graphics}
+
+    The \ac{people:vdmeer-sven:LCN} drawings are all realized using Inkscape.
+    The file format is Inkscape SVGZ, essentially \ac{org:w3c:SVG} with some extensions and GZIP compression.
+    The font used for characters is Calibri.
+    It is not embedded in the source.
+    This means editing the source files requires a legal installation of the Calibri font, which comes as standard on Windows.
+    \index{SVG}
+
+    Vector images are then exported to \ac{com:us:microsoft:EMF} for use in Microsoft Powerpoint\footnote{An export as vector image to \acs{org:iso:PDF} is also possible for use in other publishing environments, such as \LaTeX.}.
+    \ac{org:ietf:PNG}, a bitmap image format defined by the \acs{org:IETF}, is used in the website and for some screen shots.
+    \index{EMF}\index{PNG}
+
+    Some graphics show \ac{org:omg:UML} diagrams, for instance to show the elements of an application.
+    \ac{org:omg:UML} is a general purpose modeling language used to visualize the design of a software system defined by the \acs{org:OMG}.
+    These diagrams are drawn using PlantUML, then exported to \ac{org:w3c:SVG} for some postprocessing.
+    \index{UML}
+
+
+\subsection{Specifications}
+
+    The \ac{people:vdmeer-sven:LCN} provides some specifications, for instance for network schemas and fingerprints.
+    Data serialization languages are used to express some of those specifications.
+    The first one is \acs{org:ecma:JSON}\footnote{\ac{org:ecma:JSON}, see \href{https://www.json.org/}{json.org}}.
+        It was originally defined for JavaScript and is today maintained by the \acs{org:ECMA}.
+    Most specifications are presented in \acs{ict:lang:YAML}\footnote{\ac{ict:lang:YAML}, see \href{https://yaml.org/}{yaml.org}}.
+        This language, as per version 1.2, is a superset of \ac{org:ecma:JSON}.
+    Some of the simple specifications use \ac{ict:CSV}.
+        This is a delimited text file that uses a comma to separate values.
+    \index{JSON}\index{YAML}\index{CSV}
+
+
+\subsection{Guide and Examples}
+    Guide and Examples are realized in Microsoft Powerpoint, using are simple, specially designed template.
+    The main font is Bell MT.
+    For some parts, Garamond is used.
+    None of the fonts are embedded in the \acs{com:us:microsoft:PPTX} sources.
+    This means editing the sources requires a legal installation of these fonts, which come as standard on Windows.
+    The provided \acs{org:iso:PDF} export has the fonts embedded.
+
+    The template colors are taken from the warm beige colors in \href{https://encycolorpedia.com/cfb997}{encycolorpedia.com/cf997}.
+    Advice for creating slides was taken from Jean-luc Doumont, especially this \href{https://www.youtube.com/watch?v=meBXuTIPJQk}{talk}
+        and this \href{http://www.principiae.be/X0800.php}{website}.
+    Advice for colors and how to use them in graphics (and charts) was taken from
+        this \href{https://medium.com/@Elijah_Meeks/color-advice-for-data-visualization-with-d3-js-33b5adc41c90}{blog},
+        from the \acs{org:NASA} Earth Observatory blogs on \href{https://earthobservatory.nasa.gov/blogs/elegantfigures/}{elegantfigures} and \href{https://earthobservatory.nasa.gov/blogs/elegantfigures/category/color/}{color}, and
+        \href{https://socviz.co/refineplots.html}{section 8} of a book.
+
+
+\subsection{Postscript}
+    The Postscript document is realized using \LaTeX.
+    It uses the same fonts as the Guide and Examples.
+    This means that LuaTeX is required, along with a legal installation of these fonts.
+
+    The \LaTeX packages used are standard packages of a TeX Live installation.
+    The reference backend is Biber.
+    References are processed using Biblatex.
+    The index backend is Makeindex.
+
