@@ -22,7 +22,7 @@
     <body>
         <section name="Schema Matrix">
 
-            <subsection name="RINA Examples - Schema Fingerprints 1-6">
+            <subsection name="RINA Networks - Schema Fingerprints 1-6">
                 <table>
                     <tr>
                         <td>rina-2h</td>
@@ -122,7 +122,7 @@
                 </table>
             </subsection>
 
-            <subsection name="RINA Examples - Schema Fingerprints 7-12">
+            <subsection name="RINA Networks - Schema Fingerprints 7-12">
                 <table>
                     <tr>
                         <td>rina-2h</td>
@@ -222,7 +222,7 @@
                 </table>
             </subsection>
 
-            <subsection name="RINA Examples - System Fingerprints">
+            <subsection name="RINA Networks - System Fingerprints">
                 <table>
                     <tr>
                         <td>rina-2h</td>
@@ -302,7 +302,7 @@
                 </table>
             </subsection>
 
-            <subsection name="RINA Examples - Layer Fingerprints">
+            <subsection name="RINA Networks - Layer Fingerprints">
                 <table>
                     <tr>
                         <td>rina-2h</td>
@@ -372,7 +372,7 @@
                 </table>
             </subsection>
 
-            <subsection name="RINA Examples - 3D">
+            <subsection name="RINA Networks - 3D">
                 <table>
                     <tr>
                         <td>rina-2h</td>
@@ -454,7 +454,7 @@
 
 
 
-            <subsection name="ARCFIRE Examples - Schema Fingerprints 1-6">
+            <subsection name="CNOP Networks - Schema Fingerprints 1-6">
                 <table>
                     <tr>
                         <td>af-d22-copper</td>
@@ -585,7 +585,7 @@
                 </table>
             </subsection>
 
-            <subsection name="ARCFIRE Examples - Schema Fingerprints 7-12">
+            <subsection name="CNOP Networks - Schema Fingerprints 7-12">
                 <table>
                     <tr>
                         <td>af-d22-copper</td>
@@ -716,7 +716,7 @@
                 </table>
             </subsection>
 
-            <subsection name="ARCFIRE Examples - System Fingerprints">
+            <subsection name="CNOP Networks - System Fingerprints">
                 <table>
                     <tr>
                         <td>af-d22-copper</td>
@@ -819,7 +819,7 @@
                 </table>
             </subsection>
 
-            <subsection name="ARCFIRE Examples - Layer Fingerprints">
+            <subsection name="CNOP Networks - Layer Fingerprints">
                 <table>
                     <tr>
                         <td>af-d22-copper</td>
@@ -908,7 +908,7 @@
                 </table>
             </subsection>
 
-            <subsection name="ARCFIRE Examples - 3D">
+            <subsection name="CNOP Networks - 3D">
                 <table>
                     <tr>
                         <td>af-d22-copper</td>

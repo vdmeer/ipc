@@ -32,10 +32,10 @@
                 <item href="lcn/guide.html" name="LCN Guide" collapse="false">
 
                 </item>
-                <item href="lcn/examples.html" name="LCN Examples" collapse="false">
-                    <item href="lcn/examples/rina.html" name="RINA" />
-                    <item href="lcn/examples/arcfire.html" name="ARCFIRE" />
-                    <item href="lcn/examples/schema-matrix.html" name="Schema Matrix" collapse="false" />
+                <item href="lcn/layouts.html" name="LCN Layouts" collapse="false">
+                    <item href="lcn/layouts/rina.html" name="RINA" />
+                    <item href="lcn/layouts/arcfire.html" name="ARCFIRE" />
+                    <item href="lcn/layouts/schema-matrix.html" name="Schema Matrix" collapse="false" />
                 </item>
                 <item href="lcn/postscript.html" name="LCN Postscript" collapse="false">
 
@@ -43,36 +43,39 @@
             </item>
 
             <item href="networks.html" name="Networks" collapse="false">
-                <item href="networks/rina.html" name="RINA" collapse="true">
-                    <item href="networks/rina/2br/2br.html" name="2 BR" />
-                    <item href="networks/rina/2br-ir/2br-ir.html" name="2 BR, IR" />
-                    <item href="networks/rina/2h/2h.html" name="2 Hosts" />
-                    <item href="networks/rina/2h-ir/2h-ir.html" name="2 Host, IR" />
-                    <item href="networks/rina/long-ir/long-ir.html" name="Long IR" />
-                    <item href="networks/rina/os/os.html" name="OS" />
-                    <item href="networks/rina/sn-wifi/sn-wifi.html" name="SN WiFi" />
-                    <item href="networks/rina/std-long/std-long.html" name="Standard Long" />
-                    <item href="networks/rina/std-short/std-short.html" name="Standard Short" />
-                    <item href="networks/rina/wilan/wilan.html" name="WiLAN" />
-                </item>
-                <item href="networks/arcfire.html" name="ARCFIRE" collapse="true">
-                        <item href="networks/arcfire/copper/copper.html" name="Copper" />
-                        <item href="networks/arcfire/core/core.html" name="Core" />
-                        <item href="networks/arcfire/dc/dc.html" name="DC" />
-                        <item href="networks/arcfire/ixp/ixp.html" name="IXP" />
-                        <item href="networks/arcfire/lte/lte.html" name="LTE" />
-                        <item href="networks/arcfire/metro/metro.html" name="Metro" />
-                        <item href="networks/arcfire/pbb/pbb.html" name="PBB" />
-                        <item href="networks/arcfire/residential/residential.html" name="Residential" />
-                        <item href="networks/arcfire/wifi1/wifi1.html" name="WiFi 1" />
-                        <item href="networks/arcfire/wifi2/wifi2.html" name="WiFi 2" />
-                        <item href="networks/arcfire/together1/together1.html" name="Together 1" />
-                        <item href="networks/arcfire/together2/together2.html" name="Together 2" />
-                        <item href="networks/arcfire/together3/together3.html" name="Together 3" />
-                        <item href="networks/arcfire/together4/together4.html" name="Together 4" />
-                </item>
                 <item href="networks/schema-matrix.html" name="Schema Matrix" collapse="false" />
             </item>
+
+            <item href="networks/rina.html" name="Networks: RINA" collapse="true">
+                <item href="networks/rina/2br/2br.html" name="2 BR" />
+                <item href="networks/rina/2br-ir/2br-ir.html" name="2 BR, IR" />
+                <item href="networks/rina/2h/2h.html" name="2 Hosts" />
+                <item href="networks/rina/2h-ir/2h-ir.html" name="2 Host, IR" />
+                <item href="networks/rina/long-ir/long-ir.html" name="Long IR" />
+                <item href="networks/rina/os/os.html" name="OS" />
+                <item href="networks/rina/sn-wifi/sn-wifi.html" name="SN WiFi" />
+                <item href="networks/rina/std-long/std-long.html" name="Standard Long" />
+                <item href="networks/rina/std-short/std-short.html" name="Standard Short" />
+                <item href="networks/rina/wilan/wilan.html" name="WiLAN" />
+            </item>
+
+            <item href="networks/cnop.html" name="Networks: CNOP" collapse="true">
+                    <item href="networks/cnop/copper/copper.html" name="Copper" />
+                    <item href="networks/cnop/core/core.html" name="Core" />
+                    <item href="networks/cnop/dc/dc.html" name="DC" />
+                    <item href="networks/cnop/ixp/ixp.html" name="IXP" />
+                    <item href="networks/cnop/lte/lte.html" name="LTE" />
+                    <item href="networks/cnop/metro/metro.html" name="Metro" />
+                    <item href="networks/cnop/pbb/pbb.html" name="PBB" />
+                    <item href="networks/cnop/residential/residential.html" name="Residential" />
+                    <item href="networks/cnop/wifi1/wifi1.html" name="WiFi 1" />
+                    <item href="networks/cnop/wifi2/wifi2.html" name="WiFi 2" />
+                    <item href="networks/cnop/together1/together1.html" name="Together 1" />
+                    <item href="networks/cnop/together2/together2.html" name="Together 2" />
+                    <item href="networks/cnop/together3/together3.html" name="Together 3" />
+                    <item href="networks/cnop/together4/together4.html" name="Together 4" />
+            </item>
+
 
 
         </menu>
