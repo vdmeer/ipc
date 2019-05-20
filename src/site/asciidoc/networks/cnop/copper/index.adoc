@@ -8,10 +8,6 @@ include::{skb-site-main-dir}/main/networks/cnop/copper/bullets.adoc[]
 
 include::{skb-site-main-dir}/main/networks/cnop/copper/description.adoc[]
 
-'''
-
-=== ###
-
 image::design.png[alt="Network, CNOP, Copper: Design",width=50%,align=center]
 
 '''

@@ -138,7 +138,7 @@
                     <item href="networks/cnop/metro/fp-layers.html" name="FP-Layers" />
                     <item href="networks/cnop/metro/3d.html" name="3D" />
                 </item>
-                <item href="networks/cnop/metro/index.html" name="PBB" collapse="true">
+                <item href="networks/cnop/pbb/index.html" name="PBB" collapse="true">
                     <item href="networks/cnop/pbb/fp-schemas.html" name="FP-Schemas" />
                     <item href="networks/cnop/pbb/fp-systems.html" name="FP-Systems" />
                     <item href="networks/cnop/pbb/fp-layers.html" name="FP-Layers" />

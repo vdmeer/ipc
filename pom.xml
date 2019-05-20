@@ -22,7 +22,7 @@
         <!-- PLUGIN VERSION PROPERTIES, mostly for plugins -->
         <skb.plugin-version.maven-javadoc>3.0.0-M1</skb.plugin-version.maven-javadoc>
         <skb.plugin-version.maven-project-info-reports>2.9</skb.plugin-version.maven-project-info-reports>
-        <skb.plugin-version.asciidoctor-maven>1.5.6</skb.plugin-version.asciidoctor-maven>
+        <skb.plugin-version.asciidoctor-maven>1.5.8</skb.plugin-version.asciidoctor-maven>
         <skb.plugin-version.maven-site>3.5</skb.plugin-version.maven-site>
 
         <!-- DOCLET VERSION PROPERTIES -->
