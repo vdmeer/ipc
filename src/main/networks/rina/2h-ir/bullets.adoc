@@ -1,0 +1,3 @@
+* Second simplest network
+* 2 hosts connected by a router, with 1 DIF and 1 DAF
+* Modeled with 2 separate Ethernet Shim DIFs

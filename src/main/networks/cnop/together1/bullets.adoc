@@ -1,0 +1,3 @@
+* Complete service provider example
+* With residential customer, fixed access
+* Simple layout (layers) can provide all services to many customers

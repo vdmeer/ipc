@@ -1,0 +1,6 @@
+This is an example of a provider network offering enterprise VPN.
+The design of the core of the network, the backbone, must allow the offering of any number of VPLS to any number of customers, while hiding the internal topology of the operator.
+The design used here shows two metro aggregation networks that connect customer sites and a backbone network that routes VPN services through the provider's network interconnecting POPs.
+In combination, they realise the layer 2 network supporting a generic VPN service DIF and on top of that the actual customer services (in the example here a DIF called _Green VPN_).
+This design is called PBB.
+It isolates of the VPN service over the provider network from the customer's address space.

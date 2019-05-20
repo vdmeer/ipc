@@ -1,0 +1,3 @@
+* Example of 4G LTE radio access
+* User equipment (UE) to base station; LTE UU serves mobility
+* No tunneling (e.g. GTP) required with IPC

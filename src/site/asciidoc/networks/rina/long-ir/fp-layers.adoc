@@ -1,0 +1,26 @@
+== Long IR - Fingerprints - Layers
+
+[cols="80,20", frame=none, grid=rows]
+|===
+a|image::layfp1.png[alt="Network, RINA, Long IR: Fingerprint, Systen, 1"]
+a|
+blue _layers_, grey _processes_
+----
+61b, 62g
+----
+
+a|image::layfp2.png[alt="Network, RINA, Long IR: Fingerprint, Systen, 2"]
+a|
+grey _layers_, blue _processes_
+----
+61g, 62b
+----
+
+a|image::layfp3.png[alt="Network, RINA, Long IR: Fingerprint, Systen, 3"]
+a|
+colored _layers_, grey _processes_
+----
+61c, 62g
+----
+
+|===

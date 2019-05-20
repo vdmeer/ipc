@@ -1,0 +1,12 @@
+This is an example of a network with Service \acs{org:psoc:rina:DIF}.
+Service \acs{org:psoc:rina:DIF} are \acp{org:psoc:rina:DIF} that provide \acs{ict:IPC} services end-to-end over the whole scope of the service provider network, as an \acs{ict:net:role:ISP} would normally do.
+They allow customers to access ``utility \acp{org:psoc:rina:DIF}'', such as a public Internet \ac{org:psoc:rina:DIF}, \ac{ict:net:VPN} \acp{org:psoc:rina:DIF} independent of the used access technology.
+They can also be used to hide mobility of clients within the scope of the service provider network (and from the ``utility \acp{org:psoc:rina:DIF}'').
+
+In this Service \acs{org:psoc:rina:DIF} network, a \textit{Residential Service} \ac{org:psoc:rina:DIF} is placed between the network and two utility \acp{org:psoc:rina:DIF} called \textit{\acs{ict:net:VPN}} and \textit{Internet}.
+The access network is modelled as a wireless network (\textit{Wireless Network} with an \ac{ict:net:AP} and a \ac{ict:net:STA} node).
+Access could also provided via a fixed technology, such as \acs{ict:net:DSL}.
+
+The aggregation of access traffic is realised by a \textit{\acs{ict:net:MAN} Service} \ac{org:psoc:rina:DIF} towards an edge service router.
+The provider's core network then is a \textit{Backbone} \ac{org:psoc:rina:DIF} supported by a \ac{org:ietf:ppvpn:PE} service routers (2 in this example).
+\textit{Residential Service} carries the traffic of \textit{\acs{ict:net:VPN}} and \textit{Internet} up to the \ac{org:ietf:ppvpn:PE} router.

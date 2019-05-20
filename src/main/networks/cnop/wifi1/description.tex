@@ -1,0 +1,11 @@
+This is the wireless equivalent of the fixed access network in \autoref{sec:examples:af-d22:copper}.
+It shows a \acs{org:ieee:802:WIFI} network were an \ac{ict:net:AP} -- an access router -- provides wireless access to a group of stations (\acs{ict:net:STA}).
+The traffic of \ac{ict:net:AP} is multiplexed over the aggregation networks into one or more edge service routers, which forward traffic to other edge service routers via the core network or to border routers if the destination is outside of the provider's network.
+
+The chosen \acs{org:psoc:rina:DIF} structure is as follows:
+\textit{WiFi} manages \ac{ict:IPC} over a wireless link between \acp{ict:net:AP} and stations.
+\textit{Provider Top Level} aggregate traffic from multiple \acp{ict:net:AP} into the edge service router(s).
+It works on top of \textit{Aggregation} in the segment between the \acs{ict:net:AP} and the edge service router(s).
+It works on top of \textit{Core} in the segment between the edge service router(s) and the border router(s).
+It handles mobility of hosts (stations) within the service provider network, realising seamless roaming.
+

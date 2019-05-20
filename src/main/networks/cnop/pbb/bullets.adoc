@@ -1,0 +1,4 @@
+* Example of a Provider Backbone Bridging (PBB) network
+* Shows independence of provider and customer
+* Operator sells generic VPN service to customers
+* Customer Green VPN and application "bridge" provider network

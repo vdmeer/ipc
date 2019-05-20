@@ -1,0 +1,3 @@
+* The simplest of possible networks
+* 2 hosts with 1 DIF and 1 DAF
+* Even simpler if only the Shim DIF is used

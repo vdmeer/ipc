@@ -1,0 +1,8 @@
+This is an example of cellular network offering Internet services.
+The network models the UP protocol stack of an LTE or 4G mobile network.
+Many of the original protocols (such as the tunnelling using GTP) disappear.
+They are replaced by the _LTE UU DIF.
+The _MNO_ Top Level} DIF provides the flows over the scope of the mobile network, including its _Metro_ and _Backbone_ parts.
+The later two multiplex and transport the mobile traffic over the metro and core network segments.
+The _Internet_ DIF is added to show a DIF for services and applications.
+For simplicity, we only added 1 UE.

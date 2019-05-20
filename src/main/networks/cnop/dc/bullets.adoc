@@ -1,0 +1,3 @@
+* A data center network example, here a Spine-Leaf configuration
+* Tenant VMs to DC servers, then Top of Rack (ToR) and actual fabric
+* Supports multiple tenants and multiple different applications per tenant

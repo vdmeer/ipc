@@ -1,0 +1,12 @@
+This is an example of a network with Service DIF.
+Service DIF are DIFs that provide IPC services end-to-end over the whole scope of the service provider network, as an ISP would normally do.
+They allow customers to access "utility DIFs", such as a public Internet DIF, VPN DIFs independent of the used access technology.
+They can also be used to hide mobility of clients within the scope of the service provider network (and from the "utility DIFs").
+
+In this Service DIF network, a _Residential Service_ DIF is placed between the network and two utility DIFs called _VPN_ and _Internet_.
+The access network is modelled as a wireless network (Wireless Network_ with an AP and a STA node).
+Access could also provided via a fixed technology, such as DSL.
+
+The aggregation of access traffic is realised by a _MAN Service_ DIF towards an edge service router.
+The provider's core network then is a _Backbone_ DIF supported by a PE service routers (2 in this example).
+_Residential Service_ carries the traffic of _VPN_ and _Internet_ up to the PE router.

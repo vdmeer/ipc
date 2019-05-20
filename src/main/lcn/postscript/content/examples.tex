@@ -63,185 +63,44 @@ Schema figures: \href{https://vdmeer.github.io/skb/ipc/lcn-examples/rina/rina-wi
 
 \subsection{ARCFIRE Schemas}
 
-The network schema examples in this subsection have been introduced and discussed in \cite{d22arcfire} and \cite{d44arcfire}.
-The graphics for the schemas are available in the \href{https://vdmeer.github.io/skb/ipc/lcn-examples/arcfire/arcfire.html}{lcn-web}.
-
-
-
-\subsubsection{Copper}
-\label{sec:examples:af-d22:copper}
-Schema figures: \href{https://vdmeer.github.io/skb/ipc/lcn-examples/arcfire/af-d22-copper/index.html}{lcn-web}
-
-This is an example of a fixed access network as a generalization of an \acs{ict:net:XDSL} network.
-The schema focuses on the local loop, a fixed copper connection, between access routers and customer equipment called \acs{ict:net:CPE}.
-Access routers aggregate traffic of several customers over the access segment, here some technology based on copper lines.
-These access routers could also connect customers via other types of fixed access technologies, such as fibre.
-A \ac{org:ietf:ppvpn:P} is used in the aggregation.
-An Edge Service Router provides customer authentication capabilities independent of the type of access network.
-
-
-
-\subsubsection{Core}
-\label{sec:examples:af-d22:core}
-Schema figures: \href{https://vdmeer.github.io/skb/ipc/lcn-examples/arcfire/af-d22-core/index.html}{lcn-web}
-
-The \textit{core} is in charge of transporting traffic between core \acp{ict:net:POP}.
-This traffic can come from
-    the operator's customers (aggregated via access and \ac{ict:net:MAN} networks),
-    local or regional \acp{ict:cloud:DC}, or
-    other operators.
-This network segment provides a transport facility to service \acp{org:psoc:rina:DIF} across the provider's main \acp{ict:net:POP}.
-It deals with highly aggregated traffic carried governed by (very) different \ac{ict:net:QoS} promises.
-
-This network provides a sophisticated design suitable for very large core networks, ready to scale-up if needed.
-In this design, we find 2 levels of backbone \acp{org:psoc:rina:DIF}, L1 and L2.
-\textit{Backbone Level 1} aggregates the traffic over several \ac{ict:net:MAN} core \acp{ict:net:POP} into regional core \acp{ict:net:POP}.
-These regional core \acp{ict:net:POP} are all interconnected by \textit{Backbone Level 2}.
-\textit{Backbone Level 1} is further divided into different areas, which map to the regions in the provider's network.
-Its structure can be leveraged to design an effective addressing and forwarding scheme.
-
-
-
-
-\subsubsection{Data Center}
-\label{sec:examples:af-d22:dc}
-Schema figures: \href{https://vdmeer.github.io/skb/ipc/lcn-examples/arcfire/af-d22-dc/index.html}{lcn-web}
-
-This is an example of multi-tenant \ac{ict:cloud:DC} network.
-The original design did use the \acs{org:ietf:VXLAN} protocol to create several layer 2 virtual networks over a shared \acs{org:ietf:ip:IPv6} \ac{ict:cloud:DC} fabric.
-This network features a \textit{Tenant} \ac{org:psoc:rina:DIF} and a \textit{DC Fabric} \ac{org:psoc:rina:DIF}.
-The later one allocates the resources in the leaf-spine fabric (between the \acs{ict:cloud:TOR} systems) to flows used by (potentially competing) \textit{Tenant} \acp{org:psoc:rina:DIF}, which provide isolated and customised networking domains to each \ac{ict:cloud:DC} tenant and its \acsp{ict:VM}.
-
-
-
-\subsubsection{IXP}
-\label{sec:examples:af-d22:ixp}
-Schema figures: \href{https://vdmeer.github.io/skb/ipc/lcn-examples/arcfire/af-d22-ixp/index.html}{lcn-web}
-
-This is an example of an interconnection or \ac{ict:net:IXP} network.
-An \ac{ict:net:IXP} is essentially a third party providing interconnection services to service providers and network operators, who usually do host their own equipment (routers) in their facilities.
-Using \ac{ict:IPC}, \acp{ict:net:IXP} are not limited to the exchange of traffic of a single type of inter-network.
-Every service provider can exchange traffic belonging to more than one \ac{org:psoc:rina:DIF}, for example
-    a general purpose \ac{org:psoc:rina:DIF} like \textit{Internet},
-    \acs{ict:net:VPN} \acp{org:psoc:rina:DIF},
-    \acs{ict:cloud:DC} interconnect, or
-    application-optimised \acp{org:psoc:rina:DIF} tat carry for instance interactive high-definition video traffic.
-
-This network design addresses this situation.
-An \textit{IXP Fabric} \ac{org:psoc:rina:DIF} transports traffic belonging to multiple \acp{org:psoc:rina:DIF} (in this example structure \textit{HD Voice} and \textit{Internet}) supported by different \ac{org:ietf:ppvpn:PE} routers.
-The configuration is very similar, if not the same, as the DC schema in \autoref{sec:examples:af-d22:dc}.
-The difference is in what the fabric connects, \ac{org:ietf:ppvpn:PE} routers or servers (and \acp{ict:VM}).
-\textit{IXP Fabric} needs to provide performance and connectivity isolation to the different `utility' \acp{org:psoc:rina:DIF}.
-
-
-
-\subsubsection{LTE}
-\label{sec:examples:af-d22:lte}
-Schema figures: \href{https://vdmeer.github.io/skb/ipc/lcn-examples/arcfire/af-d22-lte/index.html}{lcn-web}
-
-This is an example of cellular network offering Internet services.
-The network models the \ac{ict:net:UP} protocol stack of an \acs{org:3gpp:4g:LTE} or \acs{org:3gpp:4G} network.
-Many of the original protocols (such as the tunnelling using \acs{org:3gpp:GTP}) disappear.
-They are replaced by the \textit{LTE UU} \ac{org:psoc:rina:DIF}.
-The \textit{\acs{ict:net:role:MNO} Top Level} \ac{org:psoc:rina:DIF} provides the flows over the scope of the mobile network, including its \textit{Metro} and \textit{Backbone} parts.
-The later two multiplex and transport the mobile traffic over the metro and core network segments.
-The \textit{Internet} \ac{org:psoc:rina:DIF} is added to show a \ac{org:psoc:rina:DIF} for services and applications.
-For simplicity, we only added 1 \acs{org:3gpp:UE}.
-
-
-
-\subsubsection{Metro}
-\label{sec:examples:af-d22:metro}
-Schema figures: \href{https://vdmeer.github.io/skb/ipc/lcn-examples/arcfire/af-d22-metro/index.html}{lcn-web}
-
-This is an example of a \ac{ict:net:MAN} aggregation network.
-\acp{ict:net:MAN} are responsible for aggregating all access traffic in a metropolitan (or rural) region and to deliver it to the providers of core network \acp{ict:net:POP}.
-They also deliver traffic of the provider's core \acp{ict:net:POP} in a certain region to the deployed access networks.
-\acp{ict:net:MAN} also provide a set of interconnection services directly to high-end customers (enterprises).
-This done by traffic segmentation and efficient resource allocation to maximise network utilisation while proving the promised \ac{ict:net:QoS} to customers.
-
-The \ac{org:psoc:rina:DIF} structure of this network is a minimalistic version of a \acs{ict:net:MAN} segment.
-Multiple \textit{Metro Service} \acp{org:psoc:rina:DIF} realise the traffic segmentation, providing different instances of \ac{ict:IPC} for \acs{ict:net:MAN} services, for instance point-to-point (E-Line), multipoint-to-multipoint (E-LAN) or rooted multipoint (E-Tree).
-Traffic from these service instances is aggregated over the \textit{Metro Backbone} \ac{org:psoc:rina:DIF}.
-This \ac{org:psoc:rina:DIF} transports traffic over the \acs{ict:net:MAN} providing adequate \ac{ict:net:QoS} differentiation, performance isolation, and traffic engineering.
-
-
-
-\subsubsection{PBB}
-\label{sec:examples:af-d22:pbb}
-Schema figures: \href{https://vdmeer.github.io/skb/ipc/lcn-examples/arcfire/af-d22-pbb/index.html}{lcn-web}
-
-This is an example of a provider network offering enterprise \acp{ict:net:VPN}.
-The design of the core of the network, the backbone, must allow the offering of any number of \ac{org:ietf:ppvpn:VPLS} to any number of customers, while hiding the internal topology of the operator.
-The design used here shows two metro aggregation networks that connect customer sites and a backbone network that routes \ac{ict:net:VPN} services through the provider's network interconnecting \acp{ict:net:POP}.
-In combination, they realise the layer 2 network supporting a generic \ac{ict:net:VPN} service \ac{org:psoc:rina:DIF} and on top of that the actual customer services (in the example here a \ac{org:psoc:rina:DIF} called \textit{Green \acs{ict:net:VPN}}).
-This design is called \ac{org:ieee:802:PBB}.
-It isolates of the \ac{ict:net:VPN} service over the provider network from the customer's address space.
-
-
-
-\subsubsection{Residential}
-\label{sec:examples:af-d22:residential}
-Schema figures: \href{https://vdmeer.github.io/skb/ipc/lcn-examples/arcfire/af-d22-residential/index.html}{lcn-web}
-
-This is an example of a network with Service \acs{org:psoc:rina:DIF}.
-Service \acs{org:psoc:rina:DIF} are \acp{org:psoc:rina:DIF} that provide \acs{ict:IPC} services end-to-end over the whole scope of the service provider network, as an \acs{ict:net:role:ISP} would normally do.
-They allow customers to access ``utility \acp{org:psoc:rina:DIF}'', such as a public Internet \ac{org:psoc:rina:DIF}, \ac{ict:net:VPN} \acp{org:psoc:rina:DIF} independent of the used access technology.
-They can also be used to hide mobility of clients within the scope of the service provider network (and from the ``utility \acp{org:psoc:rina:DIF}'').
-
-In this Service \acs{org:psoc:rina:DIF} network, a \textit{Residential Service} \ac{org:psoc:rina:DIF} is placed between the network and two utility \acp{org:psoc:rina:DIF} called \textit{\acs{ict:net:VPN}} and \textit{Internet}.
-The access network is modelled as a wireless network (\textit{Wireless Network} with an \ac{ict:net:AP} and a \ac{ict:net:STA} node).
-Access could also provided via a fixed technology, such as \acs{ict:net:DSL}.
-
-The aggregation of access traffic is realised by a \textit{\acs{ict:net:MAN} Service} \ac{org:psoc:rina:DIF} towards an edge service router.
-The provider's core network then is a \textit{Backbone} \ac{org:psoc:rina:DIF} supported by a \ac{org:ietf:ppvpn:PE} service routers (2 in this example).
-\textit{Residential Service} carries the traffic of \textit{\acs{ict:net:VPN}} and \textit{Internet} up to the \ac{org:ietf:ppvpn:PE} router.
-
-
-
-
-\subsubsection{WiFi1}
-\label{sec:examples:af-d22:wifi1}
-Schema figures: \href{https://vdmeer.github.io/skb/ipc/lcn-examples/arcfire/af-d22-wifi1/index.html}{lcn-web}
-
-This is the wireless equivalent of the fixed access network in \autoref{sec:examples:af-d22:copper}.
-It shows a \acs{org:ieee:802:WIFI} network were an \ac{ict:net:AP} -- an access router -- provides wireless access to a group of stations (\acs{ict:net:STA}).
-The traffic of \ac{ict:net:AP} is multiplexed over the aggregation networks into one or more edge service routers, which forward traffic to other edge service routers via the core network or to border routers if the destination is outside of the provider's network.
-
-The chosen \acs{org:psoc:rina:DIF} structure is as follows:
-\textit{WiFi} manages \ac{ict:IPC} over a wireless link between \acp{ict:net:AP} and stations.
-\textit{Provider Top Level} aggregate traffic from multiple \acp{ict:net:AP} into the edge service router(s).
-It works on top of \textit{Aggregation} in the segment between the \acs{ict:net:AP} and the edge service router(s).
-It works on top of \textit{Core} in the segment between the edge service router(s) and the border router(s).
-It handles mobility of hosts (stations) within the service provider network, realising seamless roaming.
-
-
-
-\subsubsection{WiFi2}
-Schema figures: \href{https://vdmeer.github.io/skb/ipc/lcn-examples/arcfire/af-d22-wifi2/index.html}{lcn-web}
-
-This example is an extension of the simple \acs{org:ieee:802:WIFI} schema in \autoref{sec:examples:af-d22:wifi1}.
-We have inserted a \textit{Wireless Network} \acs{org:psoc:rina:DIF} to allow for more density of stations and \acp{ict:net:AP}.
-The isolation of the upper layers (services) from the local mobility event (\acs{org:ieee:802:WIFI} segment) increases the scalability of the network, since the service layers only see the access router
-This reduces the number of processes in the service layers and hides all mobility events, which are now handled exclusively by the wireless network.
-In turn, the wireless network can now be designed for a point-to-point or multi-access.
-It can contain all required wireless security, multiplexing, delimiting, and required layer management (e.g. for the channel selection on the physical medium).
-
-
-
-\subsubsection{Together 1-4}
-\label{sec:examples:af-d22:together1-4}
-Schema figures on the lcn-web: \href{https://vdmeer.github.io/skb/ipc/lcn-examples/arcfire/af-d22-together1/index.html}{together1}, \href{https://vdmeer.github.io/skb/ipc/lcn-examples/arcfire/af-d22-together2/index.html}{together2}, \href{https://vdmeer.github.io/skb/ipc/lcn-examples/arcfire/af-d22-together3/index.html}{together3}, \href{https://vdmeer.github.io/skb/ipc/lcn-examples/arcfire/af-d22-together4/index.html}{together4}
-
-This is an example of a complete service provider network with residential fixed access.
-A residential customer does access remote applications or the Internet in general via `utility' \acp{org:psoc:rina:DIF}, here called \textit{Application} and \textit{Internet}.
-The \ac{org:psoc:rina:DIF} structure integrates data transfer and layer management protocols, leading to a significant simplification of the provider's network.
-\autoref{fig:exp1:networks:d22-together1:example} shows an example for this network.
-
-%This network is very similar to \xNetwork{d22-together3} in \autoref{sec:exp1:annex:networks:d22-together3}.
-The only difference is in the access segment of the network.
-In this network, we use a fixed access of a node \textit{Host} connected to a node \textit{\acs{ict:net:CPE}} serving a \ac{org:psoc:rina:DIF} \textit{Home}.
-\textit{\acs{ict:net:CPE}} then connects to the \textit{Access Router}.
-The \ac{org:psoc:rina:DIF} \textit{Residential Service} floats on top of \textit{ict:net:CPE} and \textit{Access Router}.
-\textit{Home} and \textit{Residential Service} operate on the same level.
+\acused{ict:net:XDSL}
+\acused{ict:net:CPE}
+\acused{org:ietf:ppvpn:P}
+\acused{ict:net:POP}
+\acused{ict:net:MAN}
+\acused{ict:cloud:DC}
+\acused{ict:net:POP}
+\acused{ict:net:QoS}
+\acused{ict:net:MAN}
+\acused{ict:net:POP}
+\acused{ict:net:POP}
+\acused{ict:net:POP}
+\acused{ict:cloud:DC}
+\acused{org:ietf:VXLAN}
+\acused\acs{org:ietf:ip:IPv6}
+\acused{ict:cloud:TOR}
+\acused{ict:VM}
+\acused{ict:net:IXP}
+\acused{ict:net:VPN}
+\acused{org:ietf:ppvpn:PE}
+\acused{org:3gpp:4g:LTE}
+\acused{org:3gpp:4G}
+\acused{org:3gpp:GTP}
+\acused{ict:net:role:MNO}
+\acused{org:3gpp:UE}
+\acused{ict:net:MAN}
+\acused{ict:net:POP}
+\acused{ict:net:QoS}
+\acused{ict:net:VPN}
+\acused{org:ietf:ppvpn:VPLS}
+\acused{org:ieee:802:PBB}
+\acused{ict:net:role:ISP}
+\acused{ict:net:AP}
+\acused{ict:net:STA}
+\acused{ict:net:DSL}
+\acused{org:ietf:ppvpn:PE}
+\acused{org:ieee:802:WIFI}
+\acused{ict:net:AP}
+\acused{ict:net:STA
+\acused{ict:net:CPE}
 

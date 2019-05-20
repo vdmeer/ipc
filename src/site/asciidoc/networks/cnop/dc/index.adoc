@@ -1,0 +1,22 @@
+== Networks - CNOP - Data Center
+
+include::{skb-site-main-dir}/main/networks/cnop/dc/bullets.adoc[]
+
+'''
+
+=== Description
+
+include::{skb-site-main-dir}/main/networks/cnop/dc/description.adoc[]
+
+'''
+
+=== Schema
+
+image::schema.png[alt="Network, CNOP, DC: Schema",align=center]
+
+'''
+
+=== 3D
+
+image::3dcc.png[alt="Network, CNOP, DC: 3D",align=center]
+

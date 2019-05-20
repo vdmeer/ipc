@@ -60,7 +60,7 @@
                         <attributes>
                             <source-highlighter>coderay</source-highlighter>
                             <coderay-css>style</coderay-css>
-                            <imagesdir>images</imagesdir>
+                            <imagesdir>./</imagesdir>
                         </attributes>
                     </asciidoc>
                     <moduleExcludes>

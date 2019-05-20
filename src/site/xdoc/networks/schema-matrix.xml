@@ -457,130 +457,130 @@
             <subsection name="CNOP Networks - Schema Fingerprints 1-6">
                 <table>
                     <tr>
-                        <td>af-d22-copper</td>
-                        <td><img src="arcfire/copper/sfp01.png" /></td>
-                        <td><img src="arcfire/copper/sfp02.png" /></td>
-                        <td><img src="arcfire/copper/sfp03.png" /></td>
-                        <td><img src="arcfire/copper/sfp04.png" /></td>
-                        <td><img src="arcfire/copper/sfp05.png" /></td>
-                        <td><img src="arcfire/copper/sfp06.png" /></td>
+                        <td>copper</td>
+                        <td><img src="cnop/copper/sfp01.png" /></td>
+                        <td><img src="cnop/copper/sfp02.png" /></td>
+                        <td><img src="cnop/copper/sfp03.png" /></td>
+                        <td><img src="cnop/copper/sfp04.png" /></td>
+                        <td><img src="cnop/copper/sfp05.png" /></td>
+                        <td><img src="cnop/copper/sfp06.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-wifi1</td>
-                        <td><img src="arcfire/wifi1/sfp01.png" /></td>
-                        <td><img src="arcfire/wifi1/sfp02.png" /></td>
-                        <td><img src="arcfire/wifi1/sfp03.png" /></td>
-                        <td><img src="arcfire/wifi1/sfp04.png" /></td>
-                        <td><img src="arcfire/wifi1/sfp05.png" /></td>
-                        <td><img src="arcfire/wifi1/sfp06.png" /></td>
+                        <td>wifi1</td>
+                        <td><img src="cnop/wifi1/sfp01.png" /></td>
+                        <td><img src="cnop/wifi1/sfp02.png" /></td>
+                        <td><img src="cnop/wifi1/sfp03.png" /></td>
+                        <td><img src="cnop/wifi1/sfp04.png" /></td>
+                        <td><img src="cnop/wifi1/sfp05.png" /></td>
+                        <td><img src="cnop/wifi1/sfp06.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-wifi2</td>
-                        <td><img src="arcfire/wifi2/sfp01.png" /></td>
-                        <td><img src="arcfire/wifi2/sfp02.png" /></td>
-                        <td><img src="arcfire/wifi2/sfp03.png" /></td>
-                        <td><img src="arcfire/wifi2/sfp04.png" /></td>
-                        <td><img src="arcfire/wifi2/sfp05.png" /></td>
-                        <td><img src="arcfire/wifi2/sfp06.png" /></td>
+                        <td>wifi2</td>
+                        <td><img src="cnop/wifi2/sfp01.png" /></td>
+                        <td><img src="cnop/wifi2/sfp02.png" /></td>
+                        <td><img src="cnop/wifi2/sfp03.png" /></td>
+                        <td><img src="cnop/wifi2/sfp04.png" /></td>
+                        <td><img src="cnop/wifi2/sfp05.png" /></td>
+                        <td><img src="cnop/wifi2/sfp06.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-lte</td>
-                        <td><img src="arcfire/lte/sfp01.png" /></td>
-                        <td><img src="arcfire/lte/sfp02.png" /></td>
-                        <td><img src="arcfire/lte/sfp03.png" /></td>
-                        <td><img src="arcfire/lte/sfp04.png" /></td>
-                        <td><img src="arcfire/lte/sfp05.png" /></td>
-                        <td><img src="arcfire/lte/sfp06.png" /></td>
+                        <td>lte</td>
+                        <td><img src="cnop/lte/sfp01.png" /></td>
+                        <td><img src="cnop/lte/sfp02.png" /></td>
+                        <td><img src="cnop/lte/sfp03.png" /></td>
+                        <td><img src="cnop/lte/sfp04.png" /></td>
+                        <td><img src="cnop/lte/sfp05.png" /></td>
+                        <td><img src="cnop/lte/sfp06.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-residential</td>
-                        <td><img src="arcfire/residential/sfp01.png" /></td>
-                        <td><img src="arcfire/residential/sfp02.png" /></td>
-                        <td><img src="arcfire/residential/sfp03.png" /></td>
-                        <td><img src="arcfire/residential/sfp04.png" /></td>
-                        <td><img src="arcfire/residential/sfp05.png" /></td>
-                        <td><img src="arcfire/residential/sfp06.png" /></td>
+                        <td>residential</td>
+                        <td><img src="cnop/residential/sfp01.png" /></td>
+                        <td><img src="cnop/residential/sfp02.png" /></td>
+                        <td><img src="cnop/residential/sfp03.png" /></td>
+                        <td><img src="cnop/residential/sfp04.png" /></td>
+                        <td><img src="cnop/residential/sfp05.png" /></td>
+                        <td><img src="cnop/residential/sfp06.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-ixp</td>
-                        <td><img src="arcfire/ixp/sfp01.png" /></td>
-                        <td><img src="arcfire/ixp/sfp02.png" /></td>
-                        <td><img src="arcfire/ixp/sfp03.png" /></td>
-                        <td><img src="arcfire/ixp/sfp04.png" /></td>
-                        <td><img src="arcfire/ixp/sfp05.png" /></td>
-                        <td><img src="arcfire/ixp/sfp06.png" /></td>
+                        <td>ixp</td>
+                        <td><img src="cnop/ixp/sfp01.png" /></td>
+                        <td><img src="cnop/ixp/sfp02.png" /></td>
+                        <td><img src="cnop/ixp/sfp03.png" /></td>
+                        <td><img src="cnop/ixp/sfp04.png" /></td>
+                        <td><img src="cnop/ixp/sfp05.png" /></td>
+                        <td><img src="cnop/ixp/sfp06.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-core</td>
-                        <td><img src="arcfire/core/sfp01.png" /></td>
-                        <td><img src="arcfire/core/sfp02.png" /></td>
-                        <td><img src="arcfire/core/sfp03.png" /></td>
-                        <td><img src="arcfire/core/sfp04.png" /></td>
-                        <td><img src="arcfire/core/sfp05.png" /></td>
-                        <td><img src="arcfire/core/sfp06.png" /></td>
+                        <td>core</td>
+                        <td><img src="cnop/core/sfp01.png" /></td>
+                        <td><img src="cnop/core/sfp02.png" /></td>
+                        <td><img src="cnop/core/sfp03.png" /></td>
+                        <td><img src="cnop/core/sfp04.png" /></td>
+                        <td><img src="cnop/core/sfp05.png" /></td>
+                        <td><img src="cnop/core/sfp06.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-dc</td>
-                        <td><img src="arcfire/dc/sfp01.png" /></td>
-                        <td><img src="arcfire/dc/sfp02.png" /></td>
-                        <td><img src="arcfire/dc/sfp03.png" /></td>
-                        <td><img src="arcfire/dc/sfp04.png" /></td>
-                        <td><img src="arcfire/dc/sfp05.png" /></td>
-                        <td><img src="arcfire/dc/sfp06.png" /></td>
+                        <td>dc</td>
+                        <td><img src="cnop/dc/sfp01.png" /></td>
+                        <td><img src="cnop/dc/sfp02.png" /></td>
+                        <td><img src="cnop/dc/sfp03.png" /></td>
+                        <td><img src="cnop/dc/sfp04.png" /></td>
+                        <td><img src="cnop/dc/sfp05.png" /></td>
+                        <td><img src="cnop/dc/sfp06.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-metro</td>
-                        <td><img src="arcfire/metro/sfp01.png" /></td>
-                        <td><img src="arcfire/metro/sfp02.png" /></td>
-                        <td><img src="arcfire/metro/sfp03.png" /></td>
-                        <td><img src="arcfire/metro/sfp04.png" /></td>
-                        <td><img src="arcfire/metro/sfp05.png" /></td>
-                        <td><img src="arcfire/metro/sfp06.png" /></td>
+                        <td>metro</td>
+                        <td><img src="cnop/metro/sfp01.png" /></td>
+                        <td><img src="cnop/metro/sfp02.png" /></td>
+                        <td><img src="cnop/metro/sfp03.png" /></td>
+                        <td><img src="cnop/metro/sfp04.png" /></td>
+                        <td><img src="cnop/metro/sfp05.png" /></td>
+                        <td><img src="cnop/metro/sfp06.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-pbb</td>
-                        <td><img src="arcfire/pbb/sfp01.png" /></td>
-                        <td><img src="arcfire/pbb/sfp02.png" /></td>
-                        <td><img src="arcfire/pbb/sfp03.png" /></td>
-                        <td><img src="arcfire/pbb/sfp04.png" /></td>
-                        <td><img src="arcfire/pbb/sfp05.png" /></td>
-                        <td><img src="arcfire/pbb/sfp06.png" /></td>
+                        <td>pbb</td>
+                        <td><img src="cnop/pbb/sfp01.png" /></td>
+                        <td><img src="cnop/pbb/sfp02.png" /></td>
+                        <td><img src="cnop/pbb/sfp03.png" /></td>
+                        <td><img src="cnop/pbb/sfp04.png" /></td>
+                        <td><img src="cnop/pbb/sfp05.png" /></td>
+                        <td><img src="cnop/pbb/sfp06.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-together1</td>
-                        <td><img src="arcfire/together1/sfp01.png" /></td>
-                        <td><img src="arcfire/together1/sfp02.png" /></td>
-                        <td><img src="arcfire/together1/sfp03.png" /></td>
-                        <td><img src="arcfire/together1/sfp04.png" /></td>
-                        <td><img src="arcfire/together1/sfp05.png" /></td>
-                        <td><img src="arcfire/together1/sfp06.png" /></td>
+                        <td>together1</td>
+                        <td><img src="cnop/together1/sfp01.png" /></td>
+                        <td><img src="cnop/together1/sfp02.png" /></td>
+                        <td><img src="cnop/together1/sfp03.png" /></td>
+                        <td><img src="cnop/together1/sfp04.png" /></td>
+                        <td><img src="cnop/together1/sfp05.png" /></td>
+                        <td><img src="cnop/together1/sfp06.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-together2</td>
-                        <td><img src="arcfire/together2/sfp01.png" /></td>
-                        <td><img src="arcfire/together2/sfp02.png" /></td>
-                        <td><img src="arcfire/together2/sfp03.png" /></td>
-                        <td><img src="arcfire/together2/sfp04.png" /></td>
-                        <td><img src="arcfire/together2/sfp05.png" /></td>
-                        <td><img src="arcfire/together2/sfp06.png" /></td>
+                        <td>together2</td>
+                        <td><img src="cnop/together2/sfp01.png" /></td>
+                        <td><img src="cnop/together2/sfp02.png" /></td>
+                        <td><img src="cnop/together2/sfp03.png" /></td>
+                        <td><img src="cnop/together2/sfp04.png" /></td>
+                        <td><img src="cnop/together2/sfp05.png" /></td>
+                        <td><img src="cnop/together2/sfp06.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-together3</td>
-                        <td><img src="arcfire/together3/sfp01.png" /></td>
-                        <td><img src="arcfire/together3/sfp02.png" /></td>
-                        <td><img src="arcfire/together3/sfp03.png" /></td>
-                        <td><img src="arcfire/together3/sfp04.png" /></td>
-                        <td><img src="arcfire/together3/sfp05.png" /></td>
-                        <td><img src="arcfire/together3/sfp06.png" /></td>
+                        <td>together3</td>
+                        <td><img src="cnop/together3/sfp01.png" /></td>
+                        <td><img src="cnop/together3/sfp02.png" /></td>
+                        <td><img src="cnop/together3/sfp03.png" /></td>
+                        <td><img src="cnop/together3/sfp04.png" /></td>
+                        <td><img src="cnop/together3/sfp05.png" /></td>
+                        <td><img src="cnop/together3/sfp06.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-together4</td>
-                        <td><img src="arcfire/together4/sfp01.png" /></td>
-                        <td><img src="arcfire/together4/sfp02.png" /></td>
-                        <td><img src="arcfire/together4/sfp03.png" /></td>
-                        <td><img src="arcfire/together4/sfp04.png" /></td>
-                        <td><img src="arcfire/together4/sfp05.png" /></td>
-                        <td><img src="arcfire/together4/sfp06.png" /></td>
+                        <td>together4</td>
+                        <td><img src="cnop/together4/sfp01.png" /></td>
+                        <td><img src="cnop/together4/sfp02.png" /></td>
+                        <td><img src="cnop/together4/sfp03.png" /></td>
+                        <td><img src="cnop/together4/sfp04.png" /></td>
+                        <td><img src="cnop/together4/sfp05.png" /></td>
+                        <td><img src="cnop/together4/sfp06.png" /></td>
                     </tr>
                 </table>
             </subsection>
@@ -588,130 +588,130 @@
             <subsection name="CNOP Networks - Schema Fingerprints 7-12">
                 <table>
                     <tr>
-                        <td>af-d22-copper</td>
-                        <td><img src="arcfire/copper/sfp07.png" /></td>
-                        <td><img src="arcfire/copper/sfp08.png" /></td>
-                        <td><img src="arcfire/copper/sfp09.png" /></td>
-                        <td><img src="arcfire/copper/sfp10.png" /></td>
-                        <td><img src="arcfire/copper/sfp11.png" /></td>
-                        <td><img src="arcfire/copper/sfp12.png" /></td>
+                        <td>copper</td>
+                        <td><img src="cnop/copper/sfp07.png" /></td>
+                        <td><img src="cnop/copper/sfp08.png" /></td>
+                        <td><img src="cnop/copper/sfp09.png" /></td>
+                        <td><img src="cnop/copper/sfp10.png" /></td>
+                        <td><img src="cnop/copper/sfp11.png" /></td>
+                        <td><img src="cnop/copper/sfp12.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-wifi1</td>
-                        <td><img src="arcfire/wifi1/sfp07.png" /></td>
-                        <td><img src="arcfire/wifi1/sfp08.png" /></td>
-                        <td><img src="arcfire/wifi1/sfp09.png" /></td>
-                        <td><img src="arcfire/wifi1/sfp10.png" /></td>
-                        <td><img src="arcfire/wifi1/sfp11.png" /></td>
-                        <td><img src="arcfire/wifi1/sfp12.png" /></td>
+                        <td>wifi1</td>
+                        <td><img src="cnop/wifi1/sfp07.png" /></td>
+                        <td><img src="cnop/wifi1/sfp08.png" /></td>
+                        <td><img src="cnop/wifi1/sfp09.png" /></td>
+                        <td><img src="cnop/wifi1/sfp10.png" /></td>
+                        <td><img src="cnop/wifi1/sfp11.png" /></td>
+                        <td><img src="cnop/wifi1/sfp12.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-wifi2</td>
-                        <td><img src="arcfire/wifi2/sfp07.png" /></td>
-                        <td><img src="arcfire/wifi2/sfp08.png" /></td>
-                        <td><img src="arcfire/wifi2/sfp09.png" /></td>
-                        <td><img src="arcfire/wifi2/sfp10.png" /></td>
-                        <td><img src="arcfire/wifi2/sfp11.png" /></td>
-                        <td><img src="arcfire/wifi2/sfp12.png" /></td>
+                        <td>wifi2</td>
+                        <td><img src="cnop/wifi2/sfp07.png" /></td>
+                        <td><img src="cnop/wifi2/sfp08.png" /></td>
+                        <td><img src="cnop/wifi2/sfp09.png" /></td>
+                        <td><img src="cnop/wifi2/sfp10.png" /></td>
+                        <td><img src="cnop/wifi2/sfp11.png" /></td>
+                        <td><img src="cnop/wifi2/sfp12.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-lte</td>
-                        <td><img src="arcfire/lte/sfp07.png" /></td>
-                        <td><img src="arcfire/lte/sfp08.png" /></td>
-                        <td><img src="arcfire/lte/sfp09.png" /></td>
-                        <td><img src="arcfire/lte/sfp10.png" /></td>
-                        <td><img src="arcfire/lte/sfp11.png" /></td>
-                        <td><img src="arcfire/lte/sfp12.png" /></td>
+                        <td>lte</td>
+                        <td><img src="cnop/lte/sfp07.png" /></td>
+                        <td><img src="cnop/lte/sfp08.png" /></td>
+                        <td><img src="cnop/lte/sfp09.png" /></td>
+                        <td><img src="cnop/lte/sfp10.png" /></td>
+                        <td><img src="cnop/lte/sfp11.png" /></td>
+                        <td><img src="cnop/lte/sfp12.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-residential</td>
-                        <td><img src="arcfire/residential/sfp07.png" /></td>
-                        <td><img src="arcfire/residential/sfp08.png" /></td>
-                        <td><img src="arcfire/residential/sfp09.png" /></td>
-                        <td><img src="arcfire/residential/sfp10.png" /></td>
-                        <td><img src="arcfire/residential/sfp11.png" /></td>
-                        <td><img src="arcfire/residential/sfp12.png" /></td>
+                        <td>residential</td>
+                        <td><img src="cnop/residential/sfp07.png" /></td>
+                        <td><img src="cnop/residential/sfp08.png" /></td>
+                        <td><img src="cnop/residential/sfp09.png" /></td>
+                        <td><img src="cnop/residential/sfp10.png" /></td>
+                        <td><img src="cnop/residential/sfp11.png" /></td>
+                        <td><img src="cnop/residential/sfp12.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-ixp</td>
-                        <td><img src="arcfire/ixp/sfp07.png" /></td>
-                        <td><img src="arcfire/ixp/sfp08.png" /></td>
-                        <td><img src="arcfire/ixp/sfp09.png" /></td>
-                        <td><img src="arcfire/ixp/sfp10.png" /></td>
-                        <td><img src="arcfire/ixp/sfp11.png" /></td>
-                        <td><img src="arcfire/ixp/sfp12.png" /></td>
+                        <td>ixp</td>
+                        <td><img src="cnop/ixp/sfp07.png" /></td>
+                        <td><img src="cnop/ixp/sfp08.png" /></td>
+                        <td><img src="cnop/ixp/sfp09.png" /></td>
+                        <td><img src="cnop/ixp/sfp10.png" /></td>
+                        <td><img src="cnop/ixp/sfp11.png" /></td>
+                        <td><img src="cnop/ixp/sfp12.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-core</td>
-                        <td><img src="arcfire/core/sfp07.png" /></td>
-                        <td><img src="arcfire/core/sfp08.png" /></td>
-                        <td><img src="arcfire/core/sfp09.png" /></td>
-                        <td><img src="arcfire/core/sfp10.png" /></td>
-                        <td><img src="arcfire/core/sfp11.png" /></td>
-                        <td><img src="arcfire/core/sfp12.png" /></td>
+                        <td>core</td>
+                        <td><img src="cnop/core/sfp07.png" /></td>
+                        <td><img src="cnop/core/sfp08.png" /></td>
+                        <td><img src="cnop/core/sfp09.png" /></td>
+                        <td><img src="cnop/core/sfp10.png" /></td>
+                        <td><img src="cnop/core/sfp11.png" /></td>
+                        <td><img src="cnop/core/sfp12.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-dc</td>
-                        <td><img src="arcfire/dc/sfp07.png" /></td>
-                        <td><img src="arcfire/dc/sfp08.png" /></td>
-                        <td><img src="arcfire/dc/sfp09.png" /></td>
-                        <td><img src="arcfire/dc/sfp10.png" /></td>
-                        <td><img src="arcfire/dc/sfp11.png" /></td>
-                        <td><img src="arcfire/dc/sfp12.png" /></td>
+                        <td>dc</td>
+                        <td><img src="cnop/dc/sfp07.png" /></td>
+                        <td><img src="cnop/dc/sfp08.png" /></td>
+                        <td><img src="cnop/dc/sfp09.png" /></td>
+                        <td><img src="cnop/dc/sfp10.png" /></td>
+                        <td><img src="cnop/dc/sfp11.png" /></td>
+                        <td><img src="cnop/dc/sfp12.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-metro</td>
-                        <td><img src="arcfire/metro/sfp07.png" /></td>
-                        <td><img src="arcfire/metro/sfp08.png" /></td>
-                        <td><img src="arcfire/metro/sfp09.png" /></td>
-                        <td><img src="arcfire/metro/sfp10.png" /></td>
-                        <td><img src="arcfire/metro/sfp11.png" /></td>
-                        <td><img src="arcfire/metro/sfp12.png" /></td>
+                        <td>metro</td>
+                        <td><img src="cnop/metro/sfp07.png" /></td>
+                        <td><img src="cnop/metro/sfp08.png" /></td>
+                        <td><img src="cnop/metro/sfp09.png" /></td>
+                        <td><img src="cnop/metro/sfp10.png" /></td>
+                        <td><img src="cnop/metro/sfp11.png" /></td>
+                        <td><img src="cnop/metro/sfp12.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-pbb</td>
-                        <td><img src="arcfire/pbb/sfp07.png" /></td>
-                        <td><img src="arcfire/pbb/sfp08.png" /></td>
-                        <td><img src="arcfire/pbb/sfp09.png" /></td>
-                        <td><img src="arcfire/pbb/sfp10.png" /></td>
-                        <td><img src="arcfire/pbb/sfp11.png" /></td>
-                        <td><img src="arcfire/pbb/sfp12.png" /></td>
+                        <td>pbb</td>
+                        <td><img src="cnop/pbb/sfp07.png" /></td>
+                        <td><img src="cnop/pbb/sfp08.png" /></td>
+                        <td><img src="cnop/pbb/sfp09.png" /></td>
+                        <td><img src="cnop/pbb/sfp10.png" /></td>
+                        <td><img src="cnop/pbb/sfp11.png" /></td>
+                        <td><img src="cnop/pbb/sfp12.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-together1</td>
-                        <td><img src="arcfire/together1/sfp07.png" /></td>
-                        <td><img src="arcfire/together1/sfp08.png" /></td>
-                        <td><img src="arcfire/together1/sfp09.png" /></td>
-                        <td><img src="arcfire/together1/sfp10.png" /></td>
-                        <td><img src="arcfire/together1/sfp11.png" /></td>
-                        <td><img src="arcfire/together1/sfp12.png" /></td>
+                        <td>together1</td>
+                        <td><img src="cnop/together1/sfp07.png" /></td>
+                        <td><img src="cnop/together1/sfp08.png" /></td>
+                        <td><img src="cnop/together1/sfp09.png" /></td>
+                        <td><img src="cnop/together1/sfp10.png" /></td>
+                        <td><img src="cnop/together1/sfp11.png" /></td>
+                        <td><img src="cnop/together1/sfp12.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-together2</td>
-                        <td><img src="arcfire/together2/sfp07.png" /></td>
-                        <td><img src="arcfire/together2/sfp08.png" /></td>
-                        <td><img src="arcfire/together2/sfp09.png" /></td>
-                        <td><img src="arcfire/together2/sfp10.png" /></td>
-                        <td><img src="arcfire/together2/sfp11.png" /></td>
-                        <td><img src="arcfire/together2/sfp12.png" /></td>
+                        <td>together2</td>
+                        <td><img src="cnop/together2/sfp07.png" /></td>
+                        <td><img src="cnop/together2/sfp08.png" /></td>
+                        <td><img src="cnop/together2/sfp09.png" /></td>
+                        <td><img src="cnop/together2/sfp10.png" /></td>
+                        <td><img src="cnop/together2/sfp11.png" /></td>
+                        <td><img src="cnop/together2/sfp12.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-together3</td>
-                        <td><img src="arcfire/together3/sfp07.png" /></td>
-                        <td><img src="arcfire/together3/sfp08.png" /></td>
-                        <td><img src="arcfire/together3/sfp09.png" /></td>
-                        <td><img src="arcfire/together3/sfp10.png" /></td>
-                        <td><img src="arcfire/together3/sfp11.png" /></td>
-                        <td><img src="arcfire/together3/sfp12.png" /></td>
+                        <td>together3</td>
+                        <td><img src="cnop/together3/sfp07.png" /></td>
+                        <td><img src="cnop/together3/sfp08.png" /></td>
+                        <td><img src="cnop/together3/sfp09.png" /></td>
+                        <td><img src="cnop/together3/sfp10.png" /></td>
+                        <td><img src="cnop/together3/sfp11.png" /></td>
+                        <td><img src="cnop/together3/sfp12.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-together4</td>
-                        <td><img src="arcfire/together4/sfp07.png" /></td>
-                        <td><img src="arcfire/together4/sfp08.png" /></td>
-                        <td><img src="arcfire/together4/sfp09.png" /></td>
-                        <td><img src="arcfire/together4/sfp10.png" /></td>
-                        <td><img src="arcfire/together4/sfp11.png" /></td>
-                        <td><img src="arcfire/together4/sfp12.png" /></td>
+                        <td>together4</td>
+                        <td><img src="cnop/together4/sfp07.png" /></td>
+                        <td><img src="cnop/together4/sfp08.png" /></td>
+                        <td><img src="cnop/together4/sfp09.png" /></td>
+                        <td><img src="cnop/together4/sfp10.png" /></td>
+                        <td><img src="cnop/together4/sfp11.png" /></td>
+                        <td><img src="cnop/together4/sfp12.png" /></td>
                     </tr>
                 </table>
             </subsection>
@@ -719,102 +719,102 @@
             <subsection name="CNOP Networks - System Fingerprints">
                 <table>
                     <tr>
-                        <td>af-d22-copper</td>
-                        <td><img src="arcfire/copper/sysfp1.png" /></td>
-                        <td><img src="arcfire/copper/sysfp2.png" /></td>
-                        <td><img src="arcfire/copper/sysfp3.png" /></td>
-                        <td><img src="arcfire/copper/sysfp4.png" /></td>
+                        <td>copper</td>
+                        <td><img src="cnop/copper/sysfp1.png" /></td>
+                        <td><img src="cnop/copper/sysfp2.png" /></td>
+                        <td><img src="cnop/copper/sysfp3.png" /></td>
+                        <td><img src="cnop/copper/sysfp4.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-wifi1</td>
-                        <td><img src="arcfire/wifi1/sysfp1.png" /></td>
-                        <td><img src="arcfire/wifi1/sysfp2.png" /></td>
-                        <td><img src="arcfire/wifi1/sysfp3.png" /></td>
-                        <td><img src="arcfire/wifi1/sysfp4.png" /></td>
+                        <td>wifi1</td>
+                        <td><img src="cnop/wifi1/sysfp1.png" /></td>
+                        <td><img src="cnop/wifi1/sysfp2.png" /></td>
+                        <td><img src="cnop/wifi1/sysfp3.png" /></td>
+                        <td><img src="cnop/wifi1/sysfp4.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-wifi2</td>
-                        <td><img src="arcfire/wifi2/sysfp1.png" /></td>
-                        <td><img src="arcfire/wifi2/sysfp2.png" /></td>
-                        <td><img src="arcfire/wifi2/sysfp3.png" /></td>
-                        <td><img src="arcfire/wifi2/sysfp4.png" /></td>
+                        <td>wifi2</td>
+                        <td><img src="cnop/wifi2/sysfp1.png" /></td>
+                        <td><img src="cnop/wifi2/sysfp2.png" /></td>
+                        <td><img src="cnop/wifi2/sysfp3.png" /></td>
+                        <td><img src="cnop/wifi2/sysfp4.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-lte</td>
-                        <td><img src="arcfire/lte/sysfp1.png" /></td>
-                        <td><img src="arcfire/lte/sysfp2.png" /></td>
-                        <td><img src="arcfire/lte/sysfp3.png" /></td>
-                        <td><img src="arcfire/lte/sysfp4.png" /></td>
+                        <td>lte</td>
+                        <td><img src="cnop/lte/sysfp1.png" /></td>
+                        <td><img src="cnop/lte/sysfp2.png" /></td>
+                        <td><img src="cnop/lte/sysfp3.png" /></td>
+                        <td><img src="cnop/lte/sysfp4.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-residential</td>
-                        <td><img src="arcfire/residential/sysfp1.png" /></td>
-                        <td><img src="arcfire/residential/sysfp2.png" /></td>
-                        <td><img src="arcfire/residential/sysfp3.png" /></td>
-                        <td><img src="arcfire/residential/sysfp4.png" /></td>
+                        <td>residential</td>
+                        <td><img src="cnop/residential/sysfp1.png" /></td>
+                        <td><img src="cnop/residential/sysfp2.png" /></td>
+                        <td><img src="cnop/residential/sysfp3.png" /></td>
+                        <td><img src="cnop/residential/sysfp4.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-ixp</td>
-                        <td><img src="arcfire/ixp/sysfp1.png" /></td>
-                        <td><img src="arcfire/ixp/sysfp2.png" /></td>
-                        <td><img src="arcfire/ixp/sysfp3.png" /></td>
-                        <td><img src="arcfire/ixp/sysfp4.png" /></td>
+                        <td>ixp</td>
+                        <td><img src="cnop/ixp/sysfp1.png" /></td>
+                        <td><img src="cnop/ixp/sysfp2.png" /></td>
+                        <td><img src="cnop/ixp/sysfp3.png" /></td>
+                        <td><img src="cnop/ixp/sysfp4.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-core</td>
-                        <td><img src="arcfire/core/sysfp1.png" /></td>
-                        <td><img src="arcfire/core/sysfp2.png" /></td>
-                        <td><img src="arcfire/core/sysfp3.png" /></td>
-                        <td><img src="arcfire/core/sysfp4.png" /></td>
+                        <td>core</td>
+                        <td><img src="cnop/core/sysfp1.png" /></td>
+                        <td><img src="cnop/core/sysfp2.png" /></td>
+                        <td><img src="cnop/core/sysfp3.png" /></td>
+                        <td><img src="cnop/core/sysfp4.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-dc</td>
-                        <td><img src="arcfire/dc/sysfp1.png" /></td>
-                        <td><img src="arcfire/dc/sysfp2.png" /></td>
-                        <td><img src="arcfire/dc/sysfp3.png" /></td>
-                        <td><img src="arcfire/dc/sysfp4.png" /></td>
+                        <td>dc</td>
+                        <td><img src="cnop/dc/sysfp1.png" /></td>
+                        <td><img src="cnop/dc/sysfp2.png" /></td>
+                        <td><img src="cnop/dc/sysfp3.png" /></td>
+                        <td><img src="cnop/dc/sysfp4.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-metro</td>
-                        <td><img src="arcfire/metro/sysfp1.png" /></td>
-                        <td><img src="arcfire/metro/sysfp2.png" /></td>
-                        <td><img src="arcfire/metro/sysfp3.png" /></td>
-                        <td><img src="arcfire/metro/sysfp4.png" /></td>
+                        <td>metro</td>
+                        <td><img src="cnop/metro/sysfp1.png" /></td>
+                        <td><img src="cnop/metro/sysfp2.png" /></td>
+                        <td><img src="cnop/metro/sysfp3.png" /></td>
+                        <td><img src="cnop/metro/sysfp4.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-pbb</td>
-                        <td><img src="arcfire/pbb/sysfp1.png" /></td>
-                        <td><img src="arcfire/pbb/sysfp2.png" /></td>
-                        <td><img src="arcfire/pbb/sysfp3.png" /></td>
-                        <td><img src="arcfire/pbb/sysfp4.png" /></td>
+                        <td>pbb</td>
+                        <td><img src="cnop/pbb/sysfp1.png" /></td>
+                        <td><img src="cnop/pbb/sysfp2.png" /></td>
+                        <td><img src="cnop/pbb/sysfp3.png" /></td>
+                        <td><img src="cnop/pbb/sysfp4.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-together1</td>
-                        <td><img src="arcfire/together1/sysfp1.png" /></td>
-                        <td><img src="arcfire/together1/sysfp2.png" /></td>
-                        <td><img src="arcfire/together1/sysfp3.png" /></td>
-                        <td><img src="arcfire/together1/sysfp4.png" /></td>
+                        <td>together1</td>
+                        <td><img src="cnop/together1/sysfp1.png" /></td>
+                        <td><img src="cnop/together1/sysfp2.png" /></td>
+                        <td><img src="cnop/together1/sysfp3.png" /></td>
+                        <td><img src="cnop/together1/sysfp4.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-together2</td>
-                        <td><img src="arcfire/together2/sysfp1.png" /></td>
-                        <td><img src="arcfire/together2/sysfp2.png" /></td>
-                        <td><img src="arcfire/together2/sysfp3.png" /></td>
-                        <td><img src="arcfire/together2/sysfp4.png" /></td>
+                        <td>together2</td>
+                        <td><img src="cnop/together2/sysfp1.png" /></td>
+                        <td><img src="cnop/together2/sysfp2.png" /></td>
+                        <td><img src="cnop/together2/sysfp3.png" /></td>
+                        <td><img src="cnop/together2/sysfp4.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-together3</td>
-                        <td><img src="arcfire/together3/sysfp1.png" /></td>
-                        <td><img src="arcfire/together3/sysfp2.png" /></td>
-                        <td><img src="arcfire/together3/sysfp3.png" /></td>
-                        <td><img src="arcfire/together3/sysfp4.png" /></td>
+                        <td>together3</td>
+                        <td><img src="cnop/together3/sysfp1.png" /></td>
+                        <td><img src="cnop/together3/sysfp2.png" /></td>
+                        <td><img src="cnop/together3/sysfp3.png" /></td>
+                        <td><img src="cnop/together3/sysfp4.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-together4</td>
-                        <td><img src="arcfire/together4/sysfp1.png" /></td>
-                        <td><img src="arcfire/together4/sysfp2.png" /></td>
-                        <td><img src="arcfire/together4/sysfp3.png" /></td>
-                        <td><img src="arcfire/together4/sysfp4.png" /></td>
+                        <td>together4</td>
+                        <td><img src="cnop/together4/sysfp1.png" /></td>
+                        <td><img src="cnop/together4/sysfp2.png" /></td>
+                        <td><img src="cnop/together4/sysfp3.png" /></td>
+                        <td><img src="cnop/together4/sysfp4.png" /></td>
                     </tr>
                 </table>
             </subsection>
@@ -822,88 +822,88 @@
             <subsection name="CNOP Networks - Layer Fingerprints">
                 <table>
                     <tr>
-                        <td>af-d22-copper</td>
-                        <td><img src="arcfire/copper/layfp1.png" /></td>
-                        <td><img src="arcfire/copper/layfp2.png" /></td>
-                        <td><img src="arcfire/copper/layfp3.png" /></td>
+                        <td>copper</td>
+                        <td><img src="cnop/copper/layfp1.png" /></td>
+                        <td><img src="cnop/copper/layfp2.png" /></td>
+                        <td><img src="cnop/copper/layfp3.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-wifi1</td>
-                        <td><img src="arcfire/wifi1/layfp1.png" /></td>
-                        <td><img src="arcfire/wifi1/layfp2.png" /></td>
-                        <td><img src="arcfire/wifi1/layfp3.png" /></td>
+                        <td>wifi1</td>
+                        <td><img src="cnop/wifi1/layfp1.png" /></td>
+                        <td><img src="cnop/wifi1/layfp2.png" /></td>
+                        <td><img src="cnop/wifi1/layfp3.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-wifi2</td>
-                        <td><img src="arcfire/wifi2/layfp1.png" /></td>
-                        <td><img src="arcfire/wifi2/layfp2.png" /></td>
-                        <td><img src="arcfire/wifi2/layfp3.png" /></td>
+                        <td>wifi2</td>
+                        <td><img src="cnop/wifi2/layfp1.png" /></td>
+                        <td><img src="cnop/wifi2/layfp2.png" /></td>
+                        <td><img src="cnop/wifi2/layfp3.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-lte</td>
-                        <td><img src="arcfire/lte/layfp1.png" /></td>
-                        <td><img src="arcfire/lte/layfp2.png" /></td>
-                        <td><img src="arcfire/lte/layfp3.png" /></td>
+                        <td>lte</td>
+                        <td><img src="cnop/lte/layfp1.png" /></td>
+                        <td><img src="cnop/lte/layfp2.png" /></td>
+                        <td><img src="cnop/lte/layfp3.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-residential</td>
-                        <td><img src="arcfire/residential/layfp1.png" /></td>
-                        <td><img src="arcfire/residential/layfp2.png" /></td>
-                        <td><img src="arcfire/residential/layfp3.png" /></td>
+                        <td>residential</td>
+                        <td><img src="cnop/residential/layfp1.png" /></td>
+                        <td><img src="cnop/residential/layfp2.png" /></td>
+                        <td><img src="cnop/residential/layfp3.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-ixp</td>
-                        <td><img src="arcfire/ixp/layfp1.png" /></td>
-                        <td><img src="arcfire/ixp/layfp2.png" /></td>
-                        <td><img src="arcfire/ixp/layfp3.png" /></td>
+                        <td>ixp</td>
+                        <td><img src="cnop/ixp/layfp1.png" /></td>
+                        <td><img src="cnop/ixp/layfp2.png" /></td>
+                        <td><img src="cnop/ixp/layfp3.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-core</td>
-                        <td><img src="arcfire/core/layfp1.png" /></td>
-                        <td><img src="arcfire/core/layfp2.png" /></td>
-                        <td><img src="arcfire/core/layfp3.png" /></td>
+                        <td>core</td>
+                        <td><img src="cnop/core/layfp1.png" /></td>
+                        <td><img src="cnop/core/layfp2.png" /></td>
+                        <td><img src="cnop/core/layfp3.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-dc</td>
-                        <td><img src="arcfire/dc/layfp1.png" /></td>
-                        <td><img src="arcfire/dc/layfp2.png" /></td>
-                        <td><img src="arcfire/dc/layfp3.png" /></td>
+                        <td>dc</td>
+                        <td><img src="cnop/dc/layfp1.png" /></td>
+                        <td><img src="cnop/dc/layfp2.png" /></td>
+                        <td><img src="cnop/dc/layfp3.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-metro</td>
-                        <td><img src="arcfire/metro/layfp1.png" /></td>
-                        <td><img src="arcfire/metro/layfp2.png" /></td>
-                        <td><img src="arcfire/metro/layfp3.png" /></td>
+                        <td>metro</td>
+                        <td><img src="cnop/metro/layfp1.png" /></td>
+                        <td><img src="cnop/metro/layfp2.png" /></td>
+                        <td><img src="cnop/metro/layfp3.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-pbb</td>
-                        <td><img src="arcfire/pbb/layfp1.png" /></td>
-                        <td><img src="arcfire/pbb/layfp2.png" /></td>
-                        <td><img src="arcfire/pbb/layfp3.png" /></td>
+                        <td>pbb</td>
+                        <td><img src="cnop/pbb/layfp1.png" /></td>
+                        <td><img src="cnop/pbb/layfp2.png" /></td>
+                        <td><img src="cnop/pbb/layfp3.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-together1</td>
-                        <td><img src="arcfire/together1/layfp1.png" /></td>
-                        <td><img src="arcfire/together1/layfp2.png" /></td>
-                        <td><img src="arcfire/together1/layfp3.png" /></td>
+                        <td>together1</td>
+                        <td><img src="cnop/together1/layfp1.png" /></td>
+                        <td><img src="cnop/together1/layfp2.png" /></td>
+                        <td><img src="cnop/together1/layfp3.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-together2</td>
-                        <td><img src="arcfire/together2/layfp1.png" /></td>
-                        <td><img src="arcfire/together2/layfp2.png" /></td>
-                        <td><img src="arcfire/together2/layfp3.png" /></td>
+                        <td>together2</td>
+                        <td><img src="cnop/together2/layfp1.png" /></td>
+                        <td><img src="cnop/together2/layfp2.png" /></td>
+                        <td><img src="cnop/together2/layfp3.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-together3</td>
-                        <td><img src="arcfire/together3/layfp1.png" /></td>
-                        <td><img src="arcfire/together3/layfp2.png" /></td>
-                        <td><img src="arcfire/together3/layfp3.png" /></td>
+                        <td>together3</td>
+                        <td><img src="cnop/together3/layfp1.png" /></td>
+                        <td><img src="cnop/together3/layfp2.png" /></td>
+                        <td><img src="cnop/together3/layfp3.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-together4</td>
-                        <td><img src="arcfire/together4/layfp1.png" /></td>
-                        <td><img src="arcfire/together4/layfp2.png" /></td>
-                        <td><img src="arcfire/together4/layfp3.png" /></td>
+                        <td>together4</td>
+                        <td><img src="cnop/together4/layfp1.png" /></td>
+                        <td><img src="cnop/together4/layfp2.png" /></td>
+                        <td><img src="cnop/together4/layfp3.png" /></td>
                     </tr>
                 </table>
             </subsection>
@@ -911,102 +911,102 @@
             <subsection name="CNOP Networks - 3D">
                 <table>
                     <tr>
-                        <td>af-d22-copper</td>
-                        <td><img src="arcfire/copper/3dcb.png" /></td>
-                        <td><img src="arcfire/copper/3dcc.png" /></td>
-                        <td><img src="arcfire/copper/3dpc.png" /></td>
-                        <td><img src="arcfire/copper/3dyc.png" /></td>
+                        <td>copper</td>
+                        <td><img src="cnop/copper/3dcb.png" /></td>
+                        <td><img src="cnop/copper/3dcc.png" /></td>
+                        <td><img src="cnop/copper/3dpc.png" /></td>
+                        <td><img src="cnop/copper/3dyc.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-wifi1</td>
-                        <td><img src="arcfire/wifi1/3dcb.png" /></td>
-                        <td><img src="arcfire/wifi1/3dcc.png" /></td>
-                        <td><img src="arcfire/wifi1/3dpc.png" /></td>
-                        <td><img src="arcfire/wifi1/3dyc.png" /></td>
+                        <td>wifi1</td>
+                        <td><img src="cnop/wifi1/3dcb.png" /></td>
+                        <td><img src="cnop/wifi1/3dcc.png" /></td>
+                        <td><img src="cnop/wifi1/3dpc.png" /></td>
+                        <td><img src="cnop/wifi1/3dyc.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-wifi2</td>
-                        <td><img src="arcfire/wifi2/3dcb.png" /></td>
-                        <td><img src="arcfire/wifi2/3dcc.png" /></td>
-                        <td><img src="arcfire/wifi2/3dpc.png" /></td>
-                        <td><img src="arcfire/wifi2/3dyc.png" /></td>
+                        <td>wifi2</td>
+                        <td><img src="cnop/wifi2/3dcb.png" /></td>
+                        <td><img src="cnop/wifi2/3dcc.png" /></td>
+                        <td><img src="cnop/wifi2/3dpc.png" /></td>
+                        <td><img src="cnop/wifi2/3dyc.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-lte</td>
-                        <td><img src="arcfire/lte/3dcb.png" /></td>
-                        <td><img src="arcfire/lte/3dcc.png" /></td>
-                        <td><img src="arcfire/lte/3dpc.png" /></td>
-                        <td><img src="arcfire/lte/3dyc.png" /></td>
+                        <td>lte</td>
+                        <td><img src="cnop/lte/3dcb.png" /></td>
+                        <td><img src="cnop/lte/3dcc.png" /></td>
+                        <td><img src="cnop/lte/3dpc.png" /></td>
+                        <td><img src="cnop/lte/3dyc.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-residential</td>
-                        <td><img src="arcfire/residential/3dcb.png" /></td>
-                        <td><img src="arcfire/residential/3dcc.png" /></td>
-                        <td><img src="arcfire/residential/3dpc.png" /></td>
-                        <td><img src="arcfire/residential/3dyc.png" /></td>
+                        <td>residential</td>
+                        <td><img src="cnop/residential/3dcb.png" /></td>
+                        <td><img src="cnop/residential/3dcc.png" /></td>
+                        <td><img src="cnop/residential/3dpc.png" /></td>
+                        <td><img src="cnop/residential/3dyc.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-ixp</td>
-                        <td><img src="arcfire/ixp/3dcb.png" /></td>
-                        <td><img src="arcfire/ixp/3dcc.png" /></td>
-                        <td><img src="arcfire/ixp/3dpc.png" /></td>
-                        <td><img src="arcfire/ixp/3dyc.png" /></td>
+                        <td>ixp</td>
+                        <td><img src="cnop/ixp/3dcb.png" /></td>
+                        <td><img src="cnop/ixp/3dcc.png" /></td>
+                        <td><img src="cnop/ixp/3dpc.png" /></td>
+                        <td><img src="cnop/ixp/3dyc.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-core</td>
-                        <td><img src="arcfire/core/3dcb.png" /></td>
-                        <td><img src="arcfire/core/3dcc.png" /></td>
-                        <td><img src="arcfire/core/3dpc.png" /></td>
-                        <td><img src="arcfire/core/3dyc.png" /></td>
+                        <td>core</td>
+                        <td><img src="cnop/core/3dcb.png" /></td>
+                        <td><img src="cnop/core/3dcc.png" /></td>
+                        <td><img src="cnop/core/3dpc.png" /></td>
+                        <td><img src="cnop/core/3dyc.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-dc</td>
-                        <td><img src="arcfire/dc/3dcb.png" /></td>
-                        <td><img src="arcfire/dc/3dcc.png" /></td>
-                        <td><img src="arcfire/dc/3dpc.png" /></td>
-                        <td><img src="arcfire/dc/3dyc.png" /></td>
+                        <td>dc</td>
+                        <td><img src="cnop/dc/3dcb.png" /></td>
+                        <td><img src="cnop/dc/3dcc.png" /></td>
+                        <td><img src="cnop/dc/3dpc.png" /></td>
+                        <td><img src="cnop/dc/3dyc.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-metro</td>
-                        <td><img src="arcfire/metro/3dcb.png" /></td>
-                        <td><img src="arcfire/metro/3dcc.png" /></td>
-                        <td><img src="arcfire/metro/3dpc.png" /></td>
-                        <td><img src="arcfire/metro/3dyc.png" /></td>
+                        <td>metro</td>
+                        <td><img src="cnop/metro/3dcb.png" /></td>
+                        <td><img src="cnop/metro/3dcc.png" /></td>
+                        <td><img src="cnop/metro/3dpc.png" /></td>
+                        <td><img src="cnop/metro/3dyc.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-pbb</td>
-                        <td><img src="arcfire/pbb/3dcb.png" /></td>
-                        <td><img src="arcfire/pbb/3dcc.png" /></td>
-                        <td><img src="arcfire/pbb/3dpc.png" /></td>
-                        <td><img src="arcfire/pbb/3dyc.png" /></td>
+                        <td>pbb</td>
+                        <td><img src="cnop/pbb/3dcb.png" /></td>
+                        <td><img src="cnop/pbb/3dcc.png" /></td>
+                        <td><img src="cnop/pbb/3dpc.png" /></td>
+                        <td><img src="cnop/pbb/3dyc.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-together1</td>
-                        <td><img src="arcfire/together1/3dcb.png" /></td>
-                        <td><img src="arcfire/together1/3dcc.png" /></td>
-                        <td><img src="arcfire/together1/3dpc.png" /></td>
-                        <td><img src="arcfire/together1/3dyc.png" /></td>
+                        <td>together1</td>
+                        <td><img src="cnop/together1/3dcb.png" /></td>
+                        <td><img src="cnop/together1/3dcc.png" /></td>
+                        <td><img src="cnop/together1/3dpc.png" /></td>
+                        <td><img src="cnop/together1/3dyc.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-together2</td>
-                        <td><img src="arcfire/together2/3dcb.png" /></td>
-                        <td><img src="arcfire/together2/3dcc.png" /></td>
-                        <td><img src="arcfire/together2/3dpc.png" /></td>
-                        <td><img src="arcfire/together2/3dyc.png" /></td>
+                        <td>together2</td>
+                        <td><img src="cnop/together2/3dcb.png" /></td>
+                        <td><img src="cnop/together2/3dcc.png" /></td>
+                        <td><img src="cnop/together2/3dpc.png" /></td>
+                        <td><img src="cnop/together2/3dyc.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-together3</td>
-                        <td><img src="arcfire/together3/3dcb.png" /></td>
-                        <td><img src="arcfire/together3/3dcc.png" /></td>
-                        <td><img src="arcfire/together3/3dpc.png" /></td>
-                        <td><img src="arcfire/together3/3dyc.png" /></td>
+                        <td>together3</td>
+                        <td><img src="cnop/together3/3dcb.png" /></td>
+                        <td><img src="cnop/together3/3dcc.png" /></td>
+                        <td><img src="cnop/together3/3dpc.png" /></td>
+                        <td><img src="cnop/together3/3dyc.png" /></td>
                     </tr>
                     <tr>
-                        <td>af-d22-together4</td>
-                        <td><img src="arcfire/together4/3dcb.png" /></td>
-                        <td><img src="arcfire/together4/3dcc.png" /></td>
-                        <td><img src="arcfire/together4/3dpc.png" /></td>
-                        <td><img src="arcfire/together4/3dyc.png" /></td>
+                        <td>together4</td>
+                        <td><img src="cnop/together4/3dcb.png" /></td>
+                        <td><img src="cnop/together4/3dcc.png" /></td>
+                        <td><img src="cnop/together4/3dpc.png" /></td>
+                        <td><img src="cnop/together4/3dyc.png" /></td>
                     </tr>
                 </table>
             </subsection>

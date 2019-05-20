@@ -26,7 +26,7 @@
                 <tr>
                     <th style="white-space:nowrap; font-weight: bold; font-size: 1.25em" width="4%"></th>
                     <th style="white-space:nowrap; font-weight: bold; font-size: 1.25em" width="32%">LCN Guide</th>
-                    <th style="white-space:nowrap; font-weight: bold; font-size: 1.25em" width="32%">LCN Examples</th>
+                    <th style="white-space:nowrap; font-weight: bold; font-size: 1.25em" width="32%">LCN Layouts</th>
                     <th style="white-space:nowrap; font-weight: bold; font-size: 1.25em" width="32%">LCN Postscript</th>
                 </tr>
 
@@ -40,8 +40,8 @@
                     </td>
                     <td>
                         <p>
-                            Sven van der Meer: <i>LCN Examples</i>, Network Schemas and Networks, version %LCN_VERSION%, %LCN_Month% %LCN_DAY%, %LCN_YEAR%<br />
-                            available: https://vdmeer.github.io/skb/ipc/lcn/examples.html
+                            Sven van der Meer: <i>LCN Layouts</i>, Network Schemas and Networks, version %LCN_VERSION%, %LCN_Month% %LCN_DAY%, %LCN_YEAR%<br />
+                            available: https://vdmeer.github.io/skb/ipc/lcn/layouts.html
                         </p>
                     </td>
                     <td>
@@ -70,9 +70,9 @@
 <source style="margin-left:1px">
 @online{vdmeer:ipc:lcn,
     author = {van der Meer, Sven},
-    title  = {LCN Examples},
+    title  = {LCN Layouts},
     titleaddon = {Network Schemas and Networks},
-    url = "https://vdmeer.github.io/skb/ipc/lcn/examples.html",
+    url = "https://vdmeer.github.io/skb/ipc/lcn/layouts.html",
     date = {%LCN_DATE%}, version = "%LCN_VERSION%",
     urldate = {%LCN_DATE%}
 }
@@ -110,10 +110,10 @@
 <source style="margin-left:1px">
 @misc{vdmeer:ipc:lcn,
     author = {van der Meer, Sven},
-    title  = {LCN Examples},
+    title  = {LCN Layouts},
     titleaddon = {Network Schemas and Networks},
     howpublished = "online",
-    url = "https://vdmeer.github.io/skb/ipc/lcn/examples.html",
+    url = "https://vdmeer.github.io/skb/ipc/lcn/layouts.html",
     year = %LCN_YEAR%, month = %LCN_month%, day = %LCN_DAY%,
     note = "version %LCN_VERSION%", key = "vdm"
 }

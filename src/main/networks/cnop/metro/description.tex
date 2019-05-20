@@ -1,0 +1,11 @@
+This is an example of a \ac{ict:net:MAN} aggregation network.
+\acp{ict:net:MAN} are responsible for aggregating all access traffic in a metropolitan (or rural) region and to deliver it to the providers of core network \acp{ict:net:POP}.
+They also deliver traffic of the provider's core \acp{ict:net:POP} in a certain region to the deployed access networks.
+\acp{ict:net:MAN} also provide a set of interconnection services directly to high-end customers (enterprises).
+This done by traffic segmentation and efficient resource allocation to maximise network utilisation while proving the promised \ac{ict:net:QoS} to customers.
+
+The \ac{org:psoc:rina:DIF} structure of this network is a minimalistic version of a \acs{ict:net:MAN} segment.
+Multiple \textit{Metro Service} \acp{org:psoc:rina:DIF} realise the traffic segmentation, providing different instances of \ac{ict:IPC} for \acs{ict:net:MAN} services, for instance point-to-point (E-Line), multipoint-to-multipoint (E-LAN) or rooted multipoint (E-Tree).
+Traffic from these service instances is aggregated over the \textit{Metro Backbone} \ac{org:psoc:rina:DIF}.
+This \ac{org:psoc:rina:DIF} transports traffic over the \acs{ict:net:MAN} providing adequate \ac{ict:net:QoS} differentiation, performance isolation, and traffic engineering.
+

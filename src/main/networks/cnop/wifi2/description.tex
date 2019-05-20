@@ -1,0 +1,6 @@
+This example is an extension of the simple \acs{org:ieee:802:WIFI} layout.
+We have inserted a \textit{Wireless Network} \acs{org:psoc:rina:DIF} to allow for more density of stations and \acp{ict:net:AP}.
+The isolation of the upper layers (services) from the local mobility event (\acs{org:ieee:802:WIFI} segment) increases the scalability of the network, since the service layers only see the access router
+This reduces the number of processes in the service layers and hides all mobility events, which are now handled exclusively by the wireless network.
+In turn, the wireless network can now be designed for a point-to-point or multi-access.
+It can contain all required wireless security, multiplexing, delimiting, and required layer management (e.g. for the channel selection on the physical medium).

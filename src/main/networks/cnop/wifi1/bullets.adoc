@@ -1,0 +1,3 @@
+* Wireless equivalent of the copper example
+* Access points connects stations to aggregation layer
+* Many APs multiplex larger wireless networks, e.g. a campus

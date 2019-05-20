@@ -7,77 +7,6 @@
 ##
 
 MvnSitePreScript() {
-#     local LCN_DAY=$(date +"%d")
-#     local LCN_Month=$(date +"%b")
-#     local LCN_month=${LCN_Month,,}
-#     local LCN_YEAR=$(date +"%Y")
-#     local LCN_DATE=$(date -I)
-#     local LCN_VERSION=$(cat src/main/lcn/version.txt)
-#     printf "\n\n%s: %s; %s; %s/%s; %s\n" "$LCN_VERSION" "$LCN_DATE" "$LCN_YEAR" "$LCN_Month" "$LCN_month" "$LCN_DAY"
-# 
-#     local ATTRIBUTION_HTML_FILE="target/site/lcn/attribution.html"
-#     cat ${ATTRIBUTION_HTML_FILE} | sed \
-#         -e "s;%LCN_DAY%;$LCN_DAY;g" \
-#         -e "s;%LCN_Month%;$LCN_Month;g" \
-#         -e "s;%LCN_month%;$LCN_month;g" \
-#         -e "s;%LCN_YEAR%;$LCN_YEAR;g" \
-#         -e "s;%LCN_DATE%;$LCN_DATE;g" \
-#         -e "s;%LCN_VERSION%;$LCN_VERSION;g" \
-#     > target/site/lcn/attribution-new.html
-#     rm target/site/lcn/attribution.html
-#     mv target/site/lcn/attribution-new.html target/site/lcn/attribution.html
-
-#    local LCN_TEMPLATE_FILE="src/site-templates/lcn/attribution.tpl"
-#    printf "tpl file: %s\n\n" "$LCN_TEMPLATE_FILE"
-
-
-#     LCN_URL="https://vdmeer.github.io/ipc/lcn.html"
-#     LCN_TITLE="Looking at Communication Networks"
-#     LCN_PAGE_TITLE="LCN - Attribution"
-#     rm src/site/xdoc/lcn/attribution.xml
-#     cat ${LCN_TEMPLATE_FILE} | sed \
-#         -e "s;%LCN_DAY%;$LCN_DAY;g" \
-#         -e "s;%LCN_Month%;$LCN_Month;g" \
-#         -e "s;%LCN_month%;$LCN_month;g" \
-#         -e "s;%LCN_YEAR%;$LCN_YEAR;g" \
-#         -e "s;%LCN_DATE%;$LCN_DATE;g" \
-#         -e "s;%LCN_VERSION%;$LCN_VERSION;g" \
-#         -e "s;%LCN_URL%;$LCN_URL;g" \
-#         -e "s;%LCN_TITLE%;$LCN_TITLE;g" \
-#         -e "s;%LCN_PAGE_TITLE%;$LCN_PAGE_TITLE;g" \
-#     > src/site/xdoc/lcn/attribution.xml
-
-#     LCN_URL="https://vdmeer.github.io/ipc/lcn/postscript.html"
-#     LCN_TITLE="LCN Postscript"
-#     LCN_PAGE_TITLE="LCN Postscript - Attribution"
-#     rm src/site/xdoc/lcn/postscript/attribution.xml
-#     cat ${LCN_TEMPLATE_FILE} | sed \
-#         -e "s;%LCN_DAY%;$LCN_DAY;g" \
-#         -e "s;%LCN_Month%;$LCN_Month;g" \
-#         -e "s;%LCN_month%;$LCN_month;g" \
-#         -e "s;%LCN_YEAR%;$LCN_YEAR;g" \
-#         -e "s;%LCN_DATE%;$LCN_DATE;g" \
-#         -e "s;%LCN_VERSION%;$LCN_VERSION;g" \
-#         -e "s;%LCN_URL%;$LCN_URL;g" \
-#         -e "s;%LCN_TITLE%;$LCN_TITLE;g" \
-#         -e "s;%LCN_PAGE_TITLE%;$LCN_PAGE_TITLE;g" \
-#     > src/site/xdoc/lcn/postscript/attribution.xml
-
-#     LCN_URL="https://vdmeer.github.io/ipc/lcn/examples.html"
-#     LCN_TITLE="LCN Examples"
-#     LCN_PAGE_TITLE="LCN Examples - Attribution"
-#     rm src/site/xdoc/lcn/examples/attribution.xml
-#     cat ${LCN_TEMPLATE_FILE} | sed \
-#         -e "s;%LCN_DAY%;$LCN_DAY;g" \
-#         -e "s;%LCN_Month%;$LCN_Month;g" \
-#         -e "s;%LCN_month%;$LCN_month;g" \
-#         -e "s;%LCN_YEAR%;$LCN_YEAR;g" \
-#         -e "s;%LCN_DATE%;$LCN_DATE;g" \
-#         -e "s;%LCN_VERSION%;$LCN_VERSION;g" \
-#         -e "s;%LCN_URL%;$LCN_URL;g" \
-#         -e "s;%LCN_TITLE%;$LCN_TITLE;g" \
-#         -e "s;%LCN_PAGE_TITLE%;$LCN_PAGE_TITLE;g" \
-#     > src/site/xdoc/lcn/examples/attribution.xml
     :
 }
 
@@ -130,8 +59,8 @@ MvnSitePostScript() {
         fi
     done
 
-    local SRC_DIR=src/main/networks/arcfire
-    local DEST_DIR=target/site/networks/arcfire
+    local SRC_DIR=src/main/networks/cnop
+    local DEST_DIR=target/site/networks/cnop
     for NETWORK in $SRC_DIR/*; do
         if [[ -d "$NETWORK" ]]; then
             if [[ -d "$NETWORK/png" ]]; then

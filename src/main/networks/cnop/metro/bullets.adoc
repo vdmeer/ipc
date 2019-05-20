@@ -1,0 +1,3 @@
+* Example of a MAN aggregation network with service and backbone
+* Provides traffic aggregation for metropolitan sized areas
+* Can also provide interconnection services 

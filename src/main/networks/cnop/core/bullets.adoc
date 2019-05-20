@@ -1,0 +1,3 @@
+* A core network example: exchange traffic between points of presence
+* Service edge steps into provider backbone hierarchy
+* Backbones aggregate traffic, very different QoS models supported
