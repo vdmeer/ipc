@@ -15,24 +15,24 @@
 
 <document>
     <properties>
-        <title>Schema Examples - RINA - rina-2br-ir</title>
+        <title>Networks - RINA - rina-long-ir</title>
         <author email="vdmeer dot sven at mykolab dot com">Sven van der Meer</author>
     </properties>
 
     <body>
-        <section name="Schema Examples - RINA - rina-2br-ir">
+        <section name="Networks - RINA - rina-long-ir">
 
             <subsection name="Design">
                 <p style="font-size: 1.25em">
-                    2 border routers supporting a service layer
+                    Long network, e.g. a larger subnet
                 </p>
                 <p style="font-size: 1.25em">
-                    Backbone layer extensible with more routers
+                    Note: the DAF is only used in the hosts, not provided by the operator
                 </p>
 
                 <hr />
                 <p style="font-size: 1.25em" align="center">
-                    <img src="schema.png" width="50%" />
+                    <img src="schema.png" />
                 </p>
                 <hr />
 

@@ -15,27 +15,30 @@
 
 <document>
     <properties>
-        <title>Schema Examples - RINA - rina-2h-ir</title>
+        <title>Networks - RINA - rina-wilan</title>
         <author email="vdmeer dot sven at mykolab dot com">Sven van der Meer</author>
     </properties>
 
     <body>
-        <section name="Schema Examples - RINA - rina-2h-ir">
+        <section name="Networks - RINA - rina-wilan">
 
             <subsection name="Design">
                 <p style="font-size: 1.25em">
-                    Second simplest network
+                    Harmonizing wireless and VPNs
                 </p>
                 <p style="font-size: 1.25em">
-                    2 hosts connected by a router, with 1 DIF and 1 DAF
+                    Shows that connectivity makes no difference to the service or DAF
                 </p>
                 <p style="font-size: 1.25em">
-                    Modeled with 2 separate Ethernet Shim DIFs
+                    Device only changes links to access points when roaming
+                </p>
+                <p style="font-size: 1.25em">
+                    No change in service layer nor DAF
                 </p>
 
                 <hr />
                 <p style="font-size: 1.25em" align="center">
-                    <img src="schema.png" width="50%" />
+                    <img src="schema.png" width="75%" />
                 </p>
                 <hr />
 

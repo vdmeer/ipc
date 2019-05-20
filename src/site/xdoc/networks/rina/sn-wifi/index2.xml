@@ -15,19 +15,25 @@
 
 <document>
     <properties>
-        <title>Schema Examples - RINA - rina-long-ir</title>
+        <title>Networks - RINA - rina-sn-wifi</title>
         <author email="vdmeer dot sven at mykolab dot com">Sven van der Meer</author>
     </properties>
 
     <body>
-        <section name="Schema Examples - RINA - rina-long-ir">
+        <section name="Networks - RINA - rina-sn-wifi">
 
             <subsection name="Design">
                 <p style="font-size: 1.25em">
-                    Long network, e.g. a larger subnet
+                    Wireless device connected to a large service provider
                 </p>
                 <p style="font-size: 1.25em">
-                    Note: the DAF is only used in the hosts, not provided by the operator
+                    With metro link and regional network; supporting a service
+                </p>
+                <p style="font-size: 1.25em">
+                    DAF independent of operator
+                </p>
+                <p style="font-size: 1.25em">
+                    Right side shows connection to another operator
                 </p>
 
                 <hr />

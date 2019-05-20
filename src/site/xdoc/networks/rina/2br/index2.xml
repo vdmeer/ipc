@@ -15,22 +15,19 @@
 
 <document>
     <properties>
-        <title>Schema Examples - RINA - rina-2h</title>
+        <title>Networks - RINA - rina-2br</title>
         <author email="vdmeer dot sven at mykolab dot com">Sven van der Meer</author>
     </properties>
 
     <body>
-        <section name="Schema Examples - RINA - rina-2h">
+        <section name="Networks - RINA - rina-2br">
 
             <subsection name="Design">
                 <p style="font-size: 1.25em">
-                    The simplest of possible networks
+                    2 border routers supporting a service layer
                 </p>
                 <p style="font-size: 1.25em">
-                    2 hosts with 1 DIF and 1 DAF
-                </p>
-                <p style="font-size: 1.25em">
-                    Even simpler if only the Shim DIF is used
+                    Backbone layer can be extended with more interior routers
                 </p>
 
                 <hr />

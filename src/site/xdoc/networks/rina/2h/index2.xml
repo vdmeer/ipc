@@ -15,27 +15,27 @@
 
 <document>
     <properties>
-        <title>Schema Examples - RINA - rina-std-short</title>
+        <title>Networks - RINA - rina-2h</title>
         <author email="vdmeer dot sven at mykolab dot com">Sven van der Meer</author>
     </properties>
 
     <body>
-        <section name="Schema Examples - RINA - rina-std-short">
+        <section name="Networks - RINA - rina-2h">
 
             <subsection name="Design">
                 <p style="font-size: 1.25em">
-                    All system types in 1 network: hosts, border routers, interior router
+                    The simplest of possible networks
                 </p>
                 <p style="font-size: 1.25em">
-                    With DAF, service DIF, and backbone DIF
+                    2 hosts with 1 DIF and 1 DAF
                 </p>
                 <p style="font-size: 1.25em">
-                    All larger networks are extensions of this one
+                    Even simpler if only the Shim DIF is used
                 </p>
 
                 <hr />
                 <p style="font-size: 1.25em" align="center">
-                    <img src="schema.png" width="75%" />
+                    <img src="schema.png" width="50%" />
                 </p>
                 <hr />
 

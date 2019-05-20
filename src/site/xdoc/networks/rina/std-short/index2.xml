@@ -15,30 +15,27 @@
 
 <document>
     <properties>
-        <title>Schema Examples - RINA - rina-sn-wifi</title>
+        <title>Networks - RINA - rina-std-short</title>
         <author email="vdmeer dot sven at mykolab dot com">Sven van der Meer</author>
     </properties>
 
     <body>
-        <section name="Schema Examples - RINA - rina-sn-wifi">
+        <section name="Networks - RINA - rina-std-short">
 
             <subsection name="Design">
                 <p style="font-size: 1.25em">
-                    Wireless device connected to a large service provider
+                    All system types in 1 network: hosts, border routers, interior router
                 </p>
                 <p style="font-size: 1.25em">
-                    With metro link and regional network; supporting a service
+                    With DAF, service DIF, and backbone DIF
                 </p>
                 <p style="font-size: 1.25em">
-                    DAF independent of operator
-                </p>
-                <p style="font-size: 1.25em">
-                    Right side shows connection to another operator
+                    All larger networks are extensions of this one
                 </p>
 
                 <hr />
                 <p style="font-size: 1.25em" align="center">
-                    <img src="schema.png" />
+                    <img src="schema.png" width="75%" />
                 </p>
                 <hr />
 
