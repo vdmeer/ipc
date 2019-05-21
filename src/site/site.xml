@@ -36,6 +36,7 @@
 
             <item href="networks.html" name="Networks" collapse="false">
                 <item href="networks/schema-matrix.html" name="Schema Matrix" collapse="false" />
+                <item href="networks/complexities.html" name="Complexity Tables" collapse="false" />
             </item>
 
             <item href="networks/rina.html" name="Networks: RINA" collapse="true">

@@ -19,7 +19,7 @@ MvnSitePostScript() {
     local LCN_month=${LCN_Month,,}
     local LCN_YEAR=$(date +"%Y")
     local LCN_DATE=$(date -I)
-    local LCN_VERSION=$(cat src/main/lcn/version.txt)
+    local LCN_VERSION=$(cat src/main/version.txt)
     printf "\n\n%s: %s; %s; %s/%s; %s\n" "$LCN_VERSION" "$LCN_DATE" "$LCN_YEAR" "$LCN_Month" "$LCN_month" "$LCN_DAY"
 
     local ATTRIBUTION_HTML_FILE="target/site/lcn/attribution.html"

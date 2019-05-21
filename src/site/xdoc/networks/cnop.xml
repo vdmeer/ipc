@@ -37,70 +37,70 @@
                     </tr>
 
                     <tr>
-                        <td><a href="copper">Copper</a></td>
+                        <td><a href="cnop/copper/index.html">Copper</a></td>
                         <td>Access network</td>
                         <td>
                             fixed access (copper) example
                         </td>
                     </tr>
                     <tr>
-                        <td><a href="core">Core</a></td>
+                        <td><a href="cnop/core/index.html">Core</a></td>
                         <td>Inside the Operator Network</td>
                         <td>
                             Simple core network example
                         </td>
                     </tr>
                     <tr>
-                        <td><a href="dc">Data Center</a></td>
+                        <td><a href="cnop/dc/index.html">Data Center</a></td>
                         <td>Inside the Operator Network</td>
                         <td>
                             Spine-Leaf data center example
                         </td>
                     </tr>
                     <tr>
-                        <td><a href="ixp">IXP</a></td>
+                        <td><a href="cnop/ixp/index.html">IXP</a></td>
                         <td>Between Operators</td>
                         <td>
                             Multi-provider data exchange
                         </td>
                     </tr>
                     <tr>
-                        <td><a href="lte">LTE</a></td>
+                        <td><a href="cnop/lte/index.html">LTE</a></td>
                         <td>Access network</td>
                         <td>
                             a simple LTE schema
                         </td>
                     </tr>
                     <tr>
-                        <td><a href="metro">Metro</a></td>
+                        <td><a href="cnop/metro/index.html">Metro</a></td>
                         <td>Inside the Operator Network</td>
                         <td>
                             MAN example
                         </td>
                     </tr>
                     <tr>
-                        <td><a href="pbb">PBB</a></td>
+                        <td><a href="cnop/pbb/index.html">PBB</a></td>
                         <td>Inside the Operator Network</td>
                         <td>
                             Provider backbone bridge
                         </td>
                     </tr>
                     <tr>
-                        <td><a href="residential">Residential</a></td>
+                        <td><a href="cnop/residential/index.html">Residential</a></td>
                         <td>Operator to User</td>
                         <td>
                             access and services
                         </td>
                     </tr>
                     <tr>
-                        <td><a href="wifi1">WiFi 1</a></td>
+                        <td><a href="cnop/wifi1/index.html">WiFi 1</a></td>
                         <td>Access network</td>
                         <td>
                             Simple wireless access
                         </td>
                     </tr>
                     <tr>
-                        <td><a href="wifi2">WiFi 2</a></td>
+                        <td><a href="cnop/wifi2/index.html">WiFi 2</a></td>
                         <td>Access network</td>
                         <td>
                             Scalable wireless access
@@ -117,25 +117,25 @@
                     </tr>
 
                     <tr>
-                        <td><a href="together1">Together 1</a></td>
+                        <td><a href="cnop/together1/index.html">Together 1</a></td>
                         <td>
                             CNOP with fixed access and simple host
                         </td>
                     </tr>
                     <tr>
-                        <td><a href="together2">Together 2</a></td>
+                        <td><a href="cnop/together2/index.html">Together 2</a></td>
                         <td>
                             CNOP with wireless access and simple host
                         </td>
                     </tr>
                     <tr>
-                        <td><a href="together4">Together 3</a></td>
+                        <td><a href="cnop/together3/index.html">Together 3</a></td>
                         <td>
                             CNOP with fixed access and IXP
                         </td>
                     </tr>
                     <tr>
-                        <td><a href="together4">Together 4</a></td>
+                        <td><a href="cnop/together4/index.html">Together 4</a></td>
                         <td>
                             CNOP with wireless access and IXP
                         </td>

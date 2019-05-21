@@ -46,70 +46,70 @@
                     </tr>
 
                     <tr>
-                        <td><a href="2br">2 Border Routers</a></td>
+                        <td><a href="rina/2br/index.html">2 Border Routers</a></td>
                         <td>2 Border Routers</td>
                         <td>
                             Looking at border routers
                         </td>
                     </tr>
                     <tr>
-                        <td><a href="2br-ir">2 Border Routers + IR</a></td>
+                        <td><a href="rina/2br-ir/index.html">2 Border Routers + IR</a></td>
                         <td>2 Border Routers</td>
                         <td>
                             Looking at border routers, with an additional interior router
                         </td>
                     </tr>
                     <tr>
-                        <td><a href="2h">2 Hosts</a></td>
+                        <td><a href="rina/2h/index.html">2 Hosts</a></td>
                         <td>2 Hosts</td>
                         <td>
                             The shortest possible network
                         </td>
                     </tr>
                     <tr>
-                        <td><a href="2h-ir">2 Hosts + IR</a></td>
+                        <td><a href="rina/2h-ir/index.html">2 Hosts + IR</a></td>
                         <td>2 Hosts</td>
                         <td>
                             The shortest possible network, plus an interior router
                         </td>
                     </tr>
                     <tr>
-                        <td><a href="long-ir">Long IR</a></td>
+                        <td><a href="rina/long-ir/index.html">Long IR</a></td>
                         <td>Long</td>
                         <td>
                             A long schema, here only with interior routers
                         </td>
                     </tr>
                     <tr>
-                        <td><a href="os">OS</a></td>
+                        <td><a href="rina/os/index.html">OS</a></td>
                         <td>Misc</td>
                         <td>
                             An operating system
                         </td>
                     </tr>
                     <tr>
-                        <td><a href="sn-wifi">Skewed Necklace with WiFi</a></td>
+                        <td><a href="rina/sn-wifi/index.html">Skewed Necklace with WiFi</a></td>
                         <td>Long</td>
                         <td>
                             The classic example of a skewed necklace, with WiFi systems
                         </td>
                     </tr>
                     <tr>
-                        <td><a href="std-long">Standard Long</a></td>
+                        <td><a href="rina/std-long/index.html">Standard Long</a></td>
                         <td>Standard</td>
                         <td>
                             A longer standard schema, used in John Day’s RINA lectures
                         </td>
                     </tr>
                     <tr>
-                        <td><a href="std-short">Standard Short</a></td>
+                        <td><a href="rina/std-short/index.html">Standard Short</a></td>
                         <td>Standard</td>
                         <td>
                             As used in many documents
                         </td>
                     </tr>
                     <tr>
-                        <td><a href="wilan">WiLAN</a></td>
+                        <td><a href="rina/wilan/index.html">WiLAN</a></td>
                         <td>Misc</td>
                         <td>
                             Combination of wireless and wired systems forming a WiLAN
