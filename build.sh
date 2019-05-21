@@ -22,7 +22,7 @@
 
 ##
 ## Build script for the SKB IPC
-## - builds site for distribution
+## - builds all artifacts for distributions
 ##
 ## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
 ## @version    v0.7.2
@@ -31,6 +31,10 @@
 set -o errexit -o pipefail -o noclobber -o nounset
 shopt -s globstar
 
+GO_AHEAD=true
+
+RELEASE_VERSION="$(cat src/main/version.txt)"
+##TOOL_VERSION="${RELEASE_VERSION}"
 
 SKB_HOME=$PWD/../skb
 export SD_TARGET=/tmp/sd
@@ -46,20 +50,206 @@ export SD_ACRONYM_LATEX_FILE=`pwd`/src/main/lcn/postscript/content/acronym-db.te
 export SD_LIBRARY_BIB_FILE=`pwd`/src/main/lcn/postscript/content/references.bib
 
 
+if [[ -z "${SKB_FRAMEWORK_HOME:-}" ]]; then
+    printf "\n\nPlease set SKB_FRAMEWORK_HOME\n\n"
+    GO_AHEAD=false
+fi
+if [[ -z "${SKB_DASHBOARD:-}" ]]; then
+    printf "\n\nPlease set SKB_DASHBOARD\n\n"
+    GO_AHEAD=false
+fi
+
+
+
+help(){ 
+    printf "\nusage: build [targets]\n"
+    printf "\n  targets:"
+    printf "\n    all       - build all target in the right order"
+    printf "\n    clean     - remove all built artifacts (gradle, maven)"
+    printf "\n    dist      - build framework artifacts and then distributions (gradle)"
+    printf "\n    lcnps     - build LCN postscript document"
+#    printf "\n    tool      - build IPC Framework Tool (gradle)"
+    printf "\n    site      - build the Maven site (maven)"
+    printf "\n    versions  - set file versions in comments"
+    printf "\n"
+    printf "\n Requirements:"
+    printf "\n - SKB Dashboard   - to build artifacts, requires SKB Framework"
+    printf "\n - lualatex        - to build LCN postscript"
+    printf "\n - latexmk         - to build LCN postscript"
+    printf "\n - gradle          - to build the the distributions"
+#    printf "\n - JDK8            - to build the tool"
+    printf "\n - Apache Ant      - to set file versions"
+    printf "\n - Apache Maven    - to build the site"
+#    printf "\n - asciidoctor     - to build some targets for the manual"
+#    printf "\n - asciidoctor-pdf - to build the PDF manual"
+#    printf "\n - coderay         - for syntax highlighting in ADOC files"
+    printf "\n Most requirements are not tested, build will simply fail"
+    printf "\n\n"
+}
+
+
+if [[ -z "${1:-}" ]]; then
+    printf "\n\nNo target given, try '-h' or '--help' for information\n\n"
+    GO_AHEAD=false
+fi
+
+
+if [[ ${GO_AHEAD} == false ]]; then
+    exit 1
+fi
+
+
 ##
-## also required:
-## - SKB_FRAMEWORK_HOME
-## - SKB_DASHBOARD
+## function: clean - cleans all artifacts
 ##
+clean(){ 
+    printf "%s\n\n" "clean"
+
+    ./gradlew clean
+    mvn clean
+    $SKB_DASHBOARD -B -e clean --sq --lq --task-level debug -- --force
+
+    (cd src/main/lcn/postscript/; latexmk -C)
+
+    printf "\n\n"
+}
+
+
+
+##
+## function: versions - uses ANT to set file versions in comments
+##
+versions(){
+    printf "%s\n\n" "set file versions"
+    ant -f ant/build.xml -DmoduleVersion=${RELEASE_VERSION} -DmoduleDir=../
+}
+
+
+
+##
+## function: distro - builds framework artifacts and distributions
+##
+distro(){ 
+    if [[ ! -f "./src/main/lcn/guide/lcn-guide.pdf" ]]; then
+        printf "Missing distribution file: ./src/main/lcn/guide/lcn-guide.pdf\n"
+        GO_AHEAD=false
+    fi 
+    if [[ ! -f "./src/main/lcn/layouts/lcn-layouts.pdf" ]]; then
+        printf "Missing distribution file: ./src/main/lcn/layouts/lcn-layouts.pdf\n"
+        GO_AHEAD=false
+    fi 
+    if [[ ! -f "./src/main/lcn/postscript/lcn-postscript.pdf" ]]; then
+        printf "Missing distribution file: ./src/main/lcn/postscript/lcn-postscript.pdf\n"
+        GO_AHEAD=false
+    fi 
+
+    if [[ $GO_AHEAD == false ]]; then
+        return
+    fi
+
+    printf "%s\n\n" "building distributions"
+    ./gradlew build
+    printf "\n\n"
+    printf "%s\n" "distributions in ./build/distributions"
+    ls -l ./build/distributions
+    printf "\n\n"
+}
+
+
+
+##
+## function: site - builds the Maven site
+##
+site(){
+    printf "%s\n\n" "building site"
+    $SKB_DASHBOARD -B -e skb-build-sites --sq --lq --task-level debug -- --build --all --ad --site --stage
+}
+
+
+
+##
+## function: lcn_ps - builds LCN Postscript PDF file
+##
+lcn_ps(){
+    printf "%s\n\n" "building LCN Postscript"
+    (cd src/main/lcn/postscript/; lualatex lcn-postscript)
+    $SKB_DASHBOARD -e acronyms-latex --sq --lq --task-level debug
+    (cd src/main/lcn/postscript/; latexmk -lualatex -bibtex)
+    (cd src/main/lcn/postscript/; rm *.fls; rm *.run.xml)
+}
+
+
+
+while [[ $# -gt 0 ]]; do
+    case "$1" in
+        all)
+            T_CLEAN=true
+            T_DIST=true
+            T_LCN_PS=true
+            T_SITE=true
+            T_VERSIONS=true
+            shift
+            ;;
+        clean)
+            T_CLEAN=true
+            shift
+            ;;
+        dist)
+            T_DIST=true
+            shift
+            ;;
+        lcnps)
+            T_LCN_PS=true
+            shift
+            ;;
+        site)
+            T_SITE=true
+            shift
+            ;;
+        versions)
+            T_VERSIONS=true
+            shift
+            ;;
+        -h | --help)
+            help
+            exit 0
+            ;;
+        *)
+            printf "\nunknown target '$1'\n\n"
+            help
+            exit 2
+            ;;
+    esac
+done
+
 
 
 TS=$(date +%s.%N)
 TIME_START=$(date +"%T")
+export SF_MVN_SITES=$PWD
 
-$SKB_DASHBOARD -B -e clean --sq --lq --task-level debug -- --force
-$SKB_DASHBOARD -B -e skb-build-sites --sq --lq --task-level debug -- --build --all --ad --site --stage
+if [[ ${T_VERSIONS:-} == true ]]; then
+    versions
+fi
+
+if [[ ${T_CLEAN:-} == true ]]; then
+    clean
+fi
+
+if [[ ${T_LCN_PS:-} == true ]]; then
+    lcn_ps
+fi
+
+if [[ ${T_DIST:-} == true ]]; then
+    distro
+fi
+if [[ ${T_SITE:-} == true ]]; then
+    site
+fi
+
 
 TE=$(date +%s.%N)
+
 TIME=$(date +"%T")
 RUNTIME=$(echo "($TE-$TS)/60" | bc -l)
 printf "started:  $TIME_START\n"

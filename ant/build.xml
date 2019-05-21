@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="pm" default="skb-set-versions">
+    <!-- ant -f ant/build.xml -DmoduleVersion=VERSION_STRING -DmoduleDir=../ -->
+
+    <property name="module.version" value="${moduleVersion}"/>
+    <import file="macro.xml"/>
+
+    <target name="skb-set-versions">
+        <push-version module.dir="${moduleDir}" sourceEncoding="UTF-8" />
+    </target>
+</project>

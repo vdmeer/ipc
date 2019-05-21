@@ -1,0 +1,51 @@
+
+plugins {
+    id "base"
+    id "distribution"
+}
+
+version = file('src/main/version.txt').text
+description = 'SKB-IPC: artifacts for IPC'
+
+
+apply plugin: 'distribution'
+
+distributions {
+    lcn {
+        baseName = 'lcn'
+        contents {
+            from('src/main/lcn/guide') {
+                fileMode 0664
+                include '*.pptx'
+                include '*.pdf'
+                into  '/lcn-' + project.version
+            }
+            from('src/main/lcn/layouts') {
+                fileMode 0664
+                include '*.pptx'
+                include '*.pdf'
+                into  '/lcn-' + project.version
+            }
+            from('src/main/lcn/postscript') {
+                fileMode 0664
+                include '*.pdf'
+                into  '/lcn-' + project.version
+            }
+        }
+    }
+}
+
+lcnDistTar.doFirst {
+    assert file("./src/main/lcn/guide/lcn-guide.pdf").exists() 
+    assert file("./src/main/lcn/layouts/lcn-layouts.pdf").exists()
+    assert file("./src/main/lcn/postscript/lcn-postscript.pdf").exists()
+}
+
+
+plugins.withType(DistributionPlugin) {
+    lcnDistTar {
+        compression = Compression.GZIP
+        extension = 'tar.gz'
+    }
+}
+
