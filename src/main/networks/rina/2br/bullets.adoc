@@ -1,0 +1,2 @@
+* 2 border routers supporting a service layer
+* Backbone layer can be extended with more interior routers

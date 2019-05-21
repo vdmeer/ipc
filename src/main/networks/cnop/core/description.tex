@@ -1,0 +1,14 @@
+The \textit{core} is in charge of transporting traffic between core \acp{ict:net:POP}.
+This traffic can come from
+    the operator's customers (aggregated via access and \ac{ict:net:MAN} networks),
+    local or regional \acp{ict:cloud:DC}, or
+    other operators.
+This network segment provides a transport facility to service \acp{org:psoc:rina:DIF} across the provider's main \acp{ict:net:POP}.
+It deals with highly aggregated traffic carried governed by (very) different \ac{ict:net:QoS} promises.
+
+This network provides a sophisticated design suitable for very large core networks, ready to scale-up if needed.
+In this design, we find 2 levels of backbone \acp{org:psoc:rina:DIF}, L1 and L2.
+\textit{Backbone Level 1} aggregates the traffic over several \ac{ict:net:MAN} core \acp{ict:net:POP} into regional core \acp{ict:net:POP}.
+These regional core \acp{ict:net:POP} are all interconnected by \textit{Backbone Level 2}.
+\textit{Backbone Level 1} is further divided into different areas, which map to the regions in the provider's network.
+Its structure can be leveraged to design an effective addressing and forwarding scheme.

@@ -1,0 +1,6 @@
+This is an example of a provider network offering enterprise \acp{ict:net:VPN}.
+The design of the core of the network, the backbone, must allow the offering of any number of \ac{org:ietf:ppvpn:VPLS} to any number of customers, while hiding the internal topology of the operator.
+The design used here shows two metro aggregation networks that connect customer sites and a backbone network that routes \ac{ict:net:VPN} services through the provider's network interconnecting \acp{ict:net:POP}.
+In combination, they realise the layer 2 network supporting a generic \ac{ict:net:VPN} service \ac{org:psoc:rina:DIF} and on top of that the actual customer services (in the example here a \ac{org:psoc:rina:DIF} called \textit{Green \acs{ict:net:VPN}}).
+This design is called \ac{org:ieee:802:PBB}.
+It isolates of the \ac{ict:net:VPN} service over the provider network from the customer's address space.

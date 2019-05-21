@@ -1,0 +1,19 @@
+//
+// ============LICENSE_START=======================================================
+//  Copyright (C) 2018 Sven van der Meer. All rights reserved.
+// ================================================================================
+// This file is licensed under the CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL LICENSE
+// Full license text at https://creativecommons.org/licenses/by/4.0/legalcode
+// 
+// SPDX-License-Identifier: CC-BY-4.0
+// ============LICENSE_END=========================================================
+//
+// @author Sven van der Meer (vdmeer.sven@mykolab.com)
+//
+
+== SKB IPC Website
+
+This is the generated and published SKB IPC web site.
+
+The source is in the SKB IPC project link:https://github.com/vdmeer/ipc/tree/master/src/site[git-source].
+The final site is published at link:https://vdmeer.github.io/skb/ipc[site].

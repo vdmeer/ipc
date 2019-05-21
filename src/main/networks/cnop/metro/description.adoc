@@ -1,0 +1,11 @@
+This is an example of a MAN aggregation network.
+MANs are responsible for aggregating all access traffic in a metropolitan (or rural) region and to deliver it to the providers of core network POPs.
+They also deliver traffic of the provider's core POPs in a certain region to the deployed access networks.
+MANs also provide a set of interconnection services directly to high-end customers (enterprises).
+This done by traffic segmentation and efficient resource allocation to maximise network utilisation while proving the promised QoS to customers.
+
+The DIF structure of this network is a minimalistic version of a MAN segment.
+Multiple _Metro Service_ DIFs realise the traffic segmentation, providing different instances of IPC for MAN services, for instance point-to-point (E-Line), multipoint-to-multipoint (E-LAN) or rooted multipoint (E-Tree).
+Traffic from these service instances is aggregated over the _Metro Backbone_ DIF.
+This DIF transports traffic over the MAN providing adequate QoS differentiation, performance isolation, and traffic engineering.
+

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="skb-set-versions">
+    <macrodef name="push-version" description="Updates the internal version string of all SKB-Framework source files.">
+        <attribute name="module.dir"/>
+        <attribute name="sourceEncoding"/>
+
+        <!--
+            Replacement combinations:
+
+            Version in JDOC style comment
+                sed "s/^ \* @version.*$/ \* @version    ${version}/"
+                regexp pattern=" \* @version(.*)"
+                substitution expression=" \* \@version    ${module.version}"
+
+            Version in C/C++/Java single line comment style
+                sed "s/^ \/\/ @version.*$/ \* @version    ${version}/"
+                regexp pattern="// @version(.*)"
+                substitution expression="// \@version    ${module.version}"
+
+            Version in Bash single hash comment style
+                sed "s/^ # @version.*$/ \* @version    ${version}/"
+                regexp pattern=" # @version(.*)"
+                substitution expression=" # \@version    ${module.version}"
+
+            Version in Bash double hash comment style
+                sed "s/^## @version.*$/ \*## @version    ${version}/"
+                regexp pattern="## @version(.*)"
+                substitution expression="## @version    ${module.version}"
+        -->
+
+        <sequential>
+            <replaceregexp byline="false" encoding="UTF-8">
+                <!-- sed "s/^ \* @version.*$/ \* @version    ${version}/" -->
+                <regexp pattern=" \* @version(.*)"/>
+                <substitution expression=" \* \@version    ${module.version}"/>
+                <fileset dir="@{module.dir}" >
+                    <include name="tool/src/**/*.java" />
+                </fileset>
+            </replaceregexp>
+
+            <replaceregexp byline="false" encoding="UTF-8">
+                <!-- sed "s/^## @version.*$/ \*## @version    ${version}/" -->
+                <regexp pattern="## @version(.*)"/>
+                <substitution expression="## @version    ${module.version}"/>
+                <fileset dir="@{module.dir}" >
+                    <include name="src/main/bash/**/*.sh" />
+                    <include name="src/main/bash/**/*.id" />
+                    <include name="src/main/bash/scenarios/**/*.scn" />
+                    <include name="src/main/bash/bin/skb-framework" />
+                    <include name="src/main/bash/bin/**/_include" />
+<!--
+                    <exclude name="src/main/bash/**/*.sh" />
+-->
+                </fileset>
+            </replaceregexp>
+        </sequential>
+    </macrodef>
+</project>

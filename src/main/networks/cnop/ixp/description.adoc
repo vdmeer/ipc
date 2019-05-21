@@ -1,0 +1,14 @@
+This is an example of an interconnection or IXP network.
+An IXP is essentially a third party providing interconnection services to service providers and network operators, who usually do host their own equipment (routers) in their facilities.
+Using IPC, IXP are not limited to the exchange of traffic of a single type of inter-network.
+Every service provider can exchange traffic belonging to more than one DIF, for example
+    a general purpose DIF like _Internet_,
+    VPN DIFs,
+    DC interconnect, or
+    application-optimized DIFs tat carry for instance interactive high-definition video traffic.
+
+This network design addresses this situation.
+An _IXP Fabric_ DIF transports traffic belonging to multiple DIFs (in this example structure _HD Voice_ and _Internet_) supported by different PE routers.
+The configuration is very similar, if not the same, as the DC schema.
+The difference is in what the fabric connects, PE routers or servers (and VMs).
+_IXP Fabric_ needs to provide performance and connectivity isolation to the different `utility' DIFs.

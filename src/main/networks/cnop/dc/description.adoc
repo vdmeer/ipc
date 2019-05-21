@@ -1,0 +1,5 @@
+This is an example of multi-tenant DC network.
+The original design did use the VXLAN protocol to create several layer 2 virtual networks over a shared IPv6 DC fabric.
+This network features a _Tenant_ DIF and a _DC Fabric_ DIF.
+The later one allocates the resources in the leaf-spine fabric (between the TOR systems) to flows used by (potentially competing) _Tenant_ DIFs,
+    which provide isolated and customised networking domains to each DC tenant and its VM.

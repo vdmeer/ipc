@@ -1,0 +1,26 @@
+== Networks - CNOP - Together 4
+
+include::{skb-site-main-dir}/main/networks/cnop/together4/bullets.adoc[]
+
+'''
+
+=== Description
+
+include::{skb-site-main-dir}/main/networks/cnop/together4/description.adoc[]
+
+'''
+
+=== Schema
+
+image::design1.png[alt="Network, CNOP, Together 4: Design1",align=center]
+
+image::schema.png[alt="Network, CNOP, Together 4: Schema",align=center]
+
+image::design2.png[alt="Network, CNOP, Together 4: Design2",align=center]
+
+'''
+
+=== 3D
+
+image::3dcc.png[alt="Network, CNOP, Together 4: 3D",align=center]
+

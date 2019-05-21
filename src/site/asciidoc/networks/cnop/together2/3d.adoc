@@ -1,0 +1,33 @@
+== Together 2 - 3D
+
+[cols="80,20", frame=none, grid=rows]
+|===
+a| image::3dcb.png[alt="Network, CNOP, Together 2: 3D, Cubics, Blue"]
+a|
+cuboids, blue
+----
+71cp, 72cb
+----
+
+a| image::3dcc.png[alt="Network, CNOP, Together 2: 3D, Cubics, Color"]
+a|
+cuboids, colored
+----
+71cp, 72cc
+----
+
+a| image::3dpc.png[alt="Network, CNOP, Together 2: 3D, Prisms, Color"]
+a|
+prisms, colored
+----
+75pp, 76pc
+----
+
+a| image::3dyc.png[alt="Network, CNOP, Together 2: 3D, Cylinders, Color"]
+a|
+cylinders, colored
+----
+73yp, 74yc
+----
+
+|===

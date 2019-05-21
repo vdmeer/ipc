@@ -1,0 +1,46 @@
+@startuml
+
+hide members
+hide circle
+
+skinparam ClassArrowColor Black
+skinparam ClassBorderColor Black
+skinparam ClassFontColor Black
+skinparam ClassFontName "Calibri Normal"
+skinparam ClassFontSize 18
+skinparam ClassBackgroundColor #ebe2d4
+skinparam ClassBorderThickness 2
+skinparam Shadowing false
+skinparam Padding 4
+skinparam SameClassWidth true
+
+
+together {
+    class Unit
+    class "Application\nUnit"
+    class "Distributed\nApplication\nUnit"
+}
+
+together {
+    class "Application"
+    class "Distributed\nApplication"
+}
+
+together {
+    class Executable
+    class Resource
+}
+
+Executable <|-- Application
+Executable <|-- Resource
+Executable <|-- Unit
+
+Unit <|-- "Application\nUnit"
+"Application\nUnit" <|-- "Distributed\nApplication\nUnit"
+
+"Application" <|-- "Distributed\nApplication"
+
+"Application\nUnit" <-* Application
+"Distributed\nApplication\nUnit" <-* "Distributed\nApplication"
+
+@enduml

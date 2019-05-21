@@ -1,0 +1,61 @@
+== WiLAN - Fingerprints - Schemas
+
+
+[cols="40,40,20", frame=none, grid=rows]
+|===
+
+a| image::sfp01.png[alt="Network, RINA, WiLAN: Fingerprint, Schema, 01"]
+a| image::sfp02.png[alt="Network, RINA, WiLAN: Fingerprint, Schema, 02"]
+a|
+only _Systems_ (blue, color)
+----
+11pf, 20b, 21cs
+11pf, 20c, 21cs
+----
+
+a| image::sfp03.png[alt="Network, RINA, WiLAN: Fingerprint, Schema, 03"]
+a| image::sfp04.png[alt="Network, RINA, WiLAN: Fingerprint, Schema, 04"]
+a|
+only _Layers_ (blue, color)
+----
+11pf, 30b
+11pf, 30c
+----
+
+a| image::sfp11.png[alt="Network, RINA, WiLAN: Fingerprint, Schema, 11"]
+a| image::sfp12.png[alt="Network, RINA, WiLAN: Fingerprint, Schema, 12"]
+a|
+only _Processes_ (blue, color)
+----
+40b, 43es
+40c, 43es, 44el
+----
+
+a| image::sfp05.png[alt="Network, RINA, WiLAN: Fingerprint, Schema, 05"]
+a| image::sfp06.png[alt="Network, RINA, WiLAN: Fingerprint, Schema, 06"]
+a|
+_Systems_ and _Layers_ (blue/color, with varying cells/frames)
+----
+11pf, 20b, 21cs, 30c
+11pf, 20b, 30c, 31fc
+----
+
+a| image::sfp09.png[alt="Network, RINA, WiLAN: Fingerprint, Schema, 09"]
+a| image::sfp10.png[alt="Network, RINA, WiLAN: Fingerprint, Schema, 10"]
+a|
+_Systems_ and _Processes_ (blue and grey/color)
+----
+11pf, 20b, 40g, 43es
+11pf, 20b, 40c, 43es
+----
+
+a| image::sfp07.png[alt="Network, RINA, WiLAN: Fingerprint, Schema, 07"]
+a| image::sfp08.png[alt="Network, RINA, WiLAN: Fingerprint, Schema, 08"]
+a|
+_Systems_, _Layers_, _Processes_ (blue/grey and grey/color)
+----
+11pf, 20b, 30g, 31fc, 40b, 43es
+11pf, 20g, 30c, 31fc, 40c, 43es
+----
+
+|===

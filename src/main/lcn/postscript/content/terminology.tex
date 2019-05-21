@@ -1,0 +1,83 @@
+\section{Terminology}
+\label{sec:terminology}
+
+
+\subsection{System, Layer, Process}
+
+    These three terms are the main elements of \ac{ict:IPC}.
+    They are written in italic to distinguish them from other uses, e.g. \textit{layer} means the term layer while graphic layer just uses the word layer in a different context.
+    The terms are probably of equal importance, depending on what you want to see, describe, define, specifiy, or process.
+
+    A \textit{system} provides resources to execute and manage processes.
+    A `Computing System' has (and manages) one or more `Processing System', which have resources and execute and manage \textit{processes}.
+    The \ac{people:vdmeer-sven:LCN} shows mostly `Processing Systems'.
+    \acs{org:psoc:RINA} shows that we have only three kinds of systems: hosts, border routers, and interior routers.
+    \index{System}\index{Computing System}\index{Processing System}
+
+    A \textit{layer} is a distributed application.
+    \acs{org:psoc:RINA} separates application layers from networking layers.
+    A \ac{org:psoc:rina:DAF} is an application layer.
+    A \ac{org:psoc:rina:DIF} is an network layer, essentially a specialized version of a \ac{org:psoc:rina:DAF}.
+    The lowest \textit{layer} connects our applications to some technology.
+    This \textit{layer} is called \textit{Shim} or \textit{Shim \acs{org:psoc:rina:DIF}}.
+    It uses an \ac{ict:IF} \footnote{an \ac{ict:API} to a blackbox} to either
+        a \ac{ict:net:PHY} (e.g. Ethernet or \acs{org:ieee:802:WIFI}) or
+        a (transport) protocol providing communication (e.g. \acs{org:ietf:ip:TCP} or \acs{org:ietf:ip:UDP}).
+    \index{Layer}\index{DAF}\index{DIF}\index{Shim}
+
+    A \textit{process} is the instantiation of program executed in a \textit{Processing System}, intended to achieve some purpose.
+    Cooperating processes form distributed applications.
+    \acs{org:psoc:RINA} separates application-related processes from network-related processes.
+    We have a \ac{org:psoc:rina:DAP} for general applications (an application process in a \ac{org:psoc:rina:DAF}) and
+        a \ac{org:psoc:rina:IPCP} for networks (an application process in a \ac{org:psoc:rina:DIF}).
+    \acp{org:psoc:rina:IPCP} are specialized \acp{org:psoc:rina:DAP}.
+    A link or connection between \textit{processes} means that they are connected (note: this is a connection between \textit{processes} and not \textit{systems}).
+    A link in the \ac{ict:net:PHY} layer is a physical connection between \textit{systems}.
+    \index{Process}\index{DAP}\index{IPCP}
+
+
+
+\subsection{Graphics}
+
+    The \ac{people:vdmeer-sven:LCN} drawings are all realized in the graphic format \ac{org:w3c:SVG}\footnote{an \acs{org:w3c:XML}-based vector image format defined by the \acs{org:W3C}, for \acs{org:w3c:SVG} specifications see \href{https://www.w3.org/Graphics/SVG/}{w3.org/Graphics/SVG/}}
+    The \ac{org:w3c:SVG} files use layers, called `graphic layers' to separate them from \textit{layers}.
+    The layer names are long to ease the (manual) authoring, drawing, and export process.
+    A short form of the names is called \ac{people:vdmeer-sven:lcn:GLC}.
+    It can be used as a standardized form for automated processes an to exchange between software processing \ac{people:vdmeer-sven:LCN} drawings and images.
+    \index{SVG}\index{GLC}
+
+    The names of the `graphic layers' and the \ac{people:vdmeer-sven:LCN} guide use a few terms: system, cell, acr, name, frame, edge, and 3D.
+    Here, `system' means a processing system (in the graphic a blue, colored, or grey box with a string frame).
+    The term `cell' is used for a cell in the rectangular grid (in the guide) and for a graphic layer that marks cells in systems (using horizontal and vertical lines).
+    The terms 'acr' and 'name' are used for graphic layers that have acronyms (usually a \acs{org:psoc:RINA}, e.g. \ac{org:psoc:rina:DIF} or \ac{org:psoc:rina:IPCP}) or some name (e.g. the name of a \textit{layer} or a \textit{process}).
+    'Frame' is used for objects that do not have a fill.
+    An 'edge' is a link between two or more graphic objects, e.g. links between \textit{processes}.
+    '3d' is used for \ac{ict:graphic:3D} graphics, mostly isometric cubes, prisms, and cylinders.
+
+    The term topology requires special attention.
+    In the \ac{people:vdmeer-sven:LCN} guide, 'topology' is used only in the mathematical sense (homeomorphism).
+    So topology refers to graphs with a common property, e.g. star, bus, ring, (fully) mesh(ed), tree, daisy chain, hybrid.
+    This is in contrast to the common use in networking where it means the graph of links between network equipment, i.e. not a homeomorphism.
+
+
+
+\subsection{Concepts}
+    The \ac{people:vdmeer-sven:LCN} uses and intoduces a few concepts with associated terms.
+    'Choice' and 'option' refer to graphic mechanisms and graphic policies (as in the principle of separation of mechanism and policy).
+    A 'choice' is a graphic mechanism. A set of choices is a set of grpahic mechanisms from which one or more can be selected.
+    For instance, some of the graphic layers are choices: \textit{systems} and \textit{layers} and \textit{processes} can be shown separately or in combination.
+    An 'option' is a graphic policy used to change the behavior of a choice (if it has options).
+    For instance, \textit{systems} can be shown with blue, colored, or grey fill. Same for \textit{layers} and \textit{processes}.
+    Some options can be used at the same time, some have to be used exclusively (e.g. fill).
+
+    A '(network) schema' is a schematic representation of a network, focusing on \textit{system} classes and types,
+    not showing all instances of \textit{systems} in a network (e.g. only showing the class host but not many hosts).
+    A 'network' is a complete network with all systems (e.g. with all \textit{systems}).
+
+    A 'fingerprint' is an abstracted (decreased details) representation of a network or a schema.
+    It can be an image or text.
+
+    'Tree' is used in the mathematical sense, a connected graph without cycles.
+    When the direction in this graph are important, a \ac{ict:concept:DAG} is used: a finite directed graph with no indirect cycles (tree with directions).
+
+

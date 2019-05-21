@@ -1,0 +1,78 @@
+#!/usr/bin/env bash
+##
+## Scripts for site fw (skb-framework)
+##
+## @author     Sven van der Meer <vdmeer.sven@mykolab.com>
+## @version    v0.0.0
+##
+
+MvnSitePreScript() {
+    :
+}
+
+
+
+MvnSitePostScript() {
+
+    local LCN_DAY=$(date +"%d")
+    local LCN_Month=$(date +"%b")
+    local LCN_month=${LCN_Month,,}
+    local LCN_YEAR=$(date +"%Y")
+    local LCN_DATE=$(date -I)
+    local LCN_VERSION=$(cat src/main/version.txt)
+    printf "\n\n%s: %s; %s; %s/%s; %s\n" "$LCN_VERSION" "$LCN_DATE" "$LCN_YEAR" "$LCN_Month" "$LCN_month" "$LCN_DAY"
+
+    local ATTRIBUTION_HTML_FILE="target/site/lcn/attribution.html"
+    ConsoleDebug "fixing LCN Attribution in $ATTRIBUTION_HTML_FILE"
+    if [[ -f "$ATTRIBUTION_HTML_FILE" ]]; then
+        cat ${ATTRIBUTION_HTML_FILE} | sed \
+            -e "s;%LCN_DAY%;$LCN_DAY;g" \
+            -e "s;%LCN_Month%;$LCN_Month;g" \
+            -e "s;%LCN_month%;$LCN_month;g" \
+            -e "s;%LCN_YEAR%;$LCN_YEAR;g" \
+            -e "s;%LCN_DATE%;$LCN_DATE;g" \
+            -e "s;%LCN_VERSION%;$LCN_VERSION;g" \
+        > "$ATTRIBUTION_HTML_FILE"-new
+        rm "$ATTRIBUTION_HTML_FILE"
+        mv "$ATTRIBUTION_HTML_FILE"-new "$ATTRIBUTION_HTML_FILE"
+    else
+        ConsoleError " ->" "mvn-post: no attribution file: $ATTRIBUTION_HTML_FILE"
+        exit 1
+    fi
+    ConsoleDebug "done\n"
+
+
+
+    local SRC_DIR=src/main/networks/rina
+    local DEST_DIR=target/site/networks/rina
+    for NETWORK in $SRC_DIR/*; do
+        if [[ -d "$NETWORK" ]]; then
+            if [[ -d "$NETWORK/png" ]]; then
+                local DIR=${NETWORK##*/}
+                if [[ -d "$DEST_DIR/$DIR" ]]; then
+                    ConsoleDebug "copy PNG resources for $NETWORK"
+                    cp $NETWORK/png/* $DEST_DIR/$DIR
+                else
+                    ConsoleError " ->" "mvn-post: no destination for PNGs: $DEST_DIR/$DIR"
+                fi
+            fi
+        fi
+    done
+
+    local SRC_DIR=src/main/networks/cnop
+    local DEST_DIR=target/site/networks/cnop
+    for NETWORK in $SRC_DIR/*; do
+        if [[ -d "$NETWORK" ]]; then
+            if [[ -d "$NETWORK/png" ]]; then
+                local DIR=${NETWORK##*/}
+                if [[ -d "$DEST_DIR/$DIR" ]]; then
+                    ConsoleDebug "copy PNG resources for $NETWORK"
+                    cp $NETWORK/png/* $DEST_DIR/$DIR
+                else
+                    ConsoleError " ->" "mvn-post: no destination for PNGs: $DEST_DIR/$DIR"
+                fi
+            fi
+        fi
+    done
+}
+

@@ -1,0 +1,8 @@
+This is an example of cellular network offering Internet services.
+The network models the \ac{ict:net:UP} protocol stack of an \acs{org:3gpp:4g:LTE} or \acs{org:3gpp:4G} mobile network.
+Many of the original protocols (such as the tunnelling using \acs{org:3gpp:GTP}) disappear.
+They are replaced by the \textit{LTE UU} \ac{org:psoc:rina:DIF}.
+The \textit{\acs{ict:net:role:MNO} Top Level} \ac{org:psoc:rina:DIF} provides the flows over the scope of the mobile network, including its \textit{Metro} and \textit{Backbone} parts.
+The later two multiplex and transport the mobile traffic over the metro and core network segments.
+The \textit{Internet} \ac{org:psoc:rina:DIF} is added to show a \ac{org:psoc:rina:DIF} for services and applications.
+For simplicity, we only added 1 \acs{org:3gpp:UE}.

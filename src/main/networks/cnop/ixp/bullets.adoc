@@ -1,0 +1,10 @@
+* IXP – Internetwork eXchange Points
+* IXP Network
+    ** Provides connectivity for service providers and network operators
+    ** Operators usually host own equipment in their facility
+    ** Traffic not limited to service classes, any traffic possible in DIFs
+* IXP fabric must support performance and connectivity isolation
+* Can use specific utility DIFs for each required isolation
+* "IXP Fabric"" transports traffic of multiple DIFs or DAFs (shown here)
+* Supported by different Provider Edge (PE) routers
+* Internally using Provider (P) routers for IXP 

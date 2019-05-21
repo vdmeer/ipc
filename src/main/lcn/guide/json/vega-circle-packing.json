@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "name": "ExampleDAF"
+  },
+  {
+    "id": 2,
+    "name": "Left",
+    "parent": 1,
+    "size": 5
+  },
+  {
+    "id": 3,
+    "name": "Right",
+    "parent": 1,
+    "size": 5
+  },
+  {
+    "id": 4,
+    "name": "ServiceDIF",
+    "parent": 1
+  },
+  {
+    "id": 5,
+    "name": "SVC1",
+    "parent": 4,
+    "size": 1
+  },
+  {
+    "id": 6,
+    "name": "SVC2",
+    "parent": 4,
+    "size": 1
+  },
+  {
+    "id": 7,
+    "name": "SVC3",
+    "parent": 4,
+    "size": 1
+  },
+  {
+    "id": 8,
+    "name": "SVC4",
+    "parent": 4,
+    "size": 1
+  },
+  {
+    "id": 9,
+    "name": "ShimDIF1",
+    "parent": 4
+  },
+  {
+    "id": 10,
+    "name": "Shim11",
+    "parent": 9,
+    "size": 1
+  },
+  {
+    "id": 11,
+    "name": "Shim12",
+    "parent": 9,
+    "size": 1
+  },
+  {
+    "id": 12,
+    "name": "BackboneDIF",
+    "parent": 4
+  },
+  {
+    "id": 13,
+    "name": "BB1",
+    "parent": 12,
+    "size": 1
+  },
+  {
+    "id": 14,
+    "name": "BB2",
+    "parent": 12,
+    "size": 1
+  },
+  {
+    "id": 15,
+    "name": "BB3",
+    "parent": 12,
+    "size": 1
+  },
+  {
+    "id": 16,
+    "name": "ShimDIF2",
+    "parent": 12
+  },
+  {
+    "id": 17,
+    "name": "Shim21",
+    "parent": 16,
+    "size": 1
+  },
+  {
+    "id": 18,
+    "name": "Shim22",
+    "parent": 16,
+    "size": 1
+  },
+  {
+    "id": 19,
+    "name": "ShimDIF3",
+    "parent": 12
+  },
+  {
+    "id": 20,
+    "name": "Shim31",
+    "parent": 19,
+    "size": 1
+  },
+  {
+    "id": 21,
+    "name": "Shim32",
+    "parent": 19,
+    "size": 1
+  },
+  {
+    "id": 22,
+    "name": "ShimDIF4",
+    "parent": 4
+  },
+  {
+    "id": 23,
+    "name": "Shim41",
+    "parent": 22,
+    "size": 1
+  },
+  {
+    "id": 24,
+    "name": "Shim42",
+    "parent": 22,
+    "size": 1
+  }
+]

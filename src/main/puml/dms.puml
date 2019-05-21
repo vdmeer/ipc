@@ -1,0 +1,25 @@
+@startuml
+
+hide members
+hide circle
+
+skinparam ClassArrowColor Black
+skinparam ClassBorderColor Black
+skinparam ClassFontColor Black
+skinparam ClassFontName "Calibri Normal"
+skinparam ClassFontSize 18
+skinparam ClassBackgroundColor #ebe2d4
+skinparam ClassBorderThickness 2
+skinparam Shadowing false
+skinparam Padding 4
+skinparam SameClassWidth true
+
+
+"Distributed\nApplication\nFacility" <|-- "Distributed\nManagement\nSystem (DMS)"
+
+"Distributed\nManagement\nSystem (DMS)" <|-- "Operating\nSystem\n(OS-DMS)"
+"Distributed\nManagement\nSystem (DMS)" <|-- "Network\nManagement\n(NM-DMS)"
+"Distributed\nManagement\nSystem (DMS)" <|-- "Application\nManagement\n(AM-DMS)"
+"Distributed\nManagement\nSystem (DMS)" <|-- "Namespace\nManagement\n(NSM-DMS)"
+
+@enduml

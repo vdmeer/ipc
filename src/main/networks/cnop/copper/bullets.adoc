@@ -1,0 +1,4 @@
+* Generalization of an xDSL access network
+* Access routers aggregate traffic into provider network (with provider routers)
+* Edge service router provides authentication and access to service DIFs
+* All services are independent of the underlying network

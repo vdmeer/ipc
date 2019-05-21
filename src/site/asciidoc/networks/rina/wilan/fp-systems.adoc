@@ -1,0 +1,33 @@
+== WiLAN - Fingerprints - Systems
+
+[cols="80,20", frame=none, grid=rows]
+|===
+a|image::sysfp1.png[alt="Network, RINA, WiLAN: Fingerprint, Systen, 1"]
+a|
+top-down, circles
+----
+51tdc
+----
+
+a|image::sysfp2.png[alt="Network, RINA, WiLAN: Fingerprint, Systen, 2"]
+a|
+top-down, octagons
+----
+51tdo
+----
+
+a|image::sysfp3.png[alt="Network, RINA, WiLAN: Fingerprint, Systen, 3"]
+a|
+bottom-up, circles
+----
+51buc
+----
+
+a|image::sysfp4.png[alt="Network, RINA, WiLAN: Fingerprint, Systen, 4"]
+a|
+bottom-up, octagon
+----
+51buo
+----
+
+|===

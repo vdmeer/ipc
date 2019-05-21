@@ -1,0 +1,4 @@
+This is an example of multi-tenant \ac{ict:cloud:DC} network.
+The original design did use the \acs{org:ietf:VXLAN} protocol to create several layer 2 virtual networks over a shared \acs{org:ietf:ip:IPv6} \ac{ict:cloud:DC} fabric.
+This network features a \textit{Tenant} \ac{org:psoc:rina:DIF} and a \textit{DC Fabric} \ac{org:psoc:rina:DIF}.
+The later one allocates the resources in the leaf-spine fabric (between the \acs{ict:cloud:TOR} systems) to flows used by (potentially competing) \textit{Tenant} \acp{org:psoc:rina:DIF}, which provide isolated and customised networking domains to each \ac{ict:cloud:DC} tenant and its \acsp{ict:VM}.

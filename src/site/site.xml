@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ ============LICENSE_START=======================================================
+  Copyright (C) 2018 Sven van der Meer. All rights reserved.
+ ================================================================================
+ This file is licensed under the CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL LICENSE
+ Full license text at https://creativecommons.org/licenses/by/4.0/legalcode
+ 
+ SPDX-License-Identifier: CC-BY-4.0
+ ============LICENSE_END=========================================================
+
+ @author Sven van der Meer (vdmeer.sven@mykolab.com)
+
+-->
+
+<project name="IPC">
+    <bannerLeft>
+        <name/>
+        <title/>
+    </bannerLeft>
+
+    <body>
+        <head>
+            <![CDATA[<link href="https://fonts.googleapis.com/css?family=Lora|Roboto+Condensed" rel="stylesheet" />]]>
+        </head>
+
+        <menu name="IPC">
+            <item href="index.html" name="Welcome" />
+
+            <item href="lcn.html" name="LCN" collapse="false">
+                <item href="lcn/attribution.html" name="Attribution" />
+                <item href="lcn/guide.html" name="LCN Guide" />
+                <item href="lcn/layouts.html" name="LCN Layouts" />
+                <item href="lcn/postscript.html" name="LCN Postscript" />
+            </item>
+
+            <item href="networks.html" name="Networks" collapse="false">
+                <item href="networks/schema-matrix.html" name="Schema Matrix" collapse="false" />
+                <item href="networks/complexities.html" name="Complexity Tables" collapse="false" />
+            </item>
+
+            <item href="networks/rina.html" name="Networks: RINA" collapse="true">
+                <item href="networks/rina/2br/index.html" name="2 BR" collapse="true">
+                    <item href="networks/rina/2br/fp-schemas.html" name="FP-Schemas" />
+                    <item href="networks/rina/2br/fp-systems.html" name="FP-Systems" />
+                    <item href="networks/rina/2br/fp-layers.html" name="FP-Layers" />
+                    <item href="networks/rina/2br/3d.html" name="3D" />
+                </item>
+                <item href="networks/rina/2br-ir/index.html" name="2 BR, IR" collapse="true">
+                    <item href="networks/rina/2br-ir/fp-schemas.html" name="FP-Schemas" />
+                    <item href="networks/rina/2br-ir/fp-systems.html" name="FP-Systems" />
+                    <item href="networks/rina/2br-ir/fp-layers.html" name="FP-Layers" />
+                    <item href="networks/rina/2br-ir/3d.html" name="3D" />
+                </item>
+                <item href="networks/rina/2h/index.html" name="2 Hosts" collapse="true">
+                    <item href="networks/rina/2h/fp-schemas.html" name="FP-Schemas" />
+                    <item href="networks/rina/2h/fp-systems.html" name="FP-Systems" />
+                    <item href="networks/rina/2h/fp-layers.html" name="FP-Layers" />
+                    <item href="networks/rina/2h/3d.html" name="3D" />
+                </item>
+                <item href="networks/rina/2h-ir/index.html" name="2 Host, IR" collapse="true">
+                    <item href="networks/rina/2h-ir/fp-schemas.html" name="FP-Schemas" />
+                    <item href="networks/rina/2h-ir/fp-systems.html" name="FP-Systems" />
+                    <item href="networks/rina/2h-ir/fp-layers.html" name="FP-Layers" />
+                    <item href="networks/rina/2h-ir/3d.html" name="3D" />
+                </item>
+                <item href="networks/rina/long-ir/index.html" name="Long IR" collapse="true">
+                    <item href="networks/rina/long-ir/fp-schemas.html" name="FP-Schemas" />
+                    <item href="networks/rina/long-ir/fp-systems.html" name="FP-Systems" />
+                    <item href="networks/rina/long-ir/fp-layers.html" name="FP-Layers" />
+                    <item href="networks/rina/long-ir/3d.html" name="3D" />
+                </item>
+                <item href="networks/rina/os/index.html" name="OS" collapse="true">
+                    <item href="networks/rina/os/fp-schemas.html" name="FP-Schemas" />
+                    <item href="networks/rina/os/fp-systems.html" name="FP-Systems" />
+                    <item href="networks/rina/os/fp-layers.html" name="FP-Layers" />
+                    <item href="networks/rina/os/3d.html" name="3D" />
+                </item>
+                <item href="networks/rina/sn-wifi/index.html" name="SN WiFi" collapse="true">
+                    <item href="networks/rina/sn-wifi/fp-schemas.html" name="FP-Schemas" />
+                    <item href="networks/rina/sn-wifi/fp-systems.html" name="FP-Systems" />
+                    <item href="networks/rina/sn-wifi/fp-layers.html" name="FP-Layers" />
+                    <item href="networks/rina/sn-wifi/3d.html" name="3D" />
+                </item>
+                <item href="networks/rina/std-long/index.html" name="Standard Long" collapse="true">
+                    <item href="networks/rina/std-long/fp-schemas.html" name="FP-Schemas" />
+                    <item href="networks/rina/std-long/fp-systems.html" name="FP-Systems" />
+                    <item href="networks/rina/std-long/fp-layers.html" name="FP-Layers" />
+                    <item href="networks/rina/std-long/3d.html" name="3D" />
+                </item>
+                <item href="networks/rina/std-short/index.html" name="Standard Short" collapse="true">
+                    <item href="networks/rina/std-short/fp-schemas.html" name="FP-Schemas" />
+                    <item href="networks/rina/std-short/fp-systems.html" name="FP-Systems" />
+                    <item href="networks/rina/std-short/fp-layers.html" name="FP-Layers" />
+                    <item href="networks/rina/std-short/3d.html" name="3D" />
+                </item>
+                <item href="networks/rina/wilan/index.html" name="WiLAN" collapse="true">
+                    <item href="networks/rina/wilan/fp-schemas.html" name="FP-Schemas" />
+                    <item href="networks/rina/wilan/fp-systems.html" name="FP-Systems" />
+                    <item href="networks/rina/wilan/fp-layers.html" name="FP-Layers" />
+                    <item href="networks/rina/wilan/3d.html" name="3D" />
+                </item>
+            </item>
+
+            <item href="networks/cnop.html" name="Networks: CNOP" collapse="true">
+                <item href="networks/cnop/copper/index.html" name="Copper" collapse="true">
+                    <item href="networks/cnop/copper/fp-schemas.html" name="FP-Schemas" />
+                    <item href="networks/cnop/copper/fp-systems.html" name="FP-Systems" />
+                    <item href="networks/cnop/copper/fp-layers.html" name="FP-Layers" />
+                    <item href="networks/cnop/copper/3d.html" name="3D" />
+                </item>
+                <item href="networks/cnop/core/index.html" name="Core" collapse="true">
+                    <item href="networks/cnop/core/fp-schemas.html" name="FP-Schemas" />
+                    <item href="networks/cnop/core/fp-systems.html" name="FP-Systems" />
+                    <item href="networks/cnop/core/fp-layers.html" name="FP-Layers" />
+                    <item href="networks/cnop/core/3d.html" name="3D" />
+                </item>
+                <item href="networks/cnop/dc/index.html" name="DC" collapse="true">
+                    <item href="networks/cnop/dc/fp-schemas.html" name="FP-Schemas" />
+                    <item href="networks/cnop/dc/fp-systems.html" name="FP-Systems" />
+                    <item href="networks/cnop/dc/fp-layers.html" name="FP-Layers" />
+                    <item href="networks/cnop/dc/3d.html" name="3D" />
+                </item>
+                <item href="networks/cnop/ixp/index.html" name="IXP" collapse="true">
+                    <item href="networks/cnop/ixp/fp-schemas.html" name="FP-Schemas" />
+                    <item href="networks/cnop/ixp/fp-systems.html" name="FP-Systems" />
+                    <item href="networks/cnop/ixp/fp-layers.html" name="FP-Layers" />
+                    <item href="networks/cnop/ixp/3d.html" name="3D" />
+                </item>
+                <item href="networks/cnop/lte/index.html" name="LTE" collapse="true">
+                    <item href="networks/cnop/lte/fp-schemas.html" name="FP-Schemas" />
+                    <item href="networks/cnop/lte/fp-systems.html" name="FP-Systems" />
+                    <item href="networks/cnop/lte/fp-layers.html" name="FP-Layers" />
+                    <item href="networks/cnop/lte/3d.html" name="3D" />
+                </item>
+                <item href="networks/cnop/metro/index.html" name="Metro" collapse="true">
+                    <item href="networks/cnop/metro/fp-schemas.html" name="FP-Schemas" />
+                    <item href="networks/cnop/metro/fp-systems.html" name="FP-Systems" />
+                    <item href="networks/cnop/metro/fp-layers.html" name="FP-Layers" />
+                    <item href="networks/cnop/metro/3d.html" name="3D" />
+                </item>
+                <item href="networks/cnop/pbb/index.html" name="PBB" collapse="true">
+                    <item href="networks/cnop/pbb/fp-schemas.html" name="FP-Schemas" />
+                    <item href="networks/cnop/pbb/fp-systems.html" name="FP-Systems" />
+                    <item href="networks/cnop/pbb/fp-layers.html" name="FP-Layers" />
+                    <item href="networks/cnop/pbb/3d.html" name="3D" />
+                </item>
+                <item href="networks/cnop/residential/index.html" name="Residential" collapse="true">
+                    <item href="networks/cnop/residential/fp-schemas.html" name="FP-Schemas" />
+                    <item href="networks/cnop/residential/fp-systems.html" name="FP-Systems" />
+                    <item href="networks/cnop/residential/fp-layers.html" name="FP-Layers" />
+                    <item href="networks/cnop/residential/3d.html" name="3D" />
+                </item>
+                <item href="networks/cnop/together1/index.html" name="Together 1" collapse="true">
+                    <item href="networks/cnop/together1/fp-schemas.html" name="FP-Schemas" />
+                    <item href="networks/cnop/together1/fp-systems.html" name="FP-Systems" />
+                    <item href="networks/cnop/together1/fp-layers.html" name="FP-Layers" />
+                    <item href="networks/cnop/together1/3d.html" name="3D" />
+                </item>
+                <item href="networks/cnop/together2/index.html" name="Together 2" collapse="true">
+                    <item href="networks/cnop/together2/fp-schemas.html" name="FP-Schemas" />
+                    <item href="networks/cnop/together2/fp-systems.html" name="FP-Systems" />
+                    <item href="networks/cnop/together2/fp-layers.html" name="FP-Layers" />
+                    <item href="networks/cnop/together2/3d.html" name="3D" />
+                </item>
+                <item href="networks/cnop/together3/index.html" name="Together 3" collapse="true">
+                    <item href="networks/cnop/together3/fp-schemas.html" name="FP-Schemas" />
+                    <item href="networks/cnop/together3/fp-systems.html" name="FP-Systems" />
+                    <item href="networks/cnop/together3/fp-layers.html" name="FP-Layers" />
+                    <item href="networks/cnop/together3/3d.html" name="3D" />
+                </item>
+                <item href="networks/cnop/together4/index.html" name="Together 4" collapse="true">
+                    <item href="networks/cnop/together4/fp-schemas.html" name="FP-Schemas" />
+                    <item href="networks/cnop/together4/fp-systems.html" name="FP-Systems" />
+                    <item href="networks/cnop/together4/fp-layers.html" name="FP-Layers" />
+                    <item href="networks/cnop/together4/3d.html" name="3D" />
+                </item>
+                <item href="networks/cnop/wifi1/index.html" name="WiFi 1" collapse="true">
+                    <item href="networks/cnop/wifi1/fp-schemas.html" name="FP-Schemas" />
+                    <item href="networks/cnop/wifi1/fp-systems.html" name="FP-Systems" />
+                    <item href="networks/cnop/wifi1/fp-layers.html" name="FP-Layers" />
+                    <item href="networks/cnop/wifi1/3d.html" name="3D" />
+                </item>
+                <item href="networks/cnop/wifi2/index.html" name="WiFi 2" collapse="true">
+                    <item href="networks/cnop/wifi2/fp-schemas.html" name="FP-Schemas" />
+                    <item href="networks/cnop/wifi2/fp-systems.html" name="FP-Systems" />
+                    <item href="networks/cnop/wifi2/fp-layers.html" name="FP-Layers" />
+                    <item href="networks/cnop/wifi2/3d.html" name="3D" />
+                </item>
+            </item>
+
+
+
+        </menu>
+
+        <breadcrumbs>
+            <item name="vdmeer" href="http://www.vandermeer.de/"/>
+            <item name="skb" href="https://vdmeer.github.io/skb/"/>
+            <item name="ipc" href="index.html"/>
+        </breadcrumbs>
+
+        <footer>
+            <![CDATA[
+                <p>
+                    Copyright &copy; 2019 Sven van der Meer. All rights reserved.
+                </p>
+                <p>
+                    <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a> This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+                </p>
+            ]]>
+        </footer>
+    </body>
+
+    <publishDate position="right"/>
+    <version position="right"/>
+    <poweredBy>
+        <logo name="maven-site" href="https://maven.apache.org/plugins/maven-site-plugin" img="images/logos/build-by-maven-black.png"/>
+        <logo name="asciidoctor" href="https://asciidoctor.org" img="images/logos/asciidoctor-transparent.png"/>
+    </poweredBy>
+
+    <skin>
+        <groupId>org.apache.maven.skins</groupId>
+        <artifactId>maven-fluido-skin</artifactId>
+        <version>1.5</version>
+    </skin>
+</project>

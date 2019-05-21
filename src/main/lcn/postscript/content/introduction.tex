@@ -1,0 +1,44 @@
+\section{\acl{ict:IPC}}
+\label{sec:ipc}
+
+
+``Networking is \ac{ict:IPC} \lcncite{cite:inproceedings:1970:metcalf-1972-acm}''.
+``Networking is Distributed \ac{ict:IPC}, and only \ac{ict:IPC} \lcncite{cite:book:2000:day-2007-pna}''.
+In short: A \textit{process} is the instance of an application running on a \textit{system}.
+A \textit{layer} is a collection of cooperating IPC \textit{processes}, a \ac{org:psoc:rina:DIF}.
+A \textit{system} executes \ac{ict:IPC} \textit{processes}.
+All \textit{layers} have the same functionality.
+They differ in scope and \ac{ict:net:QoS}.
+
+\acs{org:psoc:RINA} is an architecture for \ac{ict:IPC} based on science and a corresponding theory.
+The theory is developed in \lcncite{cite:book:2000:day-2007-pna}, often refered to as \ac{people:day-john:PNA}.
+The architecture and its specifications are developed, maintained, and published by \ac{org:PSOC}.
+
+There are only two protocols in \acs{org:psoc:RINA}.
+The \ac{org:psoc:rina:EFCP} handles flow control.
+It has a mandatory part called \ac{org:psoc:rina:DTP} and an optional part called \ac{org:psoc:rina:DTCP}.
+\ac{org:psoc:rina:CDAP} is the application protocol, i.e. the only application protocol required for \ac{ict:IPC}.
+
+
+\subsection{Complexity versus Variance}
+
+The actual problem is variance, not complexity.
+Using the principle (or abstraction) of separating `mechism' from `policy' can help to minimize variance.
+It does not necessarily minimize complexity.
+To avoid `reudctio ad absurdum', we can use a simple guideline:
+a `mechanism' focuses on the purpose (of something) and `policies' focus on ways to realize it.
+The goal then is to maximize invariance (`mechanisms') and to minimize variance (`policies').
+We need to look at commonalities and maximize them, thus reducing \acs{biz:OPEX} and \acs{biz:CAPEX} while improving management.
+Minimizing discontinuities also helps to avoid cumbersome solutions.
+
+
+\subsection{Futher Reading}
+
+There is much more to read, especially in science (yes, there is science).
+A good start is `Cybernetics', for instance with work of Ashby, Wiener, Maturana, and von Förster.
+Going further back, one can look at philosophy and physics and mathematics.
+A good starting point is to look at the work of Newton, Leibnitz, Russel, and Wittgenstein.
+Also Frege, Fleck, Kuhn, Popper, Lakatos, Kaufmann, and Dijkstra.
+For networking, we would recommend Hansen, Wulf, Watson, Bachman, Metcalf, Shoch, Saltzer, Pouzin, and Day.
+For an extended reading list with many links and some discussions see
+    \href{https://vdmeer.github.io/skb/research-notes-ina.html}{research-notes-ina}.

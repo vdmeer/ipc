@@ -1,0 +1,14 @@
+The _core_ is in charge of transporting traffic between core POPs.
+This traffic can come from
+    the operator's customers (aggregated via access and MAN networks),
+    local or regional data centers, or
+    other operators.
+This network segment provides a transport facility to service DIF across the provider's main POPs.
+It deals with highly aggregated traffic carried governed by (very) different QoS promises.
+
+This network provides a sophisticated design suitable for very large core networks, ready to scale-up if needed.
+In this design, we find 2 levels of backbone DIF, L1 and L2.
+_Backbone Level 1_ aggregates the traffic over several MAN core POPs into regional core POPs.
+These regional core POPs are all interconnected by _Backbone Level 2_.
+_Backbone Level 1_ is further divided into different areas, which map to the regions in the provider's network.
+Its structure can be leveraged to design an effective addressing and forwarding scheme.

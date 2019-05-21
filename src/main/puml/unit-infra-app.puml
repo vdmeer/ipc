@@ -1,0 +1,26 @@
+@startuml
+
+hide members
+hide circle
+
+skinparam ClassArrowColor Black
+skinparam ClassBorderColor Black
+skinparam ClassFontColor Black
+skinparam ClassFontName "Calibri Normal"
+skinparam ClassFontSize 18
+skinparam ClassBackgroundColor #ebe2d4
+skinparam ClassBorderThickness 2
+skinparam Shadowing false
+skinparam Padding 4
+skinparam SameClassWidth true
+
+
+Infrastructure <|-- "Task\nManagement"
+Infrastructure <|-- "Memory\nManagement"
+Infrastructure <|-- "Input/Output\n(IPC)"
+
+"Application\nUnit" *--> "Task\nManagement"
+"Application\nUnit" *--> "Memory\nManagement"
+"Application\nUnit" *--> "Input/Output\n(IPC)"
+
+@enduml

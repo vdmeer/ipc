@@ -1,0 +1,22 @@
+== Networks - RINA - SN WiFi
+
+include::{skb-site-main-dir}/main/networks/rina/sn-wifi/bullets.adoc[]
+
+'''
+
+=== Description
+
+include::{skb-site-main-dir}/main/networks/rina/sn-wifi/description.adoc[]
+
+'''
+
+=== Schema
+
+image::schema.png[alt="Network, RINA, SN WiFi: Schema",align=center]
+
+'''
+
+=== 3D
+
+image::3dcc.png[alt="Network, RINA, SN WiFi: 3D",align=center]
+

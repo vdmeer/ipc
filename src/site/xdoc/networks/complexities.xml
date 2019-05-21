@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ ============LICENSE_START=======================================================
+  Copyright (C) 2018 Sven van der Meer. All rights reserved.
+ ================================================================================
+ This file is licensed under the CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL LICENSE
+ Full license text at https://creativecommons.org/licenses/by/4.0/legalcode
+ 
+ SPDX-License-Identifier: CC-BY-4.0
+ ============LICENSE_END=========================================================
+
+ @author Sven van der Meer (vdmeer.sven@mykolab.com)
+
+-->
+
+<document>
+    <properties>
+        <title>Complexity Tables</title>
+        <author email="vdmeer dot sven at mykolab dot com">Sven van der Meer</author>
+    </properties>
+
+    <body>
+        <section name="Complexity Tables">
+                <p style="font-size: 1.25em">
+                   
+                </p>
+
+            <subsection name="RINA">
+                <table>
+                    <tr style="border-collapse:collapse; border-bottom:2pt solid black; border-top:2pt solid black;">
+                        <th style="white-space:nowrap; font-weight:bold; text-align:center;"></th>
+                        <th style="white-space:nowrap; font-weight:bold; text-align:center;">2 BR</th>
+                        <th style="white-space:nowrap; font-weight:bold; text-align:center;">2 BR IR</th>
+                        <th style="white-space:nowrap; font-weight:bold; text-align:center;">2 H</th>
+                        <th style="white-space:nowrap; font-weight:bold; text-align:center;">2 H IR</th>
+                        <th style="white-space:nowrap; font-weight:bold; text-align:center;">Long IR</th>
+                        <th style="white-space:nowrap; font-weight:bold; text-align:center;">OS</th>
+                        <th style="white-space:nowrap; font-weight:bold; text-align:center;">SN-WiFi</th>
+                        <th style="white-space:nowrap; font-weight:bold; text-align:center;">Std Long</th>
+                        <th style="white-space:nowrap; font-weight:bold; text-align:center;">Std Short</th>
+                        <th style="white-space:nowrap; font-weight:bold; text-align:center;">WiLAN</th>
+                    </tr>
+
+                    <tr>
+                        <td>H/B/I</td>
+                        <td style="text-align:center;">0/2/0</td> <!-- 2BR       -->
+                        <td style="text-align:center;">0/2/1</td> <!-- 2BR IR    -->
+                        <td style="text-align:center;">2/0/0</td> <!-- 2H        -->
+                        <td style="text-align:center;">2/0/1</td> <!-- 2H IR     -->
+                        <td style="text-align:center;">2/0/6</td> <!-- Long IR   -->
+                        <td style="text-align:center;">2/0/1</td> <!-- OS        -->
+                        <td style="text-align:center;">1/6/1</td> <!-- SN WiFi   -->
+                        <td style="text-align:center;">2/2/1</td> <!-- Std Long  -->
+                        <td style="text-align:center;">2/2/4</td> <!-- Std Short -->
+                        <td style="text-align:center;">2/0/3</td> <!-- WiLAN     -->
+                    </tr>
+                    <tr style="border-collapse:collapse; border-bottom:2pt solid black;">
+                        <th style="font-weight:bold">C<sub>S</sub></th>
+                        <td style="font-weight:bold; text-align:center;"> 2</td> <!-- 2BR       -->
+                        <td style="font-weight:bold; text-align:center;"> 3</td> <!-- 2BR IR    -->
+                        <td style="font-weight:bold; text-align:center;"> 2</td> <!-- 2H        -->
+                        <td style="font-weight:bold; text-align:center;"> 3</td> <!-- 2H IR     -->
+                        <td style="font-weight:bold; text-align:center;"> 8</td> <!-- Long IR   -->
+                        <td style="font-weight:bold; text-align:center;"> 3</td> <!-- OS        -->
+                        <td style="font-weight:bold; text-align:center;"> 8</td> <!-- SN WiFi   -->
+                        <td style="font-weight:bold; text-align:center;"> 8</td> <!-- Std Long  -->
+                        <td style="font-weight:bold; text-align:center;"> 5</td> <!-- Std Short -->
+                        <td style="font-weight:bold; text-align:center;"> 5</td> <!-- WiLAN     -->
+                    </tr>
+
+                    <tr>
+                        <td>DIF</td>
+                        <td style="text-align:center;"> 2</td> <!-- 2BR       -->
+                        <td style="text-align:center;"> 2</td> <!-- 2BR IR    -->
+                        <td style="text-align:center;"> 1</td> <!-- 2H        -->
+                        <td style="text-align:center;"> 1</td> <!-- 2H IR     -->
+                        <td style="text-align:center;"> 1</td> <!-- Long IR   -->
+                        <td style="text-align:center;"> 0</td> <!-- OS        -->
+                        <td style="text-align:center;"> 7</td> <!-- SN WiFi   -->
+                        <td style="text-align:center;"> 2</td> <!-- Std Long  -->
+                        <td style="text-align:center;"> 2</td> <!-- Std Short -->
+                        <td style="text-align:center;"> 1</td> <!-- WiLAN     -->
+                    </tr>
+                    <tr>
+                        <td>Shim</td>
+                        <td style="text-align:center;"> 3</td> <!-- 2BR       -->
+                        <td style="text-align:center;"> 4</td> <!-- 2BR IR    -->
+                        <td style="text-align:center;"> 1</td> <!-- 2H        -->
+                        <td style="text-align:center;"> 2</td> <!-- 2H IR     -->
+                        <td style="text-align:center;"> 7</td> <!-- Long IR   -->
+                        <td style="text-align:center;"> 2</td> <!-- OS        -->
+                        <td style="text-align:center;"> 8</td> <!-- SN WiFi   -->
+                        <td style="text-align:center;"> 7</td> <!-- Std Long  -->
+                        <td style="text-align:center;"> 4</td> <!-- Std Short -->
+                        <td style="text-align:center;"> 4</td> <!-- WiLAN     -->
+                    </tr>
+                    <tr>
+                        <td>DAF</td>
+                        <td style="text-align:center;"> 0</td> <!-- 2BR       -->
+                        <td style="text-align:center;"> 0</td> <!-- 2BR IR    -->
+                        <td style="text-align:center;"> 1</td> <!-- 2H        -->
+                        <td style="text-align:center;"> 1</td> <!-- 2H IR     -->
+                        <td style="text-align:center;"> 1</td> <!-- Long IR   -->
+                        <td style="text-align:center;"> 1</td> <!-- OS        -->
+                        <td style="text-align:center;"> 1</td> <!-- SN WiFi   -->
+                        <td style="text-align:center;"> 1</td> <!-- Std Long  -->
+                        <td style="text-align:center;"> 1</td> <!-- Std Short -->
+                        <td style="text-align:center;"> 1</td> <!-- WiLAN     -->
+                    </tr>
+                    <tr style="border-collapse:collapse; border-bottom:2pt solid black;">
+                        <th style="font-weight:bold;">C<sub>L</sub></th>
+                        <td style="font-weight:bold; text-align:center;"> 5</td> <!-- 2BR       -->
+                        <td style="font-weight:bold; text-align:center;"> 6</td> <!-- 2BR IR    -->
+                        <td style="font-weight:bold; text-align:center;"> 3</td> <!-- 2H        -->
+                        <td style="font-weight:bold; text-align:center;"> 4</td> <!-- 2H IR     -->
+                        <td style="font-weight:bold; text-align:center;"> 9</td> <!-- Long IR   -->
+                        <td style="font-weight:bold; text-align:center;"> 3</td> <!-- OS        -->
+                        <td style="font-weight:bold; text-align:center;">16</td> <!-- SN WiFi   -->
+                        <td style="font-weight:bold; text-align:center;">10</td> <!-- Std Long  -->
+                        <td style="font-weight:bold; text-align:center;"> 7</td> <!-- Std Short -->
+                        <td style="font-weight:bold; text-align:center;"> 6</td> <!-- WiLAN     -->
+                    </tr>
+
+                    <tr>
+                        <td>IPCP</td>
+                        <td style="text-align:center;"> 8</td> <!-- 2BR       -->
+                        <td style="text-align:center;">11</td> <!-- 2BR IR    -->
+                        <td style="text-align:center;"> 4</td> <!-- 2H        -->
+                        <td style="text-align:center;"> 7</td> <!-- 2H IR     -->
+                        <td style="text-align:center;">22</td> <!-- Long IR   -->
+                        <td style="text-align:center;"> 4</td> <!-- OS        -->
+                        <td style="text-align:center;">32</td> <!-- SN WiFi   -->
+                        <td style="text-align:center;">15</td> <!-- Std Long  -->
+                        <td style="text-align:center;">24</td> <!-- Std Short -->
+                        <td style="text-align:center;">13</td> <!-- WiLAN     -->
+                    </tr>
+                    <tr>
+                        <td>DAP</td>
+                        <td style="text-align:center;"> 0</td> <!-- 2BR       -->
+                        <td style="text-align:center;"> 0</td> <!-- 2BR IR    -->
+                        <td style="text-align:center;"> 2</td> <!-- 2H        -->
+                        <td style="text-align:center;"> 2</td> <!-- 2H IR     -->
+                        <td style="text-align:center;"> 2</td> <!-- Long IR   -->
+                        <td style="text-align:center;"> 3</td> <!-- OS        -->
+                        <td style="text-align:center;"> 1</td> <!-- SN WiFi   -->
+                        <td style="text-align:center;"> 2</td> <!-- Std Long  -->
+                        <td style="text-align:center;"> 2</td> <!-- Std Short -->
+                        <td style="text-align:center;"> 1</td> <!-- WiLAN     -->
+                    </tr>
+                    <tr style="border-collapse:collapse; border-bottom:2pt solid black;">
+                        <th style="font-weight:bold">C<sub>P</sub></th>
+                        <td style="font-weight:bold; text-align:center;"> 8</td> <!-- 2BR       -->
+                        <td style="font-weight:bold; text-align:center;">11</td> <!-- 2BR IR    -->
+                        <td style="font-weight:bold; text-align:center;"> 6</td> <!-- 2H        -->
+                        <td style="font-weight:bold; text-align:center;"> 9</td> <!-- 2H IR     -->
+                        <td style="font-weight:bold; text-align:center;">24</td> <!-- Long IR   -->
+                        <td style="font-weight:bold; text-align:center;"> 7</td> <!-- OS        -->
+                        <td style="font-weight:bold; text-align:center;">33</td> <!-- SN WiFi   -->
+                        <td style="font-weight:bold; text-align:center;">17</td> <!-- Std Long  -->
+                        <td style="font-weight:bold; text-align:center;">26</td> <!-- Std Short -->
+                        <td style="font-weight:bold; text-align:center;">14</td> <!-- WiLAN     -->
+                    </tr>
+
+                    <tr>
+                        <th style="font-weight:bold">C<sub>SL</sub></th>
+                        <td style="font-weight:bold; text-align:center;"> 7</td> <!-- 2BR       -->
+                        <td style="font-weight:bold; text-align:center;"> 9</td> <!-- 2BR IR    -->
+                        <td style="font-weight:bold; text-align:center;"> 5</td> <!-- 2H        -->
+                        <td style="font-weight:bold; text-align:center;"> 7</td> <!-- 2H IR     -->
+                        <td style="font-weight:bold; text-align:center;">17</td> <!-- Long IR   -->
+                        <td style="font-weight:bold; text-align:center;"> 6</td> <!-- OS        -->
+                        <td style="font-weight:bold; text-align:center;">24</td> <!-- SN WiFi   -->
+                        <td style="font-weight:bold; text-align:center;">12</td> <!-- Std Long  -->
+                        <td style="font-weight:bold; text-align:center;">18</td> <!-- Std Short -->
+                        <td style="font-weight:bold; text-align:center;">11</td> <!-- WiLAN     -->
+                    </tr>
+                    <tr>
+                        <th style="font-weight:bold">C<sub>LP</sub></th>
+                        <td style="font-weight:bold; text-align:center;">13</td> <!-- 2BR       -->
+                        <td style="font-weight:bold; text-align:center;">17</td> <!-- 2BR IR    -->
+                        <td style="font-weight:bold; text-align:center;"> 9</td> <!-- 2H        -->
+                        <td style="font-weight:bold; text-align:center;">13</td> <!-- 2H IR     -->
+                        <td style="font-weight:bold; text-align:center;">33</td> <!-- Long IR   -->
+                        <td style="font-weight:bold; text-align:center;">10</td> <!-- OS        -->
+                        <td style="font-weight:bold; text-align:center;">49</td> <!-- SN WiFi   -->
+                        <td style="font-weight:bold; text-align:center;">24</td> <!-- Std Long  -->
+                        <td style="font-weight:bold; text-align:center;">36</td> <!-- Std Short -->
+                        <td style="font-weight:bold; text-align:center;">20</td> <!-- WiLAN     -->
+                    </tr>
+                    <tr>
+                        <th style="font-weight:bold">C<sub>SP</sub></th>
+                        <td style="font-weight:bold; text-align:center;">10</td> <!-- 2BR       -->
+                        <td style="font-weight:bold; text-align:center;">14</td> <!-- 2BR IR    -->
+                        <td style="font-weight:bold; text-align:center;"> 8</td> <!-- 2H        -->
+                        <td style="font-weight:bold; text-align:center;">12</td> <!-- 2H IR     -->
+                        <td style="font-weight:bold; text-align:center;">32</td> <!-- Long IR   -->
+                        <td style="font-weight:bold; text-align:center;">10</td> <!-- OS        -->
+                        <td style="font-weight:bold; text-align:center;">41</td> <!-- SN WiFi   -->
+                        <td style="font-weight:bold; text-align:center;">22</td> <!-- Std Long  -->
+                        <td style="font-weight:bold; text-align:center;">34</td> <!-- Std Short -->
+                        <td style="font-weight:bold; text-align:center;">19</td> <!-- WiLAN     -->
+                    </tr>
+                    <tr style="border-collapse:collapse; border-bottom:2pt solid black;">
+                        <th style="font-weight:bold">C<sub>SLP</sub></th>
+                        <td style="font-weight:bold; text-align:center;">15</td> <!-- 2BR       -->
+                        <td style="font-weight:bold; text-align:center;">20</td> <!-- 2BR IR    -->
+                        <td style="font-weight:bold; text-align:center;">11</td> <!-- 2H        -->
+                        <td style="font-weight:bold; text-align:center;">16</td> <!-- 2H IR     -->
+                        <td style="font-weight:bold; text-align:center;">41</td> <!-- Long IR   -->
+                        <td style="font-weight:bold; text-align:center;">13</td> <!-- OS        -->
+                        <td style="font-weight:bold; text-align:center;">57</td> <!-- SN WiFi   -->
+                        <td style="font-weight:bold; text-align:center;">29</td> <!-- Std Long  -->
+                        <td style="font-weight:bold; text-align:center;">44</td> <!-- Std Short -->
+                        <td style="font-weight:bold; text-align:center;">25</td> <!-- WiLAN     -->
+                    </tr>
+
+                    <tr>
+                        <td>I/F</td>
+                        <td style="text-align:center;"> 4</td> <!-- 2BR       -->
+                        <td style="text-align:center;"> 6</td> <!-- 2BR IR    -->
+                        <td style="text-align:center;"> 2</td> <!-- 2H        -->
+                        <td style="text-align:center;"> 4</td> <!-- 2H IR     -->
+                        <td style="text-align:center;">14</td> <!-- Long IR   -->
+                        <td style="text-align:center;"> 4</td> <!-- OS        -->
+                        <td style="text-align:center;">15</td> <!-- SN WiFi   -->
+                        <td style="text-align:center;"> 8</td> <!-- Std Long  -->
+                        <td style="text-align:center;">14</td> <!-- Std Short -->
+                        <td style="text-align:center;"> 8</td> <!-- WiLAN     -->
+                    </tr>
+                    <tr>
+                        <td>Links</td>
+                        <td style="text-align:center;"> 1</td> <!-- 2BR       -->
+                        <td style="text-align:center;"> 2</td> <!-- 2BR IR    -->
+                        <td style="text-align:center;"> 1</td> <!-- 2H        -->
+                        <td style="text-align:center;"> 2</td> <!-- 2H IR     -->
+                        <td style="text-align:center;"> 7</td> <!-- Long IR   -->
+                        <td style="text-align:center;"> 2</td> <!-- OS        -->
+                        <td style="text-align:center;"> 7</td> <!-- SN WiFi   -->
+                        <td style="text-align:center;"> 4</td> <!-- Std Long  -->
+                        <td style="text-align:center;"> 7</td> <!-- Std Short -->
+                        <td style="text-align:center;"> 4</td> <!-- WiLAN     -->
+                    </tr>
+                    <tr style="border-collapse:collapse; border-bottom:2pt solid black;">
+                        <th style="font-weight:bold">C<sub>IL</sub></th>
+                        <td style="font-weight:bold; text-align:center;"> 5</td> <!-- 2BR       -->
+                        <td style="font-weight:bold; text-align:center;"> 8</td> <!-- 2BR IR    -->
+                        <td style="font-weight:bold; text-align:center;"> 3</td> <!-- 2H        -->
+                        <td style="font-weight:bold; text-align:center;"> 6</td> <!-- 2H IR     -->
+                        <td style="font-weight:bold; text-align:center;">21</td> <!-- Long IR   -->
+                        <td style="font-weight:bold; text-align:center;"> 6</td> <!-- OS        -->
+                        <td style="font-weight:bold; text-align:center;">22</td> <!-- SN WiFi   -->
+                        <td style="font-weight:bold; text-align:center;">12</td> <!-- Std Long  -->
+                        <td style="font-weight:bold; text-align:center;">21</td> <!-- Std Short -->
+                        <td style="font-weight:bold; text-align:center;">12</td> <!-- WiLAN     -->
+                    </tr>
+
+                    <tr style="border-collapse:collapse; border-bottom:2pt solid black; border-top:2pt solid black;">
+                        <th style="font-weight:bold">C<sub>A</sub></th>
+                        <td style="font-weight:bold; text-align:center;">20</td> <!-- 2BR       -->
+                        <td style="font-weight:bold; text-align:center;">28</td> <!-- 2BR IR    -->
+                        <td style="font-weight:bold; text-align:center;">14</td> <!-- 2H        -->
+                        <td style="font-weight:bold; text-align:center;">22</td> <!-- 2H IR     -->
+                        <td style="font-weight:bold; text-align:center;">62</td> <!-- Long IR   -->
+                        <td style="font-weight:bold; text-align:center;">19</td> <!-- OS        -->
+                        <td style="font-weight:bold; text-align:center;">79</td> <!-- SN WiFi   -->
+                        <td style="font-weight:bold; text-align:center;">41</td> <!-- Std Long  -->
+                        <td style="font-weight:bold; text-align:center;">65</td> <!-- Std Short -->
+                        <td style="font-weight:bold; text-align:center;">37</td> <!-- WiLAN     -->
+                    </tr>
+                </table>
+            </subsection>
+
+
+
+            <subsection name="CNOP">
+                <table>
+                    <tr style="border-collapse:collapse; border-bottom:2pt solid black; border-top:2pt solid black;">
+                        <th style="white-space:nowrap; font-weight:bold; text-align:center;"></th>
+                        <th style="white-space:nowrap; font-weight:bold; text-align:center;">Copper</th>
+                        <th style="white-space:nowrap; font-weight:bold; text-align:center;">Core</th>
+                        <th style="white-space:nowrap; font-weight:bold; text-align:center;">DC</th>
+                        <th style="white-space:nowrap; font-weight:bold; text-align:center;">IXP</th>
+                        <th style="white-space:nowrap; font-weight:bold; text-align:center;">LTE</th>
+                        <th style="white-space:nowrap; font-weight:bold; text-align:center;">Metro</th>
+                        <th style="white-space:nowrap; font-weight:bold; text-align:center;">PBB</th>
+                        <th style="white-space:nowrap; font-weight:bold; text-align:center;">Resi<sup>a</sup></th>
+                        <th style="white-space:nowrap; font-weight:bold; text-align:center;">Tog 1<sup>b</sup></th>
+                        <th style="white-space:nowrap; font-weight:bold; text-align:center;">Tog 2<sup>b</sup></th>
+                        <th style="white-space:nowrap; font-weight:bold; text-align:center;">Tog 3<sup>b</sup></th>
+                        <th style="white-space:nowrap; font-weight:bold; text-align:center;">Tog 4<sup>b</sup></th>
+                        <th style="white-space:nowrap; font-weight:bold; text-align:center;">WiFi 1</th>
+                        <th style="white-space:nowrap; font-weight:bold; text-align:center;">WiFi 2</th>
+                    </tr>
+
+                    <tr>
+                        <td>H/B/I</td>
+                        <td style="text-align:center;">2/2/2</td> <!-- Copper       -->
+                        <td style="text-align:center;">0/4/3</td> <!-- Core         -->
+                        <td style="text-align:center;">2/2/5</td> <!-- DC           -->
+                        <td style="text-align:center;">0/2/3</td> <!-- IXP          -->
+                        <td style="text-align:center;">1/2/1</td> <!-- LTE          -->
+                        <td style="text-align:center;">0/4/1</td> <!-- Metro        -->
+                        <td style="text-align:center;">2/2/8</td> <!-- PBB          -->
+                        <td style="text-align:center;">2/1/6</td> <!-- Residential  -->
+                        <td style="text-align:center;">2/4/5</td> <!-- Together 1   -->
+                        <td style="text-align:center;">2/3/6</td> <!-- Together 2   -->
+                        <td style="text-align:center;">1/5/5</td> <!-- Together 3   -->
+                        <td style="text-align:center;">1/4/6</td> <!-- Together 4   -->
+                        <td style="text-align:center;">2/2/4</td> <!-- WiFi 1       -->
+                        <td style="text-align:center;">2/1/5</td> <!-- WiFi 2       -->
+                    </tr>
+                    <tr style="border-collapse:collapse; border-bottom:2pt solid black;">
+                        <th style="font-weight:bold">C<sub>S</sub></th>
+                        <td style="font-weight:bold; text-align:center;"> 6</td> <!-- Copper       -->
+                        <td style="font-weight:bold; text-align:center;"> 7</td> <!-- Core         -->
+                        <td style="font-weight:bold; text-align:center;"> 9</td> <!-- DC           -->
+                        <td style="font-weight:bold; text-align:center;"> 5</td> <!-- IXP          -->
+                        <td style="font-weight:bold; text-align:center;"> 4</td> <!-- LTE          -->
+                        <td style="font-weight:bold; text-align:center;"> 5</td> <!-- Metro        -->
+                        <td style="font-weight:bold; text-align:center;">12</td> <!-- PBB          -->
+                        <td style="font-weight:bold; text-align:center;"> 9</td> <!-- Residential  -->
+                        <td style="font-weight:bold; text-align:center;">11</td> <!-- Together 1   -->
+                        <td style="font-weight:bold; text-align:center;">11</td> <!-- Together 2   -->
+                        <td style="font-weight:bold; text-align:center;">11</td> <!-- Together 3   -->
+                        <td style="font-weight:bold; text-align:center;">11</td> <!-- Together 4   -->
+                        <td style="font-weight:bold; text-align:center;"> 8</td> <!-- WiFi 1       -->
+                        <td style="font-weight:bold; text-align:center;"> 8</td> <!-- WiFi 2       -->
+                    </tr>
+
+                    <tr>
+                        <td>DIF</td>
+                        <td style="text-align:center;"> 4</td> <!-- Copper       -->
+                        <td style="text-align:center;"> 3</td> <!-- Core         -->
+                        <td style="text-align:center;"> 2</td> <!-- DC           -->
+                        <td style="text-align:center;"> 2</td> <!-- IXP          -->
+                        <td style="text-align:center;"> 4</td> <!-- LTE          -->
+                        <td style="text-align:center;"> 3</td> <!-- Metro        -->
+                        <td style="text-align:center;"> 5</td> <!-- PBB          -->
+                        <td style="text-align:center;"> 5</td> <!-- Residential  -->
+                        <td style="text-align:center;"> 6</td> <!-- Together 1   -->
+                        <td style="text-align:center;"> 6</td> <!-- Together 2   -->
+                        <td style="text-align:center;"> 8</td> <!-- Together 3   -->
+                        <td style="text-align:center;"> 8</td> <!-- Together 4   -->
+                        <td style="text-align:center;"> 4</td> <!-- WiFi 1       -->
+                        <td style="text-align:center;"> 5</td> <!-- WiFi 2       -->
+                    </tr>
+                    <tr>
+                        <td>Shim</td>
+                        <td style="text-align:center;"> 5</td> <!-- Copper       -->
+                        <td style="text-align:center;"> 8</td> <!-- Core         -->
+                        <td style="text-align:center;"> 8</td> <!-- DC           -->
+                        <td style="text-align:center;"> 6</td> <!-- IXP          -->
+                        <td style="text-align:center;"> 4</td> <!-- LTE          -->
+                        <td style="text-align:center;"> 6</td> <!-- Metro        -->
+                        <td style="text-align:center;">11</td> <!-- PBB          -->
+                        <td style="text-align:center;"> 8</td> <!-- Residential  -->
+                        <td style="text-align:center;">10</td> <!-- Together 1   -->
+                        <td style="text-align:center;">10</td> <!-- Together 2   -->
+                        <td style="text-align:center;">11</td> <!-- Together 3   -->
+                        <td style="text-align:center;">11</td> <!-- Together 4   -->
+                        <td style="text-align:center;"> 7</td> <!-- WiFi 1       -->
+                        <td style="text-align:center;"> 7</td> <!-- WiFi 2       -->
+                    </tr>
+                    <tr>
+                        <td>DAF</td>
+                        <td style="text-align:center;"> 0</td> <!-- Copper       -->
+                        <td style="text-align:center;"> 0</td> <!-- Core         -->
+                        <td style="text-align:center;"> 1</td> <!-- DC           -->
+                        <td style="text-align:center;"> 0</td> <!-- IXP          -->
+                        <td style="text-align:center;"> 0</td> <!-- LTE          -->
+                        <td style="text-align:center;"> 0</td> <!-- Metro        -->
+                        <td style="text-align:center;"> 1</td> <!-- PBB          -->
+                        <td style="text-align:center;"> 0</td> <!-- Residential  -->
+                        <td style="text-align:center;"> 1</td> <!-- Together 1   -->
+                        <td style="text-align:center;"> 1</td> <!-- Together 2   -->
+                        <td style="text-align:center;"> 1</td> <!-- Together 3   -->
+                        <td style="text-align:center;"> 1</td> <!-- Together 4   -->
+                        <td style="text-align:center;"> 0</td> <!-- WiFi 1       -->
+                        <td style="text-align:center;"> 0</td> <!-- WiFi 2       -->
+                    </tr>
+                    <tr style="border-collapse:collapse; border-bottom:2pt solid black;">
+                        <th style="font-weight:bold;">C<sub>L</sub></th>
+                        <td style="font-weight:bold; text-align:center;"> 9</td> <!-- Copper       -->
+                        <td style="font-weight:bold; text-align:center;">11</td> <!-- Core         -->
+                        <td style="font-weight:bold; text-align:center;">11</td> <!-- DC           -->
+                        <td style="font-weight:bold; text-align:center;"> 8</td> <!-- IXP          -->
+                        <td style="font-weight:bold; text-align:center;"> 8</td> <!-- LTE          -->
+                        <td style="font-weight:bold; text-align:center;"> 9</td> <!-- Metro        -->
+                        <td style="font-weight:bold; text-align:center;">17</td> <!-- PBB          -->
+                        <td style="font-weight:bold; text-align:center;">13</td> <!-- Residential  -->
+                        <td style="font-weight:bold; text-align:center;">17</td> <!-- Together 1   -->
+                        <td style="font-weight:bold; text-align:center;">17</td> <!-- Together 2   -->
+                        <td style="font-weight:bold; text-align:center;">20</td> <!-- Together 3   -->
+                        <td style="font-weight:bold; text-align:center;">20</td> <!-- Together 4   -->
+                        <td style="font-weight:bold; text-align:center;">11</td> <!-- WiFi 1       -->
+                        <td style="font-weight:bold; text-align:center;">12</td> <!-- WiFi 2       -->
+                    </tr>
+
+                    <tr>
+                        <td>IPCP</td>
+                        <td style="text-align:center;">22</td> <!-- Copper       -->
+                        <td style="text-align:center;">25</td> <!-- Core         -->
+                        <td style="text-align:center;">27</td> <!-- DC           -->
+                        <td style="text-align:center;">17</td> <!-- IXP          -->
+                        <td style="text-align:center;">17</td> <!-- LTE          -->
+                        <td style="text-align:center;">19</td> <!-- Metro        -->
+                        <td style="text-align:center;">42</td> <!-- PBB          -->
+                        <td style="text-align:center;">33</td> <!-- Residential  -->
+                        <td style="text-align:center;">41</td> <!-- Together 1   -->
+                        <td style="text-align:center;">41</td> <!-- Together 2   -->
+                        <td style="text-align:center;">43</td> <!-- Together 3   -->
+                        <td style="text-align:center;">43</td> <!-- Together 4   -->
+                        <td style="text-align:center;">28</td> <!-- WiFi 1       -->
+                        <td style="text-align:center;">30</td> <!-- WiFi 2       -->
+                    </tr>
+                    <tr>
+                        <td>DAP</td>
+                        <td style="text-align:center;"> 0</td> <!-- Copper       -->
+                        <td style="text-align:center;"> 0</td> <!-- Core         -->
+                        <td style="text-align:center;"> 2</td> <!-- DC           -->
+                        <td style="text-align:center;"> 0</td> <!-- IXP          -->
+                        <td style="text-align:center;"> 0</td> <!-- LTE          -->
+                        <td style="text-align:center;"> 0</td> <!-- Metro        -->
+                        <td style="text-align:center;"> 2</td> <!-- PBB          -->
+                        <td style="text-align:center;"> 0</td> <!-- Residential  -->
+                        <td style="text-align:center;"> 2</td> <!-- Together 1   -->
+                        <td style="text-align:center;"> 2</td> <!-- Together 2   -->
+                        <td style="text-align:center;"> 1</td> <!-- Together 3   -->
+                        <td style="text-align:center;"> 1</td> <!-- Together 4   -->
+                        <td style="text-align:center;"> 0</td> <!-- WiFi 1       -->
+                        <td style="text-align:center;"> 0</td> <!-- WiFi 2       -->
+                    </tr>
+                    <tr style="border-collapse:collapse; border-bottom:2pt solid black;">
+                        <th style="font-weight:bold">C<sub>P</sub></th>
+                        <td style="font-weight:bold; text-align:center;">22</td> <!-- Copper       -->
+                        <td style="font-weight:bold; text-align:center;">25</td> <!-- Core         -->
+                        <td style="font-weight:bold; text-align:center;">29</td> <!-- DC           -->
+                        <td style="font-weight:bold; text-align:center;">17</td> <!-- IXP          -->
+                        <td style="font-weight:bold; text-align:center;">19</td> <!-- LTE          -->
+                        <td style="font-weight:bold; text-align:center;">44</td> <!-- Metro        -->
+                        <td style="font-weight:bold; text-align:center;">33</td> <!-- PBB          -->
+                        <td style="font-weight:bold; text-align:center;">43</td> <!-- Residential  -->
+                        <td style="font-weight:bold; text-align:center;">43</td> <!-- Together 1   -->
+                        <td style="font-weight:bold; text-align:center;">44</td> <!-- Together 2   -->
+                        <td style="font-weight:bold; text-align:center;">44</td> <!-- Together 3   -->
+                        <td style="font-weight:bold; text-align:center;">28</td> <!-- Together 4   -->
+                        <td style="font-weight:bold; text-align:center;">30</td> <!-- WiFi 1       -->
+                        <td style="font-weight:bold; text-align:center;"></td> <!-- WiFi 2       -->
+                    </tr>
+
+                    <tr>
+                        <th style="font-weight:bold">C<sub>SL</sub></th>
+                        <td style="font-weight:bold; text-align:center;">15</td> <!-- Copper       -->
+                        <td style="font-weight:bold; text-align:center;">18</td> <!-- Core         -->
+                        <td style="font-weight:bold; text-align:center;">20</td> <!-- DC           -->
+                        <td style="font-weight:bold; text-align:center;">13</td> <!-- IXP          -->
+                        <td style="font-weight:bold; text-align:center;">12</td> <!-- LTE          -->
+                        <td style="font-weight:bold; text-align:center;">14</td> <!-- Metro        -->
+                        <td style="font-weight:bold; text-align:center;">29</td> <!-- PBB          -->
+                        <td style="font-weight:bold; text-align:center;">22</td> <!-- Residential  -->
+                        <td style="font-weight:bold; text-align:center;">28</td> <!-- Together 1   -->
+                        <td style="font-weight:bold; text-align:center;">28</td> <!-- Together 2   -->
+                        <td style="font-weight:bold; text-align:center;">31</td> <!-- Together 3   -->
+                        <td style="font-weight:bold; text-align:center;">31</td> <!-- Together 4   -->
+                        <td style="font-weight:bold; text-align:center;">19</td> <!-- WiFi 1       -->
+                        <td style="font-weight:bold; text-align:center;">20</td> <!-- WiFi 2       -->
+                    </tr>
+                    <tr>
+                        <th style="font-weight:bold">C<sub>LP</sub></th>
+                        <td style="font-weight:bold; text-align:center;">31</td> <!-- Copper       -->
+                        <td style="font-weight:bold; text-align:center;">36</td> <!-- Core         -->
+                        <td style="font-weight:bold; text-align:center;">40</td> <!-- DC           -->
+                        <td style="font-weight:bold; text-align:center;">25</td> <!-- IXP          -->
+                        <td style="font-weight:bold; text-align:center;">25</td> <!-- LTE          -->
+                        <td style="font-weight:bold; text-align:center;">28</td> <!-- Metro        -->
+                        <td style="font-weight:bold; text-align:center;">61</td> <!-- PBB          -->
+                        <td style="font-weight:bold; text-align:center;">46</td> <!-- Residential  -->
+                        <td style="font-weight:bold; text-align:center;">60</td> <!-- Together 1   -->
+                        <td style="font-weight:bold; text-align:center;">60</td> <!-- Together 2   -->
+                        <td style="font-weight:bold; text-align:center;">64</td> <!-- Together 3   -->
+                        <td style="font-weight:bold; text-align:center;">64</td> <!-- Together 4   -->
+                        <td style="font-weight:bold; text-align:center;">39</td> <!-- WiFi 1       -->
+                        <td style="font-weight:bold; text-align:center;">42</td> <!-- WiFi 2       -->
+                    </tr>
+                    <tr>
+                        <th style="font-weight:bold">C<sub>SP</sub></th>
+                        <td style="font-weight:bold; text-align:center;">28</td> <!-- Copper       -->
+                        <td style="font-weight:bold; text-align:center;">32</td> <!-- Core         -->
+                        <td style="font-weight:bold; text-align:center;">38</td> <!-- DC           -->
+                        <td style="font-weight:bold; text-align:center;">22</td> <!-- IXP          -->
+                        <td style="font-weight:bold; text-align:center;">21</td> <!-- LTE          -->
+                        <td style="font-weight:bold; text-align:center;">24</td> <!-- Metro        -->
+                        <td style="font-weight:bold; text-align:center;">56</td> <!-- PBB          -->
+                        <td style="font-weight:bold; text-align:center;">42</td> <!-- Residential  -->
+                        <td style="font-weight:bold; text-align:center;">54</td> <!-- Together 1   -->
+                        <td style="font-weight:bold; text-align:center;">54</td> <!-- Together 2   -->
+                        <td style="font-weight:bold; text-align:center;">55</td> <!-- Together 3   -->
+                        <td style="font-weight:bold; text-align:center;">55</td> <!-- Together 4   -->
+                        <td style="font-weight:bold; text-align:center;">36</td> <!-- WiFi 1       -->
+                        <td style="font-weight:bold; text-align:center;">36</td> <!-- WiFi 2       -->
+                    </tr>
+                    <tr style="border-collapse:collapse; border-bottom:2pt solid black;">
+                        <th style="font-weight:bold">C<sub>SLP</sub></th>
+                        <td style="font-weight:bold; text-align:center;">37</td> <!-- Copper       -->
+                        <td style="font-weight:bold; text-align:center;">43</td> <!-- Core         -->
+                        <td style="font-weight:bold; text-align:center;">49</td> <!-- DC           -->
+                        <td style="font-weight:bold; text-align:center;">30</td> <!-- IXP          -->
+                        <td style="font-weight:bold; text-align:center;">29</td> <!-- LTE          -->
+                        <td style="font-weight:bold; text-align:center;">33</td> <!-- Metro        -->
+                        <td style="font-weight:bold; text-align:center;">73</td> <!-- PBB          -->
+                        <td style="font-weight:bold; text-align:center;">55</td> <!-- Residential  -->
+                        <td style="font-weight:bold; text-align:center;">71</td> <!-- Together 1   -->
+                        <td style="font-weight:bold; text-align:center;">71</td> <!-- Together 2   -->
+                        <td style="font-weight:bold; text-align:center;">75</td> <!-- Together 3   -->
+                        <td style="font-weight:bold; text-align:center;">75</td> <!-- Together 4   -->
+                        <td style="font-weight:bold; text-align:center;">47</td> <!-- WiFi 1       -->
+                        <td style="font-weight:bold; text-align:center;">50</td> <!-- WiFi 2       -->
+                    </tr>
+
+                    <tr>
+                        <td>I/F</td>
+                        <td style="text-align:center;">10</td> <!-- Copper       -->
+                        <td style="text-align:center;">14</td> <!-- Core         -->
+                        <td style="text-align:center;">16</td> <!-- DC           -->
+                        <td style="text-align:center;">10</td> <!-- IXP          -->
+                        <td style="text-align:center;"> 7</td> <!-- LTE          -->
+                        <td style="text-align:center;">10</td> <!-- Metro        -->
+                        <td style="text-align:center;">22</td> <!-- PBB          -->
+                        <td style="text-align:center;">16</td> <!-- Residential  -->
+                        <td style="text-align:center;">20</td> <!-- Together 1   -->
+                        <td style="text-align:center;">20</td> <!-- Together 2   -->
+                        <td style="text-align:center;">21</td> <!-- Together 3   -->
+                        <td style="text-align:center;">21</td> <!-- Together 4   -->
+                        <td style="text-align:center;">14</td> <!-- WiFi 1       -->
+                        <td style="text-align:center;">14</td> <!-- WiFi 2       -->
+                    </tr>
+                    <tr>
+                        <td>Links</td>
+                        <td style="text-align:center;"> 5</td> <!-- Copper       -->
+                        <td style="text-align:center;"> 6</td> <!-- Core         -->
+                        <td style="text-align:center;"> 8</td> <!-- DC           -->
+                        <td style="text-align:center;"> 4</td> <!-- IXP          -->
+                        <td style="text-align:center;"> 3</td> <!-- LTE          -->
+                        <td style="text-align:center;"> 4</td> <!-- Metro        -->
+                        <td style="text-align:center;">11</td> <!-- PBB          -->
+                        <td style="text-align:center;"> 8</td> <!-- Residential  -->
+                        <td style="text-align:center;">10</td> <!-- Together 1   -->
+                        <td style="text-align:center;">10</td> <!-- Together 2   -->
+                        <td style="text-align:center;">10</td> <!-- Together 3   -->
+                        <td style="text-align:center;">10</td> <!-- Together 4   -->
+                        <td style="text-align:center;"> 7</td> <!-- WiFi 1       -->
+                        <td style="text-align:center;"> 7</td> <!-- WiFi 2       -->
+                    </tr>
+                    <tr style="border-collapse:collapse; border-bottom:2pt solid black;">
+                        <th style="font-weight:bold">C<sub>IL</sub></th>
+                        <td style="font-weight:bold; text-align:center;">15</td> <!-- Copper       -->
+                        <td style="font-weight:bold; text-align:center;">20</td> <!-- Core         -->
+                        <td style="font-weight:bold; text-align:center;">24</td> <!-- DC           -->
+                        <td style="font-weight:bold; text-align:center;">14</td> <!-- IXP          -->
+                        <td style="font-weight:bold; text-align:center;">10</td> <!-- LTE          -->
+                        <td style="font-weight:bold; text-align:center;">14</td> <!-- Metro        -->
+                        <td style="font-weight:bold; text-align:center;">33</td> <!-- PBB          -->
+                        <td style="font-weight:bold; text-align:center;">24</td> <!-- Residential  -->
+                        <td style="font-weight:bold; text-align:center;">30</td> <!-- Together 1   -->
+                        <td style="font-weight:bold; text-align:center;">30</td> <!-- Together 2   -->
+                        <td style="font-weight:bold; text-align:center;">31</td> <!-- Together 3   -->
+                        <td style="font-weight:bold; text-align:center;">31</td> <!-- Together 4   -->
+                        <td style="font-weight:bold; text-align:center;">21</td> <!-- WiFi 1       -->
+                        <td style="font-weight:bold; text-align:center;">21</td> <!-- WiFi 2       -->
+                    </tr>
+
+                    <tr style="border-collapse:collapse; border-bottom:2pt solid black; border-top:2pt solid black;">
+                        <th style="font-weight:bold">C<sub>A</sub></th>
+                        <td style="font-weight:bold; text-align:center;"> 52</td> <!-- Copper       -->
+                        <td style="font-weight:bold; text-align:center;"> 63</td> <!-- Core         -->
+                        <td style="font-weight:bold; text-align:center;"> 73</td> <!-- DC           -->
+                        <td style="font-weight:bold; text-align:center;"> 44</td> <!-- IXP          -->
+                        <td style="font-weight:bold; text-align:center;"> 39</td> <!-- LTE          -->
+                        <td style="font-weight:bold; text-align:center;"> 47</td> <!-- Metro        -->
+                        <td style="font-weight:bold; text-align:center;">106</td> <!-- PBB          -->
+                        <td style="font-weight:bold; text-align:center;"> 79</td> <!-- Residential  -->
+                        <td style="font-weight:bold; text-align:center;">101</td> <!-- Together 1   -->
+                        <td style="font-weight:bold; text-align:center;">101</td> <!-- Together 2   -->
+                        <td style="font-weight:bold; text-align:center;">106</td> <!-- Together 3   -->
+                        <td style="font-weight:bold; text-align:center;">106</td> <!-- Together 4   -->
+                        <td style="font-weight:bold; text-align:center;"> 68</td> <!-- WiFi 1       -->
+                        <td style="font-weight:bold; text-align:center;"> 71</td> <!-- WiFi 2       -->
+                    </tr>
+                </table>
+                <p>
+                    a) Residential, b) Together 1/2/3/4
+                </p>
+            </subsection>
+
+        </section>
+    </body>
+</document>

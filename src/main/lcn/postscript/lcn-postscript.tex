@@ -1,0 +1,134 @@
+% !TeX document-id = {59ed8cb7-7bab-43d6-88d8-428ea39f98ef}
+% !TeX program = lualatex
+% !TeX encoding = UTF-8
+% !BIB program = biber
+
+\documentclass[a4paper,final,notitlepage,makeindex]{article}
+
+\listfiles
+
+\usepackage{fontspec}
+\setmainfont{Bell MT}
+\newfontfamily\citefont{Garamond}
+\newfontfamily\contribfont{Garamond}
+
+\usepackage{float}
+\restylefloat{table}
+
+\usepackage[
+    indent=1.75ex
+]{parskip}
+
+
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{booktabs}
+\RequirePackage[x11names,table]{xcolor}
+
+\RequirePackage[
+    colorlinks,
+    linkcolor=Brown4,
+    citecolor=SeaGreen4,
+    urlcolor=RoyalBlue3,
+    pdfauthor={Sven van der Meer},
+    pdftitle={LCN Postscript},
+%    pdfsubject={The Subject},
+%    pdfkeywords={Some Keywords},
+%    pdfproducer={Latex with hyperref},
+%    pdfcreator={lualatex}
+]{hyperref}
+\usepackage{desclist}
+
+\usepackage[portrait,top=2cm,left=2.5cm,right=2.5cm,bottom=2cm]{geometry}
+\usepackage{enumitem}
+
+\RequirePackage{acronym}
+
+% half the row spacing
+\setlength{\tabcolsep}{3pt}
+
+\RequirePackage[
+    strict=true,
+    style=english
+]{csquotes}
+
+\usepackage[
+    backend=biber,
+    bibencoding=utf8,
+    style=alphabetic
+]{biblatex}
+\addbibresource{content/references.bib}
+
+\usepackage{makeidx}
+\makeindex
+
+\usepackage[
+    type={CC},
+    modifier={by-sa},
+    version={4.0},
+]{doclicense}
+
+
+\begin{document}
+    \renewcommand*{\bibfont}{\citefont}
+    \newcommand{\lcncite}[1]{{\citefont\cite{#1}}}
+
+    \makeatletter
+        \renewcommand{\figureautorefname}{Fig.\@gobble}
+        \renewcommand{\sectionautorefname}{\S\@gobble}
+        \renewcommand{\subsectionautorefname}{\S\@gobble}
+        \renewcommand{\subsubsectionautorefname}{\S\@gobble}
+    \makeatother
+
+    \author{Sven van der Meer}
+    \title{LCN Postscript \\ $\cdots \cdots \cdots$ \\ \small{Version \input{../../version.txt}}}
+    \maketitle
+
+    \input{content/abstract}
+
+    \begin{multicols}{2}
+        \setcounter{tocdepth}{3}
+        \tableofcontents
+    \end{multicols}
+    \newpage
+
+    \input{content/cc}
+    \newpage
+
+    \input{content/introduction}
+
+    \input{content/terminology}
+
+
+
+    \section{Glossary}
+        \subsection{Misc}
+            \input{content/glossary-misc}
+
+    \input{content/production}
+
+    \input{content/material}
+
+
+    \input{content/links}
+
+%    \setlength{\columnseprule}{0.25pt}
+
+    \input{content/contributors}
+
+    \section{Acronyms}
+        The list of acronyms contains all acronyms used in the Guide and Layout slides as well as from this document.
+        \begin{multicols}{2}
+            \setlength{\columnseprule}{0pt}
+            \footnotesize
+            \input{content/acronym-db}
+        \end{multicols}
+
+    \printbibliography[heading=bibintoc]
+
+    \cleardoublepage
+    \phantomsection
+    \addcontentsline{toc}{section}{\indexname}
+    \printindex
+\end{document}
